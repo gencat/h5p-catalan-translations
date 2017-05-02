@@ -1,0 +1,138 @@
+{
+  "semantics": [
+    {
+      "label": "Media",
+      "fields": [
+        {
+          "label": "Type",
+          "description": "Optional media to display above the question."
+        }
+      ]
+    },
+    {
+      "label": "Task description",
+      "description": "A guide telling the user how to answer this task."
+    },
+    {
+      "label": "Text blocks",
+      "entity": "text block",
+      "field": {
+        "label": "Line of text",
+        "description": "",
+        "important": {
+          "description": "<ul><li>Blanks are added with an asterisk (*) in front and behind the correct word/phrase.</li><li>Alternative answers are separated with a forward slash (/).</li><li>You may add a textual tip, using a colon (:) in front of the tip.</li></ul>"
+        }
+      }
+    },
+    {
+      "label": "Feedback text",
+      "description": "Feedback text, variables available: @score and @total. Example: 'You got @score of @total possible points'"
+    },
+    {
+      "label": "Text for \"Show solutions\" button"
+    },
+    {
+      "label": "Text for \"Retry\" button"
+    },
+    {
+      "label": "Text for \"Check\" button"
+    },
+    {
+      "label": "Text for \"Not filled out\" message"
+    },
+    {
+      "label": "Text for \"':ans' is correct\" message"
+    },
+    {
+      "label": "Text for \"':ans' is wrong\" message"
+    },
+    {
+      "label": "Text for \"Answered correctly\" message"
+    },
+    {
+      "label": "Text for \"Answered incorrectly\" message"
+    },
+    {
+      "label": "Assistive technology label for solution"
+    },
+    {
+      "label": "Assistive technology label for input field",
+      "description": "Use @num and @total to replace current cloze number and total cloze number"
+    },
+    {
+      "label": "Assistive technology label for saying an input has a tip tied to it"
+    },
+    {
+      "label": "Tip icon label"
+    },
+    {
+      "label": "Behavioural settings.",
+      "description": "These options will let you control how the task behaves.",
+      "fields": [
+        {
+          "label": "Enable \"Retry\""
+        },
+        {
+          "label": "Enable \"Show solutions\" button"
+        },
+        {
+          "label": "Automatically check answers after input"
+        },
+        {
+          "label": "Case sensitive",
+          "description": "Makes sure the user input has to be exactly the same as the answer."
+        },
+        {
+          "label": "Require all fields to be answered before the solution can be viewed"
+        },
+        {
+          "label": "Put input fields on separate lines"
+        },
+        {
+          "label": "Disable image zooming for question image"
+        },
+        {
+          "label": "Show confirmation dialog on \"Check\"",
+          "description": "This options is not compatible with the \"Automatically check answers after input\" option"
+        },
+        {
+          "label": "Show confirmation dialog on \"Retry\""
+        }
+      ]
+    },
+    {
+      "label": "Check confirmation dialog",
+      "fields": [
+        {
+          "label": "Header text"
+        },
+        {
+          "label": "Body text"
+        },
+        {
+          "label": "Cancel button label"
+        },
+        {
+          "label": "Confirm button label"
+        }
+      ]
+    },
+    {
+      "label": "Retry confirmation dialog",
+      "fields": [
+        {
+          "label": "Header text"
+        },
+        {
+          "label": "Body text"
+        },
+        {
+          "label": "Cancel button label"
+        },
+        {
+          "label": "Confirm button label"
+        }
+      ]
+    }
+  ]
+}

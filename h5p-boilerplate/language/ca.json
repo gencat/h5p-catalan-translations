@@ -1,0 +1,8 @@
+{
+  "semantics": [
+    {
+      "label": "Text",
+      "description": "Says hello to someone"
+    }
+  ]
+}

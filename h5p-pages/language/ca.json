@@ -1,0 +1,52 @@
+{
+  "semantics": [
+    {
+      "label": "Pages",
+      "widgets": [
+        {
+          "label": "Default"
+        }
+      ],
+      "entity": "page",
+      "field": {
+        "label": "page",
+        "fields": [
+          {
+            "label": "Title",
+            "description": "Used as a heading for the page and also in the navigation menu"
+          },
+          {
+            "label": "Page content"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Settings",
+      "fields": [
+        {
+          "label": "Navigation menu enabled",
+          "description": "Whether the navigation menu should be enabled for the end user"
+        }
+      ]
+    },
+    {
+      "label": "Interface texts in smart book",
+      "fields": [
+        {
+          "label": "Back button"
+        },
+        {
+          "label": "Next button"
+        },
+        {
+          "label": "Finish button"
+        },
+        {
+          "label": "Progress text",
+          "description": "Text used if textual progress is selected."
+        }
+      ]
+    }
+  ]
+}

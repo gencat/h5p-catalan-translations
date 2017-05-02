@@ -1,0 +1,199 @@
+{
+  "semantics": [
+    {
+      "label": "Media",
+      "fields": [
+        {
+          "label": "Type",
+          "description": "Optional media to display above the question."
+        }
+      ]
+    },
+    {
+      "label": "Question"
+    },
+    {
+      "label": "Available options",
+      "entity": "option",
+      "field": {
+        "label": "Option",
+        "fields": [
+          {
+            "label": "Text"
+          },
+          {
+            "label": "Correct"
+          },
+          {
+            "label": "Tips and feedback",
+            "fields": [
+              {
+                "label": "Tip text",
+                "description": "Hint for the user. This will appear before user checks his answer/answers."
+              },
+              {
+                "label": "Message displayed if answer is selected",
+                "description": "Message will appear below the answer on \"check\" if this answer is selected."
+              },
+              {
+                "label": "Message displayed if answer is not selected",
+                "description": "Message will appear below the answer on \"check\" if this answer is not selected."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "User interface translations for multichoice",
+      "fields": [
+        {
+          "label": "Check answer button label"
+        },
+        {
+          "label": "Show solution button label"
+        },
+        {
+          "label": "Retry button label"
+        },
+        {
+          "label": "Tip label"
+        },
+        {
+          "label": "Correct answer feedback"
+        },
+        {
+          "label": "Almost correct answer feedback"
+        },
+        {
+          "label": "Not correct answer feedback"
+        },
+        {
+          "label": "Score Bar Label"
+        },
+        {
+          "label": "Tip Available (not displayed)",
+          "description": "Accessibility text used for readspeakers"
+        },
+        {
+          "label": "Feedback Available (not displayed)",
+          "description": "Accessibility text used for readspeakers"
+        },
+        {
+          "label": "Read Feedback (not displayed)",
+          "description": "Accessibility text used for readspeakers"
+        },
+        {
+          "label": "Wrong Answer (not displayed)",
+          "description": "Accessibility text used for readspeakers"
+        },
+        {
+          "label": "Correct Answer (not displayed)",
+          "description": "Accessibility text used for readspeakers"
+        },
+        {
+          "label": "Feedback text",
+          "description": "Feedback text, variables available: @score and @total. Example: 'You got @score of @total points.'"
+        },
+        {
+          "label": "Option should have been checked"
+        },
+        {
+          "label": "Option should not have been checked"
+        },
+        {
+          "label": "Text for \"Requires answer\" message"
+        }
+      ]
+    },
+    {
+      "label": "Behavioural settings",
+      "description": "These options will let you control how the task behaves.",
+      "fields": [
+        {
+          "label": "Enable \"Retry\" button"
+        },
+        {
+          "label": "Enable \"Show Solution\" button"
+        },
+        {
+          "label": "Question Type",
+          "description": "Select the look and behaviour of the question.",
+          "options": [
+            {
+              "label": "Automatic"
+            },
+            {
+              "label": "Multiple Choice (Checkboxes)"
+            },
+            {
+              "label": "Single Choice (Radio Buttons)"
+            }
+          ]
+        },
+        {
+          "label": "Give one point for the whole task",
+          "description": "Enable to give a total of one point for multiple correct answers. This will not be an option in \"Single answer\" mode."
+        },
+        {
+          "label": "Randomize answers",
+          "description": "Enable to randomize the order of questions on display."
+        },
+        {
+          "label": "Require answer before the solution can be viewed"
+        },
+        {
+          "label": "Disable image zooming for question image"
+        },
+        {
+          "label": "Show confirmation dialog on \"Check\""
+        },
+        {
+          "label": "Show confirmation dialog on \"Retry\""
+        },
+        {
+          "label": "Automatically check answers",
+          "description": "Enabling this option will make accessibility suffer, make sure you know what you're doing."
+        },
+        {
+          "label": "Pass percentage",
+          "description": "This setting often won't have any effect. It is the percentage of the total score required for getting 1 point when one point for the entire task is enabled, and for getting result.success in xAPI statements."
+        }
+      ]
+    },
+    {
+      "label": "Check confirmation dialog",
+      "fields": [
+        {
+          "label": "Header text"
+        },
+        {
+          "label": "Body text"
+        },
+        {
+          "label": "Cancel button label"
+        },
+        {
+          "label": "Confirm button label"
+        }
+      ]
+    },
+    {
+      "label": "Retry confirmation dialog",
+      "fields": [
+        {
+          "label": "Header text"
+        },
+        {
+          "label": "Body text"
+        },
+        {
+          "label": "Cancel button label"
+        },
+        {
+          "label": "Confirm button label"
+        }
+      ]
+    }
+  ]
+}

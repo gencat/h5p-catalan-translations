@@ -1,0 +1,43 @@
+{
+  "semantics": [
+    {
+      "entity": "column",
+      "label": "Columns",
+      "field": {
+        "label": "Column",
+        "fields": [
+          {
+            "label": "Heading for this column",
+            "description": "Optional column heading"
+          },
+          {
+            "label": "Width",
+            "description": "The columns width in percentage"
+          },
+          {
+            "label": "CSS Class",
+            "description": "Optional CSS class to be added to the column for styling purposes"
+          },
+          {
+            "label": "Content"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Type",
+      "description": "What kind of content will be in these columns?",
+      "options": [
+        {
+          "label": "Misc (div tag will be used)"
+        },
+        {
+          "label": "Section of an article (section tag will be used)"
+        },
+        {
+          "label": "Self standing article (section tag will be used)"
+        }
+      ]
+    }
+  ]
+}

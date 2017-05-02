@@ -1,0 +1,125 @@
+{
+  "semantics": [
+    {
+      "entity": "course unit",
+      "label": "Course units",
+      "widgets": [
+        {
+          "label": "Default"
+        }
+      ],
+      "field": {
+        "label": "Unit",
+        "fields": [
+          {
+            "label": "Header"
+          },
+          {
+            "label": "Introduction"
+          },
+          {
+            "label": "Content"
+          },
+          {
+            "label": "Max score",
+            "description": "Only relevant for content that reports scoring",
+            "showWhen": {
+              "rules": [
+                {}
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "Layout",
+      "fields": [
+        {
+          "label": "Minimum width in pixels"
+        },
+        {
+          "label": "Fullscreen settings",
+          "fields": [
+            {
+              "label": "Fullscreen mode",
+              "options": [
+                {
+                  "label": "Always"
+                },
+                {
+                  "label": "Never"
+                },
+                {
+                  "label": "Dynamically"
+                }
+              ]
+            },
+            {
+              "label": "Force fullscreen mode when narrower than (in pixels)",
+              "showWhen": {
+                "rules": [
+                  {}
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "Placement of results widget",
+          "fields": [
+            {
+              "label": "Default placement",
+              "options": [
+                {
+                  "label": "Right"
+                },
+                {
+                  "label": "Top"
+                },
+                {
+                  "label": "Left"
+                }
+              ]
+            },
+            {
+              "label": "Exceptions",
+              "entity": "exception",
+              "field": {
+                "fields": [
+                  {
+                    "label": "Columns"
+                  },
+                  {
+                    "options": [
+                      {
+                        "label": "Right"
+                      },
+                      {
+                        "label": "Top"
+                      },
+                      {
+                        "label": "Left"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Look & feel",
+      "fields": [
+        {
+          "label": "Background color for course units panel"
+        },
+        {
+          "label": "Background color for results panel"
+        }
+      ]
+    }
+  ]
+}

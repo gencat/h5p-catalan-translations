@@ -1,0 +1,83 @@
+{
+  "semantics": [
+    {
+      "label": "Questionnaire elements",
+      "widgets": [
+        {
+          "label": "Default"
+        }
+      ],
+      "entity": "element",
+      "field": {
+        "label": "Choose library",
+        "fields": [
+          {
+            "label": "Library",
+            "description": "Choose a library"
+          },
+          {
+            "label": "Required field"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Success screen options",
+      "fields": [
+        {
+          "label": "Enable success screen"
+        },
+        {
+          "label": "Add success screen image",
+          "fields": [
+            {
+              "label": "Replace success icon with image"
+            }
+          ]
+        },
+        {
+          "label": "Text to display on submit"
+        }
+      ]
+    },
+    {
+      "label": "UI Elements",
+      "fields": [
+        {
+          "label": "Button labels",
+          "fields": [
+            {
+              "label": "Previous button label"
+            },
+            {
+              "label": "Next button label"
+            },
+            {
+              "label": "Submit button label"
+            }
+          ]
+        },
+        {
+          "label": "Accessibility",
+          "fields": [
+            {
+              "label": "Required message exit button label"
+            },
+            {
+              "label": "Progress bar text",
+              "description": "Used to tell assistive technologies what question it is. Variables: [ %current, %max ]"
+            }
+          ]
+        },
+        {
+          "label": "Required message",
+          "description": "Will display if this field is unanswered and required by a wrapper content type"
+        },
+        {
+          "label": "Required symbol text",
+          "description": "Text that will accompany an asterisk to signal that a question is required"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "semantics": [
+    {
+      "label": "Text",
+      "description": "Statement that you want the user to rate"
+    }
+  ]
+}

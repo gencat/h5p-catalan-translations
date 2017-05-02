@@ -1,0 +1,82 @@
+{
+  "semantics": [
+    {
+      "label": "Introducció",
+      "description": "Un text introductori (màxim 100 caràcters)"
+    },
+    {
+      "label": "Tipus d'operació",
+      "options": [
+        {
+          "label": "Suma"
+        },
+        {
+          "label": "Resta"
+        },
+        {
+          "label": "Multiplicacio"
+        },
+        {
+          "label": "Divisió"
+        }
+      ]
+    },
+    {
+      "label": "Nombre màxim d'operacions"
+    },
+    {
+      "label": "Traduccions de la interfície d'usuari",
+      "fields": [
+        {
+          "label": "Puntuació durant el qüestionari"
+        },
+        {
+          "label": "Puntuació a la pàgina de resultats"
+        },
+        {
+          "label": "Temps"
+        },
+        {
+          "label": "Capçalera de la pàgina de resultats"
+        },
+        {
+          "label": "Ves a l'etiqueta"
+        },
+        {
+          "label": "Text del botó d'inici"
+        },
+        {
+          "label": "Text de botó de reintent"
+        },
+        {
+          "label": "Text del Readspeaker per a la resposta correcta"
+        },
+        {
+          "label": "Text del Readspeaker per a la resposta incorrecta"
+        },
+        {
+          "label": "Etiqueta del Readspeaker per al temps"
+        },
+        {
+          "label": "Text del Readspeaker per a la pregunta"
+        },
+        {
+          "label": "Text de l'operador de suma"
+        },
+        {
+          "label": "Text de l'operador de resta"
+        },
+        {
+          "label": "Text de l'operador de multiplicació"
+        },
+        {
+          "label": "Text de l'operador de divisió"
+        },
+        {
+          "label": "Text del número de diapositiva",
+          "description": "Per mostrar el número d'ordre de la diapositiva actual i el nombre total de diapositives utilitzeu les variables :num i :total"
+        }
+      ]
+    }
+  ]
+}

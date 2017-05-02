@@ -1,0 +1,48 @@
+{
+  "semantics": [
+    {
+      "label": "Title",
+      "description": "Title for the goals page."
+    },
+    {
+      "label": "Description",
+      "description": "Description of the goals page."
+    },
+    {
+      "label": "Define goal link text",
+      "description": "Text that will be displayed on the button for creating a new goal."
+    },
+    {
+      "label": "Label for a user defined goal",
+      "description": "Text that will be displayed as label on a user created goal."
+    },
+    {
+      "label": "Define goal placeholder",
+      "description": "Text that will be displayed as a placeholder when creating a new goal."
+    },
+    {
+      "label": "Text indicating how many goals has been added",
+      "description": "This text will follow after the amount of goals that is currently created, example: 'Goals added: 5' where 'Goals added:' is this text."
+    },
+    {
+      "label": "Text for \"Finish goal\"-button"
+    },
+    {
+      "label": "Text for \"Edit goal\"-button"
+    },
+    {
+      "label": "Text for \"Specify goal\"-button"
+    },
+    {
+      "label": "Text for \"Remove goal\"-button"
+    },
+    {
+      "label": "Label for help text",
+      "description": "Label for showing additional helpful information to the user."
+    },
+    {
+      "label": "Fill in additional help information",
+      "description": "Here you can fill in additional helpful information for the user."
+    }
+  ]
+}

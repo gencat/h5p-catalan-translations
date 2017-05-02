@@ -1,0 +1,111 @@
+{
+  "semantics": [
+    {
+      "label": "Title"
+    },
+    {
+      "label": "Pages",
+      "entity": "page",
+      "widgets": [
+        {
+          "label": "Default"
+        }
+      ],
+      "field": {
+        "label": "Page",
+        "entity": "page element",
+        "field": {
+          "label": "Element",
+          "fields": [
+            {
+              "label": "Image"
+            },
+            {
+              "label": "Image height in percent",
+              "description": "The height using <a target=\"blank\" href=\"https://www.w3.org/TR/css3-values/#viewport-relative-lengths\">vmin unit</a>."
+            },
+            {
+              "label": "Title"
+            },
+            {
+              "label": "Description"
+            },
+            {
+              "label": "Link",
+              "fields": [
+                {
+                  "label": "Title"
+                },
+                {
+                  "label": "URL",
+                  "fields": [
+                    {
+                      "label": "Protocol",
+                      "options": [
+                        {
+                          "label": "http://"
+                        },
+                        {
+                          "label": "https://"
+                        },
+                        {
+                          "label": "(root relative)"
+                        },
+                        {
+                          "label": "other"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "URL"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Visuals",
+              "fields": [
+                {
+                  "label": "Background color",
+                  "spectrum": {}
+                },
+                {
+                  "label": "Foreground color",
+                  "spectrum": {}
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "Settings",
+      "fields": [
+        {
+          "label": "Start in fullscreen mode"
+        },
+        {
+          "label": "Use browser's fullscreen mode",
+          "description": "Only applicable if <b>start in fullscreen mode</b> is disabled",
+          "showWhen": {
+            "rules": [
+              {}
+            ]
+          }
+        },
+        {
+          "label": "Show navigation dots"
+        },
+        {
+          "label": "zIndex",
+          "description": "If there are elements on your page being shown on top of this presentation, try increasing this number"
+        }
+      ]
+    },
+    {
+      "label": "Open content button label"
+    }
+  ]
+}

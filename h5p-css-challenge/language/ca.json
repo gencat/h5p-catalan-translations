@@ -1,0 +1,43 @@
+{
+  "semantics": [
+    {
+      "label": "Challenge description"
+    },
+    {
+      "label": "Existing rules",
+      "entity": "Rule",
+      "field": {
+        "label": "Type in existing rule"
+      }
+    },
+    {
+      "label": "Answer css rule(s)",
+      "entity": "Rule",
+      "field": {
+        "label": "Type in answer rule",
+        "fields": [
+          {
+            "label": "Main rule"
+          },
+          {
+            "label": "Alternatives to main rule",
+            "field": {
+              "label": "Alternative css rule"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Input description"
+        },
+        {
+          "label": "Target element class"
+        }
+      ]
+    }
+  ]
+}

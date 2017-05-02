@@ -1,0 +1,74 @@
+{
+  "semantics": [
+    {
+      "label": "Image"
+    },
+    {
+      "label": "Alternative text",
+      "description": "Required. If the browser can't load the image this text will be displayed instead. Also used by readspeakers."
+    },
+    {
+      "label": "Hover text",
+      "description": "Optional. This text is displayed when the user hovers his pointing device over the image."
+    },
+    {
+      "label": "Copyright information",
+      "fields": [
+        {
+          "label": "Title"
+        },
+        {
+          "label": "Author"
+        },
+        {
+          "label": "Source",
+          "regexp": {}
+        },
+        {
+          "label": "License",
+          "options": [
+            {
+              "label": "Undisclosed"
+            },
+            {
+              "label": "Attribution"
+            },
+            {
+              "label": "Attribution-ShareAlike"
+            },
+            {
+              "label": "Attribution-NoDerivs"
+            },
+            {
+              "label": "Attribution-NonCommercial"
+            },
+            {
+              "label": "Attribution-NonCommercial-ShareAlike"
+            },
+            {
+              "label": "Attribution-NonCommercial-NoDerivs"
+            },
+            {
+              "label": "General Public License"
+            },
+            {
+              "label": "Public Domain"
+            },
+            {
+              "label": "Public Domain Dedication and Licence"
+            },
+            {
+              "label": "Public Domain Mark"
+            },
+            {
+              "label": "Copyright"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Image content name"
+    }
+  ]
+}

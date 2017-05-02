@@ -1,0 +1,290 @@
+{
+  "semantics": [
+    {
+      "label": "Describe task"
+    },
+    {
+      "label": "Accepted answers",
+      "field": {
+        "label": "Accepted answer"
+      }
+    },
+    {
+      "label": "Language of speech input",
+      "options": [
+        {
+          "label": "Afrikaans"
+        },
+        {
+          "label": "Basque"
+        },
+        {
+          "label": "Bulgarian"
+        },
+        {
+          "label": "Catalan"
+        },
+        {
+          "label": "Arabic (Egypt)"
+        },
+        {
+          "label": "Arabic (Jordan)"
+        },
+        {
+          "label": "Arabic (Kuwait)"
+        },
+        {
+          "label": "Arabic (Lebanon)"
+        },
+        {
+          "label": "Arabic (Qatar)"
+        },
+        {
+          "label": "Arabic (UAE)"
+        },
+        {
+          "label": "Arabic (Morocco)"
+        },
+        {
+          "label": "Arabic (Iraq)"
+        },
+        {
+          "label": "Arabic (Algeria)"
+        },
+        {
+          "label": "Arabic (Bahrain)"
+        },
+        {
+          "label": "Arabic (Lybia)"
+        },
+        {
+          "label": "Arabic (Oman)"
+        },
+        {
+          "label": "Arabic (Saudi Arabia)"
+        },
+        {
+          "label": "Arabic (Tunisia)"
+        },
+        {
+          "label": "Arabic (Yemen)"
+        },
+        {
+          "label": "Czech"
+        },
+        {
+          "label": "Dutch"
+        },
+        {
+          "label": "English (Australia)"
+        },
+        {
+          "label": "English (Canada)"
+        },
+        {
+          "label": "English (India)"
+        },
+        {
+          "label": "English (New Zealand)"
+        },
+        {
+          "label": "English (South Africa)"
+        },
+        {
+          "label": "English(UK)"
+        },
+        {
+          "label": "English(US)"
+        },
+        {
+          "label": "Finnish"
+        },
+        {
+          "label": "French"
+        },
+        {
+          "label": "Galician"
+        },
+        {
+          "label": "German"
+        },
+        {
+          "label": "Hebrew"
+        },
+        {
+          "label": "Hungarian"
+        },
+        {
+          "label": "Icelandic"
+        },
+        {
+          "label": "Italian"
+        },
+        {
+          "label": "Indonesian"
+        },
+        {
+          "label": "Japanese"
+        },
+        {
+          "label": "Korean"
+        },
+        {
+          "label": "Latin"
+        },
+        {
+          "label": "Mandarin Chinese"
+        },
+        {
+          "label": "Traditional Taiwan"
+        },
+        {
+          "label": "Simplified China"
+        },
+        {
+          "label": "Simplified Hong Kong"
+        },
+        {
+          "label": "Yue Chinese (Traditional Hong Kong)"
+        },
+        {
+          "label": "Malaysian"
+        },
+        {
+          "label": "Norwegian"
+        },
+        {
+          "label": "Polish"
+        },
+        {
+          "label": "Pig Latin"
+        },
+        {
+          "label": "Portuguese"
+        },
+        {
+          "label": "Portuguese (Brasil)"
+        },
+        {
+          "label": "Romanian"
+        },
+        {
+          "label": "Russian"
+        },
+        {
+          "label": "Serbian"
+        },
+        {
+          "label": "Slovak"
+        },
+        {
+          "label": "Spanish (Argentina)"
+        },
+        {
+          "label": "Spanish (Bolivia)"
+        },
+        {
+          "label": "Spanish (Chile)"
+        },
+        {
+          "label": "Spanish (Colombia)"
+        },
+        {
+          "label": "Spanish (Costa Rica)"
+        },
+        {
+          "label": "Spanish (Dominican Republic)"
+        },
+        {
+          "label": "Spanish (Ecuador)"
+        },
+        {
+          "label": "Spanish (El Salvador)"
+        },
+        {
+          "label": "Spanish (Guatemala)"
+        },
+        {
+          "label": "Spanish (Honduras)"
+        },
+        {
+          "label": "Spanish (Mexico)"
+        },
+        {
+          "label": "Spanish (Nicaragua)"
+        },
+        {
+          "label": "Spanish (Panama)"
+        },
+        {
+          "label": "Spanish (Paraguay)"
+        },
+        {
+          "label": "Spanish (Peru)"
+        },
+        {
+          "label": "Spanish (Puerto Rico)"
+        },
+        {
+          "label": "Spanish (Spain)"
+        },
+        {
+          "label": "Spanish (US)"
+        },
+        {
+          "label": "Spanish (Uruguay)"
+        },
+        {
+          "label": "Spanish (Venezuela)"
+        },
+        {
+          "label": "Swedish"
+        },
+        {
+          "label": "Turkish"
+        },
+        {
+          "label": "Zulu"
+        }
+      ]
+    },
+    {
+      "label": "Labels and texts",
+      "fields": [
+        {
+          "label": "\"Retry\"-button label"
+        },
+        {
+          "label": "\"Show solution\"-button label"
+        },
+        {
+          "label": "\"Speak\"-button label"
+        },
+        {
+          "label": "\"Speak\"-button label when listening"
+        },
+        {
+          "label": "Text preceding the correct answers in solution mode"
+        },
+        {
+          "label": "Text telling the user what his answer was interpreted as"
+        },
+        {
+          "label": "Text to display when no sound was registered from user"
+        },
+        {
+          "label": "Header text to display if browser does not support speech recognition"
+        },
+        {
+          "label": "Body text to display if browser does not support speech recognition"
+        },
+        {
+          "label": "Incorrect answer text"
+        },
+        {
+          "label": "Correct answer text"
+        }
+      ]
+    }
+  ]
+}

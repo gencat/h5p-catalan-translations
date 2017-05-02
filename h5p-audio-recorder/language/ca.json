@@ -1,0 +1,71 @@
+{
+  "semantics": [
+    {
+      "label": "Task Description",
+      "description": "Optional text to display above the audio recorder"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Record button text"
+        },
+        {
+          "label": "Pause button text"
+        },
+        {
+          "label": "Continue button text"
+        },
+        {
+          "label": "Download button text"
+        },
+        {
+          "label": "Done button text"
+        },
+        {
+          "label": "Retry button text"
+        },
+        {
+          "label": "Microphone not supported error message"
+        },
+        {
+          "label": "Microphone inaccessible error message"
+        },
+        {
+          "label": "Message displayed when insecure access is not allowed",
+          "description": "Some browsers do not allow using the microphone when the page is served using HTTP. This message will be displayed if that is the case"
+        },
+        {
+          "label": "Ready to record status message"
+        },
+        {
+          "label": "Recording status message"
+        },
+        {
+          "label": "Paused status message"
+        },
+        {
+          "label": "Finished recording status message"
+        },
+        {
+          "label": "Download recording message"
+        },
+        {
+          "label": "Retry dialog header text"
+        },
+        {
+          "label": "Retry dialog body text"
+        },
+        {
+          "label": "Retry dialog confirm text"
+        },
+        {
+          "label": "Retry dialog cancel text"
+        },
+        {
+          "label": "Can't create audio file status message"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "semantics": [
+    {
+      "label": "From Language"
+    },
+    {
+      "label": "To Language"
+    },
+    {
+      "label": "Words",
+      "entity": "word",
+      "field": {
+        "label": "Word",
+        "fields": [
+          {
+            "label": "Original"
+          },
+          {
+            "label": "Translation"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Translate From Label"
+        },
+        {
+          "label": "Translate To Label"
+        },
+        {
+          "label": "Start Button Label"
+        },
+        {
+          "label": "Finish Button Label"
+        },
+        {
+          "label": "Continue Button Label"
+        },
+        {
+          "label": "Check Answers Button Label"
+        },
+        {
+          "label": "Summary Text"
+        },
+        {
+          "label": "Start Over Button Label"
+        }
+      ]
+    }
+  ]
+}

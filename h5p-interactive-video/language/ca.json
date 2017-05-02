@@ -1,0 +1,368 @@
+{
+  "semantics": [
+    {
+      "label": "Interactive Video Editor",
+      "fields": [
+        {
+          "label": "Upload/embed video",
+          "fields": [
+            {
+              "label": "Video files",
+              "description": "Select the video files you wish to use in your interactive video. To ensure maximum support in browsers at least add a version of the video in webm and mp4 formats."
+            },
+            {
+              "label": "Start screen options",
+              "fields": [
+                {
+                  "label": "The title of this interactive video",
+                  "description": "Used in summaries, statistics etc."
+                },
+                {
+                  "label": "Hide title on video start screen"
+                },
+                {
+                  "label": "Short description (Optional)",
+                  "description": "Optional. Display a short description text on the video start screen. Does not work for YouTube videos."
+                },
+                {
+                  "label": "Poster image",
+                  "description": "Image displayed before the user launches the video. Does not work for YouTube Videos."
+                },
+                {
+                  "label": "Video copyright information",
+                  "description": "Information regarding copyright of the video and elements used in the video."
+                }
+              ]
+            },
+            {
+              "label": "Text tracks (subtitles, captions and descriptions)",
+              "fields": [
+                {
+                  "label": "Available text tracks",
+                  "entity": "Track",
+                  "field": {
+                    "label": "Track",
+                    "fields": [
+                      {
+                        "label": "Track label"
+                      },
+                      {
+                        "label": "Type kind, refer to <a target='_blank' href=https://html.spec.whatwg.org/multipage/embedded-content.html#the-track-element>HTML living standard</a>",
+                        "options": [
+                          {
+                            "label": "Subtitles"
+                          },
+                          {
+                            "label": "Captions"
+                          },
+                          {
+                            "label": "Descriptions"
+                          }
+                        ]
+                      },
+                      {
+                        "label": "Source language, must be defined for subtitles",
+                        "description": "Must be a valid BCP 47 language tag. If the kind attribute is set to subtitles, then srclang must be defined."
+                      },
+                      {
+                        "label": "Track source (WebVTT file)"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Add interactions",
+          "fields": [
+            {
+              "field": {
+                "fields": [
+                  {
+                    "label": "Display time",
+                    "fields": [
+                      {},
+                      {}
+                    ]
+                  },
+                  {
+                    "label": "Pause video"
+                  },
+                  {
+                    "label": "Display as",
+                    "description": "<b>Button</b> is a collapsed interaction the user must press to open. <b>Poster</b> is an expanded interaction displayed directly on top of the video",
+                    "options": [
+                      {
+                        "label": "Button"
+                      },
+                      {
+                        "label": "Poster"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Label",
+                    "description": "Label displayed next to interaction icon."
+                  },
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {
+                    "label": "Adaptivity",
+                    "fields": [
+                      {
+                        "label": "Action on all correct",
+                        "fields": [
+                          {
+                            "label": "Seek to",
+                            "description": "Enter timecode in the format M:SS"
+                          },
+                          {
+                            "label": "Allow the user to opt out and continue"
+                          },
+                          {
+                            "label": "Message"
+                          },
+                          {
+                            "label": "Label for seek button"
+                          }
+                        ]
+                      },
+                      {
+                        "label": "Action on wrong",
+                        "fields": [
+                          {
+                            "label": "Seek to",
+                            "description": "Enter timecode in the format M:SS"
+                          },
+                          {
+                            "label": "Allow the user to opt out and continue"
+                          },
+                          {
+                            "label": "Message"
+                          },
+                          {
+                            "label": "Label for seek button"
+                          }
+                        ]
+                      },
+                      {
+                        "label": "Require full score for task before proceeding",
+                        "description": "For best functionality this option should be used in conjunction with the \"Prevent skipping forward in a video\" option of Interactive Video."
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Visuals",
+                    "fields": [
+                      {
+                        "label": "Background color",
+                        "spectrum": {}
+                      },
+                      {
+                        "label": "Box shadow",
+                        "description": "Adds a subtle shadow around the interaction. You might want to disable this for completely transparent interactions"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Go to on click",
+                    "fields": [
+                      {
+                        "label": "Type",
+                        "options": [
+                          {
+                            "label": "Timecode"
+                          },
+                          {
+                            "label": "Another page (URL)"
+                          }
+                        ]
+                      },
+                      {
+                        "label": "Go To",
+                        "description": "The target time the user will be taken to upon pressing the hotspot. Enter timecode in the format M:SS."
+                      },
+                      {
+                        "label": "URL",
+                        "fields": [
+                          {
+                            "label": "Protocol",
+                            "options": [
+                              {
+                                "label": "http://"
+                              },
+                              {
+                                "label": "https://"
+                              },
+                              {
+                                "label": "(root relative)"
+                              },
+                              {
+                                "label": "other"
+                              }
+                            ]
+                          },
+                          {
+                            "label": "URL"
+                          }
+                        ]
+                      },
+                      {
+                        "label": "Visualize",
+                        "description": "Show that interaction can be clicked by adding a border and an icon"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "field": {
+                "fields": [
+                  {},
+                  {}
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "Summary task",
+          "fields": [
+            {
+              "default": {
+                "params": {}
+              }
+            },
+            {
+              "label": "Display at",
+              "description": "Number of seconds before the video ends."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Behavioural settings",
+      "fields": [
+        {
+          "label": "Start video at",
+          "description": "Enter timecode in the format M:SS"
+        },
+        {
+          "label": "Loop the video",
+          "description": "Check if video should run in a loop"
+        },
+        {
+          "label": "Override \"Show Solution\" button",
+          "description": "This option determines if the \"Show Solution\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "options": [
+            {
+              "label": "Enabled"
+            },
+            {
+              "label": "Disabled"
+            }
+          ]
+        },
+        {
+          "label": "Override \"Retry\" button",
+          "description": "This option determines if the \"Retry\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "options": [
+            {
+              "label": "Enabled"
+            },
+            {
+              "label": "Disabled"
+            }
+          ]
+        },
+        {
+          "label": "Start with bookmarks menu open",
+          "description": "This function is not available on iPad when using YouTube as video source."
+        },
+        {
+          "label": "Show button for rewinding 10 seconds"
+        },
+        {
+          "label": "Prevent skipping forward in a video",
+          "description": "Enabling this options will disable user video navigation through default controls."
+        },
+        {
+          "label": "Deactivate sound",
+          "description": "Enabling this option will deactivate the video's sound and prevent it from being switched on."
+        }
+      ]
+    },
+    {
+      "label": "Localize",
+      "fields": [
+        {
+          "label": "Interaction title"
+        },
+        {
+          "label": "Play title"
+        },
+        {
+          "label": "Pause title"
+        },
+        {
+          "label": "Mute title"
+        },
+        {
+          "label": "Unmute title"
+        },
+        {
+          "label": "Video quality title"
+        },
+        {
+          "label": "Video captions title"
+        },
+        {
+          "label": "Close button text"
+        },
+        {
+          "label": "Fullscreen title"
+        },
+        {
+          "label": "Exit fullscreen title"
+        },
+        {
+          "label": "Summary title"
+        },
+        {
+          "label": "Bookmarks title"
+        },
+        {
+          "label": "Default label for adaptivity seek button"
+        },
+        {
+          "label": "Default label for continue video button"
+        },
+        {
+          "label": "Set playback rate"
+        },
+        {
+          "label": "Rewind 10 Seconds"
+        },
+        {
+          "label": "Navigation is disabled text"
+        },
+        {
+          "label": "Sound is disabled text"
+        },
+        {
+          "label": "Warning that the user must answer the question correctly before continuing"
+        },
+        {
+          "label": "Back button"
+        }
+      ]
+    }
+  ]
+}

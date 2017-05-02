@@ -1,0 +1,15 @@
+{
+  "semantics": [
+    {
+      "label": "Label",
+      "description": "Label/heading for answer when user exports all answers"
+    },
+    {},
+    {
+      "label": "Export not supported label"
+    },
+    {
+      "label": "Include comments in the exported document"
+    }
+  ]
+}

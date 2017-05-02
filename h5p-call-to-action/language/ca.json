@@ -1,0 +1,26 @@
+{
+  "semantics": [
+    {
+      "label": "Button Text",
+      "description": "The text displayed on the call to action button"
+    },
+    {
+      "label": "Actions",
+      "description": "List of actions",
+      "entity": "action",
+      "field": {
+        "label": "Action",
+        "entity": "action",
+        "fields": [
+          {
+            "label": "Title"
+          },
+          {
+            "label": "Url",
+            "description": "Url to where the user is to be sent when choosing this action"
+          }
+        ]
+      }
+    }
+  ]
+}

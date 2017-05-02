@@ -1,0 +1,39 @@
+{
+  "semantics": [
+    {
+      "label": "Title",
+      "description": "Title for the goals assessment page."
+    },
+    {
+      "label": "Description",
+      "description": "Description of the goals assessment page."
+    },
+    {
+      "label": "Low rating text",
+      "description": "Text for worst rating."
+    },
+    {
+      "label": "Medium rating text",
+      "description": "Text for middle rating."
+    },
+    {
+      "label": "High rating text",
+      "description": "Text for great rating."
+    },
+    {
+      "label": "No goals text",
+      "description": "Feedback text when no goals have been created."
+    },
+    {
+      "label": "Goal specification label"
+    },
+    {
+      "label": "Label for help text",
+      "description": "Label for showing additional helpful information to the user."
+    },
+    {
+      "label": "Fill in additional help information",
+      "description": "Here you can fill in additional helpful information for the user."
+    }
+  ]
+}

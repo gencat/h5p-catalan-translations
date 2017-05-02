@@ -1,0 +1,21 @@
+{
+  "semantics": [
+    {
+      "label": "Title",
+      "description": "Title for the documentation tool."
+    },
+    {
+      "label": "Elements",
+      "widgets": [
+        {
+          "label": "Default"
+        }
+      ],
+      "entity": "page",
+      "field": {
+        "label": "Page type",
+        "description": "Library for this slide."
+      }
+    }
+  ]
+}

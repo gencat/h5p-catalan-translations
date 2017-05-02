@@ -1,0 +1,124 @@
+{
+  "semantics": [
+    {
+      "label": "Media",
+      "fields": [
+        {
+          "label": "Type",
+          "description": "Optional media to display above the question."
+        }
+      ]
+    },
+    {
+      "label": "Question"
+    },
+    {
+      "label": "Correct answer",
+      "options": [
+        {
+          "label": "True"
+        },
+        {
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "label": "User interface translations for True/False Questions",
+      "fields": [
+        {
+          "label": "Label for true button"
+        },
+        {
+          "label": "Label for false button"
+        },
+        {
+          "label": "Feedback text",
+          "description": "Feedback text, variables available: @score and @total. Example: 'You got @score of @total possible points'"
+        },
+        {
+          "label": "Text for \"Check\" button"
+        },
+        {
+          "label": "Text for \"Show solution\" button"
+        },
+        {
+          "label": "Text for \"Retry\" button"
+        },
+        {
+          "label": "Wrong Answer"
+        },
+        {
+          "label": "Correct Answer"
+        }
+      ]
+    },
+    {
+      "label": "Behavioural settings",
+      "description": "These options will let you control how the task behaves.",
+      "fields": [
+        {
+          "label": "Enable \"Retry\" button"
+        },
+        {
+          "label": "Enable \"Show Solution\" button"
+        },
+        {
+          "label": "Disable image zooming for question image"
+        },
+        {
+          "label": "Show confirmation dialog on \"Check\""
+        },
+        {
+          "label": "Show confirmation dialog on \"Retry\""
+        },
+        {
+          "label": "Automatically check answer",
+          "description": "Note that accessibility will suffer if enabling this option"
+        },
+        {
+          "label": "Feedback on correct answer",
+          "description": "This will override the default feedback text. Variables available: @score and @total"
+        },
+        {
+          "label": "Feedback on wrong answer",
+          "description": "This will override the default feedback text. Variables available: @score and @total"
+        }
+      ]
+    },
+    {
+      "label": "Check confirmation dialog",
+      "fields": [
+        {
+          "label": "Header text"
+        },
+        {
+          "label": "Body text"
+        },
+        {
+          "label": "Cancel button label"
+        },
+        {
+          "label": "Confirm button label"
+        }
+      ]
+    },
+    {
+      "label": "Retry confirmation dialog",
+      "fields": [
+        {
+          "label": "Header text"
+        },
+        {
+          "label": "Body text"
+        },
+        {
+          "label": "Cancel button label"
+        },
+        {
+          "label": "Confirm button label"
+        }
+      ]
+    }
+  ]
+}

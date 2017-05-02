@@ -1,0 +1,20 @@
+{
+  "semantics": [
+    {
+      "label": "Task description",
+      "description": "Describe how the user should solve the task."
+    },
+    {
+      "label": "Solution image",
+      "description": "Users will guess the solution from this picture."
+    },
+    {
+      "label": "Descriptive solution label",
+      "description": "Clickable text area where the solution will be displayed."
+    },
+    {
+      "label": "Solution text",
+      "description": "The solution for the picture."
+    }
+  ]
+}

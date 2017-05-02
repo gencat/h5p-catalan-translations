@@ -1,0 +1,20 @@
+{
+  "semantics": [
+    {
+      "label": "Nom de la sala",
+      "description": "Nom de la sala de conversa creada a 'appear.in'"
+    },
+    {
+      "label": "Omple el contenidor",
+      "description": "Fes que la sala de conversa ompli totalment el seu contenidor. Això sobreescriurà qualsevol amplada i alçada dfefinida amb el valor 100%."
+    },
+    {
+      "label": "Alçada",
+      "description": "Alçada de la sala de conversa"
+    },
+    {
+      "label": "Amplada",
+      "description": "Amplada de la sala de conversa"
+    }
+  ]
+}

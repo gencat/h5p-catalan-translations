@@ -1,0 +1,73 @@
+{
+  "semantics": [
+    {
+      "label": "Task description"
+    },
+    {
+      "widgets": [
+        {
+          "label": "Default"
+        }
+      ],
+      "label": "Cards",
+      "entity": "card",
+      "field": {
+        "label": "Card",
+        "fields": [
+          {
+            "label": "Question",
+            "description": "Optional textual question for the card. (The card may use just an image, just a text or both)"
+          },
+          {
+            "label": "Answer",
+            "description": "Optional answer(solution) for the card."
+          },
+          {
+            "label": "Image",
+            "description": "Optional image for the card. (The card may use just an image, just a text or both)"
+          },
+          {
+            "label": "Tip",
+            "fields": [
+              {
+                "label": "Tip text"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "Progress text",
+      "description": "Progress text, variables available: @card and @total. Example: 'Card @card of @total'"
+    },
+    {
+      "label": "Text for the next button"
+    },
+    {
+      "label": "Text for the previous button"
+    },
+    {
+      "label": "Text for the check answers button"
+    },
+    {
+      "label": "Require user input before the solution can be viewed"
+    },
+    {
+      "label": "Text for the answer input field"
+    },
+    {
+      "label": "Text for correct answer"
+    },
+    {
+      "label": "Text for incorrect answer"
+    },
+    {
+      "label": "Show solution text"
+    },
+    {
+      "label": "Case sensitive",
+      "description": "Makes sure the user input has to be exactly the same as the answer."
+    }
+  ]
+}

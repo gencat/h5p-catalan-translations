@@ -1,0 +1,36 @@
+{
+  "semantics": [
+    {
+      "label": "Plafons",
+      "entity": "panel",
+      "field": {
+        "label": "Contingut",
+        "entity": "content",
+        "fields": [
+          {
+            "label": "Títol"
+          },
+          {
+            "label": "Tipus de contingut",
+            "entity": "content"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Etiquetes 'H' dels rètols (no afecta a la mida dels rètols)",
+      "description": "El tipus d'etiqueta de capçalera (H) utilitzada als rètols. Normalment és H2, però si algun rètol hagués d'anar sota una capçalera de nivell 2, utilitzeu H3. No afecta la mida dels rètols, només s'utilitzarà amb propòsit semàntic.",
+      "options": [
+        {
+          "label": "H2"
+        },
+        {
+          "label": "H3"
+        },
+        {
+          "label": "H4"
+        }
+      ]
+    }
+  ]
+}

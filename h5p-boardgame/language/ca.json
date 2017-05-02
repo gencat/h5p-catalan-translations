@@ -1,0 +1,150 @@
+{
+  "semantics": [
+    {
+      "label": "Game title",
+      "description": "This is the title of the game you are creating."
+    },
+    {
+      "label": "Board background",
+      "description": "Select a suitable background image for your board game."
+    },
+    {
+      "label": "Board size",
+      "description": "Specifiy how much space (in px) the board game should take up. The aspect ratio should match the one of your background image.",
+      "fields": [
+        {},
+        {}
+      ]
+    },
+    {
+      "label": "Enable dropshadow",
+      "description": "Enable a drop shadow around the board. If enabled the board takes up more space than the board size suggests"
+    },
+    {
+      "label": "Game introduction",
+      "fields": [
+        {
+          "label": "Welcome and instruction text",
+          "description": "Explain what the user should do and what the point of the game is."
+        },
+        {
+          "label": "Button text",
+          "description": "Label of the button the user has to press to start the game."
+        }
+      ]
+    },
+    {
+      "label": "Hotspots",
+      "entity": "hotspot",
+      "description": "Hotspots are mini-games that are placed on the board. E.g. Quiz, Hangman.",
+      "field": {
+        "label": "Hotspot",
+        "fields": [
+          {
+            "label": "Title",
+            "description": "Give your hotspot a name."
+          },
+          {
+            "label": "Hotspot image",
+            "description": "Image used on the board for users to idenitify the hotspot."
+          },
+          {
+            "label": "Hotspot image - Passed",
+            "description": "The hotspot image will changed to this once the user has completed a minigame and passed."
+          },
+          {
+            "label": "Hotspot image - Failed",
+            "description": "The hotspot image will change to this if the user fails."
+          },
+          {
+            "label": "Hotspot position",
+            "description": "Position the hotspot on the game board by using coordinates in pixels.",
+            "default": {},
+            "fields": [
+              {},
+              {}
+            ]
+          },
+          {
+            "label": "Action",
+            "description": "Choose the minigame to start when the user chooses this hotspot."
+          }
+        ]
+      }
+    },
+    {
+      "label": "Progress indicator",
+      "fields": [
+        {
+          "label": "Enable progress indicator"
+        },
+        {
+          "entity": "image",
+          "description": "Select images to use as a progress indicator. One for each progress step plus one for no answers given yet.",
+          "field": {
+            "label": 0
+          }
+        },
+        {
+          "label": "Progress indicator position",
+          "description": "Position the progress indicator on the board using pixel coordinates.",
+          "fields": [
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Game finished",
+      "fields": [
+        {
+          "label": "Finished video",
+          "description": "Video to play before the game results are shown."
+        },
+        {
+          "label": "Allow skipping of finished video."
+        },
+        {
+          "label": "Skip button text",
+          "description": "Label for the button the user has to press to skip the finished video."
+        }
+      ]
+    },
+    {
+      "label": "Game results",
+      "fields": [
+        {
+          "label": "Result text",
+          "description": "The text explaining the game score. Variables: @score, @total, @percentage."
+        },
+        {
+          "label": "Retry button text",
+          "description": "Label for the button the user has to press to start over."
+        },
+        {
+          "label": "Show solutions button",
+          "description": "Label for the button the user has to press to view the solutions."
+        }
+      ]
+    },
+    {
+      "label": "Settings for \"Show solution\" button and \"Retry\".",
+      "description": "These options will let you override when to display \"Show solution\" button and \"Retry\" in integrated h5p content.",
+      "fields": [
+        {
+          "label": "Enable override for \"Show solution\" and \"Retry\" settings.",
+          "description": "If this is enabled the questions own settings will be ignored and the below settings will be used instead."
+        },
+        {
+          "label": "Enable \"Show solution\" buttons.",
+          "description": "Enabling this option will make questions show the \"Show solution\" button."
+        },
+        {
+          "label": "Enable \"Retry\".",
+          "description": "Enabling this option will make the user able to \"Retry\" ."
+        }
+      ]
+    }
+  ]
+}
