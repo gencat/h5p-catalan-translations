@@ -1,69 +1,69 @@
 {
   "semantics": [
     {
-      "label": "Task Description",
-      "description": "Optional text to display above the audio recorder"
+      "label": "Descripció de la tasca",
+      "description": "Text opcional que es mostrarà damunt de l'enregistrador d'àudio"
     },
     {
-      "label": "Localization",
+      "label": "Localització",
       "fields": [
         {
-          "label": "Record button text"
+          "label": "Text de botó d'enregistrar"
         },
         {
-          "label": "Pause button text"
+          "label": "Text del botó de pausa"
         },
         {
-          "label": "Continue button text"
+          "label": "Text del botó de continuar"
         },
         {
-          "label": "Download button text"
+          "label": "Test del botó de descarregar"
         },
         {
-          "label": "Done button text"
+          "label": "Text del botó d'acabar"
         },
         {
-          "label": "Retry button text"
+          "label": "Text del botó de reintentar"
         },
         {
-          "label": "Microphone not supported error message"
+          "label": "Missatge d'error a mostrar quan el micròfon no estigui suportat"
         },
         {
-          "label": "Microphone inaccessible error message"
+          "label": "Missatge d'error a mostrar quan el micròfon no estigui accessible"
         },
         {
-          "label": "Message displayed when insecure access is not allowed",
-          "description": "Some browsers do not allow using the microphone when the page is served using HTTP. This message will be displayed if that is the case"
+          "label": "Missatge d'error a mostrar quan no es permeti l'accés no segur",
+          "description": "Alguns navegadors web no permeten utilitzar el micròfon quan la pàgina prové d'una font HTTP no segura, i només accepten fer-ho quan la pàgina es serveix pel protocol HTTPS."
         },
         {
-          "label": "Ready to record status message"
+          "label": "Missatge per a l'estat \"Preparat per a enregistrar\""
         },
         {
-          "label": "Recording status message"
+          "label": "Missatge per a l'estat \"S'està enregistrant\""
         },
         {
-          "label": "Paused status message"
+          "label": "Missatge per a l'estat \"En pausa\""
         },
         {
-          "label": "Finished recording status message"
+          "label": "Missatge per a l'estat \"Enregistrament finalitzat\""
         },
         {
-          "label": "Download recording message"
+          "label": "Missatge per a l'estat \"S'està descarregant l'enregistrament\""
         },
         {
-          "label": "Retry dialog header text"
+          "label": "Text de la capçalera del diàleg de reintentar"
         },
         {
-          "label": "Retry dialog body text"
+          "label": "Text del cos del diàleg de reintentar"
         },
         {
-          "label": "Retry dialog confirm text"
+          "label": "Text de confirmació del diàleg de reintentar"
         },
         {
-          "label": "Retry dialog cancel text"
+          "label": "Text de cancel·lació del diàleg de reintentar"
         },
         {
-          "label": "Can't create audio file status message"
+          "label": "Text del missatge a mostrar quan no es pugui crear el fitxer d'àudio"
         }
       ]
     }

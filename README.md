@@ -18,10 +18,10 @@ Please double check for valid JSON syntax in your edits! Always use text editors
 | X   | h5p-advanced-text
 | X   | h5p-appear-in
 | X   | h5p-arithmetic-quiz
-| _   | h5p-audio
-| _   | h5p-audio-minimal
-| _   | h5p-audio-recorder
-| _   | h5p-blanks
+| X   | h5p-audio
+| X   | h5p-audio-minimal
+| X   | h5p-audio-recorder
+| X   | h5p-blanks
 | _   | h5p-boardgame
 | _   | h5p-boilerplate
 | _   | h5p-call-to-action

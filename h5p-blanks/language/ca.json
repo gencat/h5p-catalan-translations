@@ -1,136 +1,136 @@
 {
   "semantics": [
     {
-      "label": "Media",
+      "label": "Recursos multimèdia",
       "fields": [
         {
-          "label": "Type",
-          "description": "Optional media to display above the question."
+          "label": "Tipus",
+          "description": "Recurs multimèdia opcional que es mostrarà damunt la pregunta."
         }
       ]
     },
     {
-      "label": "Task description",
-      "description": "A guide telling the user how to answer this task."
+      "label": "Descripció de la tasca",
+      "description": "Una guia explicant a l'usuari com resoldre aquesta tasca."
     },
     {
-      "label": "Text blocks",
+      "label": "Blocs de text",
       "entity": "text block",
       "field": {
-        "label": "Line of text",
+        "label": "Línia de text",
         "description": "",
         "important": {
-          "description": "<ul><li>Blanks are added with an asterisk (*) in front and behind the correct word/phrase.</li><li>Alternative answers are separated with a forward slash (/).</li><li>You may add a textual tip, using a colon (:) in front of the tip.</li></ul>"
+          "description": "<ul><li>Els espais an blanc es defineixen mitjançant un asterisc (*) davant i darrera de la paraula o frase correcta.</li><li>Les respostes possibles, si n'hi ha més d'una, s'hand de separar amb una barra inclinada endavant (/).</li><li>També podeu afegir una ajuda, marcant-la amb un símbol de dos punts (:) davant del text d'ajuda.</li></ul>"
         }
       }
     },
     {
-      "label": "Feedback text",
-      "description": "Feedback text, variables available: @score and @total. Example: 'You got @score of @total possible points'"
+      "label": "Text de retroacció",
+      "description": "Text que es mostra a l'usuari després de respondre. Podeu utilitzar les variables: @score (puntuació) i @total. per exemple: 'Heu obtingut una puntuació de @score sobre @total'"
     },
     {
-      "label": "Text for \"Show solutions\" button"
+      "label": "Text del botó \"Mostra les solucions\""
     },
     {
-      "label": "Text for \"Retry\" button"
+      "label": "Text del botó \"Reintenta\""
     },
     {
-      "label": "Text for \"Check\" button"
+      "label": "Text del botó \"Comprova\""
     },
     {
-      "label": "Text for \"Not filled out\" message"
+      "label": "Text del missatge \"Not heu omplert tots els camps\""
     },
     {
-      "label": "Text for \"':ans' is correct\" message"
+      "label": "Text del missatge \"':resp' és correcte\""
     },
     {
-      "label": "Text for \"':ans' is wrong\" message"
+      "label": "Text del missatge \"':resp' és incorrecte\""
     },
     {
-      "label": "Text for \"Answered correctly\" message"
+      "label": "Text del missatge \"Respost correctament\""
     },
     {
-      "label": "Text for \"Answered incorrectly\" message"
+      "label": "Text del missatge \"respost amb errors\""
     },
     {
-      "label": "Assistive technology label for solution"
+      "label": "Etiqueta de tecnologia assistiva per a la solució"
     },
     {
-      "label": "Assistive technology label for input field",
-      "description": "Use @num and @total to replace current cloze number and total cloze number"
+      "label": "Etiqueta de tecnologia assistiva per al camp d'entrada de text",
+      "description": "Utilitzeu @num per referir-vos al número d'ordre de la incògnita actual i @total per al nombre total d'incògnites"
     },
     {
-      "label": "Assistive technology label for saying an input has a tip tied to it"
+      "label": "Etiqueta de tecnologia assistiva per indicar que una entrada de text té una ajuda associada"
     },
     {
-      "label": "Tip icon label"
+      "label": "Etiqueta de la icona d'ajuda"
     },
     {
-      "label": "Behavioural settings.",
-      "description": "These options will let you control how the task behaves.",
+      "label": "Comportament de l'activitat.",
+      "description": "Aquestes opcions us permeten controlar el comportament de l'activitat.",
       "fields": [
         {
-          "label": "Enable \"Retry\""
+          "label": "Habilita el botó \"Reintenta\""
         },
         {
-          "label": "Enable \"Show solutions\" button"
+          "label": "Habilita el botó \"Mostra les solucions\""
         },
         {
-          "label": "Automatically check answers after input"
+          "label": "Comprova automàticament les respostes un cop introduïdes"
         },
         {
-          "label": "Case sensitive",
-          "description": "Makes sure the user input has to be exactly the same as the answer."
+          "label": "Diferencia majúscules/minúscules",
+          "description": "Assegura que l'usuari escriu la resposta exacta."
         },
         {
-          "label": "Require all fields to be answered before the solution can be viewed"
+          "label": "Fes que calgui omplir tots els camps abans de poder veure la solució"
         },
         {
-          "label": "Put input fields on separate lines"
+          "label": "Posa les entrades de text en línies separades"
         },
         {
-          "label": "Disable image zooming for question image"
+          "label": "Desactiva el zoom per a les preguntes basades en imatges"
         },
         {
-          "label": "Show confirmation dialog on \"Check\"",
-          "description": "This options is not compatible with the \"Automatically check answers after input\" option"
+          "label": "Mostra el diàleg de confirmació per a \"Comprova\"",
+          "description": "Aquesta opció no és compatible amb \"Comprova automàticament les respostes un cop introduïdes\""
         },
         {
-          "label": "Show confirmation dialog on \"Retry\""
+          "label": "Mostra el diàleg de confirmació per a \"Reintenta\""
         }
       ]
     },
     {
-      "label": "Check confirmation dialog",
+      "label": "Diàleg de confirmació per a \"Comprova l'activitat\"",
       "fields": [
         {
-          "label": "Header text"
+          "label": "Text de la capçalera"
         },
         {
-          "label": "Body text"
+          "label": "Cos del text"
         },
         {
-          "label": "Cancel button label"
+          "label": "Text del botó 'Cancel·la'"
         },
         {
-          "label": "Confirm button label"
+          "label": "Text del notó de confirmació"
         }
       ]
     },
     {
-      "label": "Retry confirmation dialog",
+      "label": "Diàleg de confirmació per a \"Reintenta l'activitat\"",
       "fields": [
         {
-          "label": "Header text"
+          "label": "Text de la capçalera"
         },
         {
-          "label": "Body text"
+          "label": "Cos del text"
         },
         {
-          "label": "Cancel button label"
+          "label": "Text del botó 'Cancel·la'"
         },
         {
-          "label": "Confirm button label"
+          "label": "Text del botó de confirmació"
         }
       ]
     }

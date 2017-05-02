@@ -1,17 +1,17 @@
 {
   "semantics": [
     {
-      "label": "Source files"
+      "label": "Fitxers font"
     },
     {
-      "label": "Player mode",
-      "description": "Select the layout of the player.",
+      "label": "Mode reproductor",
+      "description": "Seleccioneu la disposició del reproductor.",
       "options": [
         {
-          "label": "Minimalistic"
+          "label": "Minimalista"
         },
         {
-          "label": "Full"
+          "label": "Complet"
         },
         {
           "label": "Transparent"
@@ -19,64 +19,64 @@
       ]
     },
     {
-      "label": "Fit to wrapper"
+      "label": "Ajusta al contenidor"
     },
     {
-      "label": "Enable controls",
-      "description": "Controls allow the user to for instance pause the audio"
+      "label": "Habilita els controls",
+      "description": "Els controls permeten a l'usuari fer coses com ara posar l'àudio en pausa"
     },
     {
-      "label": "Enable autoplay",
-      "description": "With autoplay the audio starts to play immediately. If autoplay is disabled the user presses a play button to start the audio."
+      "label": "Habilita la reproducció automàtica",
+      "description": "Si ho habiliteu, l'àudio començarà a sonar immediatament. En cas contrari, caldrà que l'usuari faci clic al botó del reproductor per iniciar-lo."
     },
     {
-      "label": "Copyright information",
+      "label": "Informació de Copyright",
       "fields": [
         {
-          "label": "Title"
+          "label": "Títol"
         },
         {
-          "label": "Author"
+          "label": "Autor"
         },
         {
-          "label": "Source",
+          "label": "Font",
           "regexp": {}
         },
         {
-          "label": "License",
+          "label": "Llicència",
           "options": [
             {
-              "label": "Undisclosed"
+              "label": "Desconeguda"
             },
             {
-              "label": "Attribution"
+              "label": "Atribució"
             },
             {
-              "label": "Attribution-ShareAlike"
+              "label": "Atribució-Compartir igual"
             },
             {
-              "label": "Attribution-NoDerivs"
+              "label": "Atribució-Sense derivats"
             },
             {
-              "label": "Attribution-NonCommercial"
+              "label": "Atribució-No comercial"
             },
             {
-              "label": "Attribution-NonCommercial-ShareAlike"
+              "label": "Atribució-No Comercial-Compartir igual"
             },
             {
-              "label": "Attribution-NonCommercial-NoDerivs"
+              "label": "Atribució-No Comercial-Sense derivats"
             },
             {
-              "label": "General Public License"
+              "label": "Llicència Pública General de GNU (GPL)"
             },
             {
-              "label": "Public Domain"
+              "label": "Domini públic"
             },
             {
-              "label": "Public Domain Dedication and Licence"
+              "label": "Dedicació de Domini Públic (CC0)"
             },
             {
-              "label": "Public Domain Mark"
+              "label": "Marca de Domini Públic (Sense Copyright)"
             },
             {
               "label": "Copyright"
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "label": "Audio content name"
+      "label": "Nom del contingut d'àudio"
     }
   ]
 }

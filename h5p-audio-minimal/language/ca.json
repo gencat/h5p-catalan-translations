@@ -1,11 +1,11 @@
 {
   "semantics": [
     {
-      "label": "Source files"
+      "label": "Fitxers font"
     },
     {
-      "label": "Enable autoplay",
-      "description": "With autoplay the audio starts to play immediately. If autoplay is disabled the user presses a play button to start the audio."
+      "label": "Habilita la reproducció automàtica",
+      "description": "Si ho habiliteu, l'àudio començarà a sonar immediatament. En cas contrari, caldrà que l'usuari faci clic al botó del reproductor per iniciar-lo."
     }
   ]
 }
