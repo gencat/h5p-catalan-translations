@@ -1,6 +1,17 @@
 H5P Catalan translations
 ========================
 
+Catalan translation of some [H5P](http://h5p.org) components
+
+JSON files were obtained from [H5P GitHub repos](https://github.com/h5p) using the [h5p CLI](https://www.npmjs.com/package/h5p):
+
+`
+ h5p create-language-file [h5p-library-name] ca
+`
+
+Please double check for valid JSON syntax in your edits! Always use text editors with JSON syntax checking features like [gedit](https://wiki.gnome.org/Apps/Gedit), [atom](https://atom.io/) or [vs-code](https://code.visualstudio.com/).
+
+
 | OK  | Package
 |:---:| ------
 | X   | h5p-accordion
