@@ -1,13 +1,13 @@
 {
   "semantics": [
     {
-      "label": "Tipus de gràfic",
+      "label": "Tipus de diagrama",
       "options": [
         {
-          "label": "Gràfic de sectors"
+          "label": "Diagrama de sectors"
         },
         {
-          "label": "Gràfic de barres"
+          "label": "Diagrama de barres"
         }
       ]
     },
