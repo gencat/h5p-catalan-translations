@@ -2,63 +2,63 @@
   "semantics": [
     {
       "label": "Títol del joc",
-      "description": "Aquest és el títol del joc que esteu creant."
+      "description": "Aquest serà el títol del joc que esteu creant."
     },
     {
-      "label": "Board background",
-      "description": "Select a suitable background image for your board game."
+      "label": "Imatge de fons del tauler",
+      "description": "Seleccioneu una imatge de fons per al tauler del vostre joc."
     },
     {
-      "label": "Board size",
-      "description": "Specifiy how much space (in px) the board game should take up. The aspect ratio should match the one of your background image.",
+      "label": "Mida del tauler",
+      "description": "Especifiqueu les dimensions del tauler de joc en píxels. La proporció entre amplada i alçada del tauler s'ha de correspondre amb la de la imatge de fons.",
       "fields": [
         {},
         {}
       ]
     },
     {
-      "label": "Enable dropshadow",
-      "description": "Enable a drop shadow around the board. If enabled the board takes up more space than the board size suggests"
+      "label": "Habilita l'ombra",
+      "description": "Habilita una ombra al voltant del tauler. Si activeu aquesta opció, el tauler ocuparà una mica més d'espai que l'indicat a l'apartat de dimensions."
     },
     {
-      "label": "Game introduction",
+      "label": "Introducció al joc",
       "fields": [
         {
-          "label": "Welcome and instruction text",
-          "description": "Explain what the user should do and what the point of the game is."
+          "label": "Benvinguda i instruccions",
+          "description": "Expliqueu de què va el joc i què ha de fer l'usuari."
         },
         {
-          "label": "Button text",
-          "description": "Label of the button the user has to press to start the game."
+          "label": "Text del botó d'inici",
+          "description": "Text que es mostrarà al botó que l'usuari ha de pitjar per iniciar el joc."
         }
       ]
     },
     {
-      "label": "Hotspots",
+      "label": "Zones sensibles",
       "entity": "hotspot",
-      "description": "Hotspots are mini-games that are placed on the board. E.g. Quiz, Hangman.",
+      "description": "El tauler de joc conté zones sensibles que es corresponen amb minijocs diferents. Per exemple: Preguntes, Penjat.",
       "field": {
-        "label": "Hotspot",
+        "label": "Zona sensible",
         "fields": [
           {
-            "label": "Title",
-            "description": "Give your hotspot a name."
+            "label": "Títol",
+            "description": "Títol de la zona sensible."
           },
           {
-            "label": "Hotspot image",
-            "description": "Image used on the board for users to idenitify the hotspot."
+            "label": "Imatge - Inicial",
+            "description": "Imatge que identificarà aquesta zona sensible al tauler."
           },
           {
-            "label": "Hotspot image - Passed",
-            "description": "The hotspot image will changed to this once the user has completed a minigame and passed."
+            "label": "Imatge - Passada",
+            "description": "Imatge que representarà la zona sensible quan l'usuari hagi fet el minijoc i l'hagi completat correctament."
           },
           {
-            "label": "Hotspot image - Failed",
-            "description": "The hotspot image will change to this if the user fails."
+            "label": "Imatge - Fallada",
+            "description": "Imatge que representarà la zona sensible quan l'usuari hagi fet el minijoc amb errors."
           },
           {
-            "label": "Hotspot position",
-            "description": "Position the hotspot on the game board by using coordinates in pixels.",
+            "label": "Posiciód e la zona sensible",
+            "description": "Posició de la cantonada superior esquerra de la zona sensible dins del tauler de joc, amb coordenades mesurades en píxels.",
             "default": {},
             "fields": [
               {},
@@ -66,28 +66,28 @@
             ]
           },
           {
-            "label": "Action",
-            "description": "Choose the minigame to start when the user chooses this hotspot."
+            "label": "Acció",
+            "description": "Escolliu el minijoc que s'iniciarà quan l'usuari faci clic en aquesta zona sensible."
           }
         ]
       }
     },
     {
-      "label": "Progress indicator",
+      "label": "Indicador de progrés",
       "fields": [
         {
-          "label": "Enable progress indicator"
+          "label": "Habilita l'indicador de progrés"
         },
         {
           "entity": "image",
-          "description": "Select images to use as a progress indicator. One for each progress step plus one for no answers given yet.",
+          "description": "Seleccioneu les imatges a utilitzar per a l'indicador de progrés. Cal una imatge per a cada pas, més una altra per quan encara no hi hagi cap resultat.",
           "field": {
             "label": 0
           }
         },
         {
-          "label": "Progress indicator position",
-          "description": "Position the progress indicator on the board using pixel coordinates.",
+          "label": "Posició de l'indicador de progrés",
+          "description": "Posició de l'indicador de progrés dins del tauler, amb coordenades mesurades en píxels.",
           "fields": [
             {},
             {}
@@ -96,53 +96,53 @@
       ]
     },
     {
-      "label": "Game finished",
+      "label": "Joc acabat",
       "fields": [
         {
-          "label": "Finished video",
-          "description": "Video to play before the game results are shown."
+          "label": "Vídeo d'acabament",
+          "description": "Vídeo que es reproduïrà abans de mostrar els resultats."
         },
         {
-          "label": "Allow skipping of finished video."
+          "label": "Permet a l'usuari saltar-se el vídeo d'acabament."
         },
         {
-          "label": "Skip button text",
-          "description": "Label for the button the user has to press to skip the finished video."
+          "label": "Botó de saltar-se el vídeo",
+          "description": "Text que es mostrarà al botó que permet saltar-se el vídeo d'acabament."
         }
       ]
     },
     {
-      "label": "Game results",
+      "label": "Resultats del joc",
       "fields": [
         {
-          "label": "Result text",
-          "description": "The text explaining the game score. Variables: @score, @total, @percentage."
+          "label": "Resultat",
+          "description": "Indiqueu un text explicant la puntuació obtinguda en el joc. Podeu utilitzar les variables: @score (puntuació), @total, @percentage."
         },
         {
-          "label": "Retry button text",
-          "description": "Label for the button the user has to press to start over."
+          "label": "Botó 'Reintenta'",
+          "description": "Text que es mostrarà al botó que permet tornar a començar de nou."
         },
         {
-          "label": "Show solutions button",
-          "description": "Label for the button the user has to press to view the solutions."
+          "label": "Botó 'Mostra la solució'",
+          "description": "Text que es mostrarà als botons que l'usuari ha de prémer per veure les solucions."
         }
       ]
     },
     {
-      "label": "Settings for \"Show solution\" button and \"Retry\".",
-      "description": "These options will let you override when to display \"Show solution\" button and \"Retry\" in integrated h5p content.",
+      "label": "Configuració dels botons \"Mostra la solució\" i \"Reintenta\".",
+      "description": "Aquestes opcions permeten mostrar o amagar els botons encara que les opcions de l'activitat HP5 en la plataforma (Moodle, Wordpress, Drupal...) indiquin el contrari.",
       "fields": [
         {
-          "label": "Enable override for \"Show solution\" and \"Retry\" settings.",
-          "description": "If this is enabled the questions own settings will be ignored and the below settings will be used instead."
+          "label": "Força la visualització dels botons \"Mostra la solució\" i \"Reintenta\".",
+          "description": "Quan aquesta opció està activada, les opcions que es mostren a sota prevalen per sobre del que indiqui la plataforma."
         },
         {
-          "label": "Enable \"Show solution\" buttons.",
-          "description": "Enabling this option will make questions show the \"Show solution\" button."
+          "label": "Habilita els botons \"Mostra la solució\".",
+          "description": "Si habiliteu aquesta opció fareu que el botó \"Mostra la solució\" es mostri sempre."
         },
         {
-          "label": "Enable \"Retry\".",
-          "description": "Enabling this option will make the user able to \"Retry\" ."
+          "label": "Habilita \"Reintenta\".",
+          "description": "Si habiliteu aquesta opció fareu que el botó \"Reintenta\" es mostri sempre."
         }
       ]
     }

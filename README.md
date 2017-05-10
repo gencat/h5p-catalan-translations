@@ -22,7 +22,7 @@ Please double check for valid JSON syntax in your edits! Always use text editors
 | X   | h5p-audio-minimal
 | X   | h5p-audio-recorder
 | X   | h5p-blanks
-| _   | h5p-boardgame
+| X   | h5p-boardgame
 | _   | h5p-boilerplate
 | _   | h5p-call-to-action
 | _   | h5p-chart
