@@ -25,7 +25,7 @@ Please double check for valid JSON syntax in your edits! Always use text editors
 | X   | h5p-boardgame
 | _   | h5p-boilerplate
 | _   | h5p-call-to-action
-| _   | h5p-chart
+| X   | h5p-chart
 | _   | h5p-collage
 | _   | h5p-column
 | _   | h5p-columns

@@ -1,33 +1,33 @@
 {
   "semantics": [
     {
-      "label": "Type of chart",
+      "label": "Tipus de gràfic",
       "options": [
         {
-          "label": "Pie Chart"
+          "label": "Gràfic de sectors"
         },
         {
-          "label": "Bar Chart"
+          "label": "Gràfic de barres"
         }
       ]
     },
     {
-      "label": "Data elements",
+      "label": "Data dels elements",
       "entity": "option",
       "field": {
-        "label": "Data element",
+        "label": "Data de l'element",
         "fields": [
           {
-            "label": "Name"
+            "label": "Nom"
           },
           {
-            "label": "Value"
+            "label": "Valor"
           },
           {
             "label": "Color"
           },
           {
-            "label": "Font Color"
+            "label": "Color de la Font"
           }
         ]
       }
