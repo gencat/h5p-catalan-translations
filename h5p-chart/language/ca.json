@@ -12,10 +12,10 @@
       ]
     },
     {
-      "label": "Data dels elements",
+      "label": "Dades dels elements",
       "entity": "option",
       "field": {
-        "label": "Data de l'element",
+        "label": "Dades de l'element",
         "fields": [
           {
             "label": "Nom"
