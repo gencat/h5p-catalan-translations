@@ -1,8 +1,8 @@
 {
   "semantics": [
     {
-      "label": "Game title",
-      "description": "This is the title of the game you are creating."
+      "label": "Títol del joc",
+      "description": "Aquest és el títol del joc que esteu creant."
     },
     {
       "label": "Board background",
