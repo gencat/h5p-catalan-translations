@@ -2,31 +2,31 @@
   "semantics": [
     {
       "entity": "column",
-      "label": "Columns",
+      "label": "Columnes",
       "field": {
-        "label": "Column",
+        "label": "Columna",
         "fields": [
           {
-            "label": "Heading for this column",
-            "description": "Optional column heading"
+            "label": "Capçalera per a aquesta columna",
+            "description": "Capçalera opcional de la columna"
           },
           {
-            "label": "Width",
-            "description": "The columns width in percentage"
+            "label": "Amplada",
+            "description": "Amplada de la columna en percentatge"
           },
           {
-            "label": "CSS Class",
-            "description": "Optional CSS class to be added to the column for styling purposes"
+            "label": "Classe CSS",
+            "description": "Classe de CSS opcional per afegir formats a la columna"
           },
           {
-            "label": "Content"
+            "label": "Contingut"
           }
         ]
       }
     },
     {
-      "label": "Type",
-      "description": "What kind of content will be in these columns?",
+      "label": "Tipus",
+      "description": "Tipus de contingut de la columna?",
       "options": [
         {
           "label": "Misc (div tag will be used)"

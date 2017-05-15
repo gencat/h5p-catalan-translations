@@ -1,11 +1,11 @@
 {
   "semantics": [
     {
-      "label": "Preview",
-      "description": "You can move(pan) the images around by dragging them. You can also select an image and then use the + or - keys on your keyboard to zoom or simply hold down the Z key while moving your mouse wheel.",
+      "label": "Previsualització",
+      "description": "Podeu moure les imatges arrossegant-les dintre del seu espai. També podeu seleccionar una imatge i amb les tecles + i - modificar el zoom. Presionant la tecla Z a la vegada que moveu la rodeta del ratolí canvieu la mida de les imatges.",
       "fields": [
         {
-          "label": "Layout",
+          "label": "Format",
           "options": [
             {
               "label": "1"
@@ -43,16 +43,16 @@
           ]
         },
         {
-          "label": "Display options",
+          "label": "Opcions",
           "fields": [
             {
-              "label": "Height"
+              "label": "Alçada"
             },
             {
-              "label": "Spacing"
+              "label": "Espaiat"
             },
             {
-              "label": "Frame"
+              "label": "Imatge"
             }
           ]
         },
@@ -63,21 +63,21 @@
             "label": "Clip",
             "fields": [
               {
-                "label": "Image"
+                "label": "Imatge"
               },
               {
-                "label": "Offset",
+                "label": "Òfset",
                 "fields": [
                   {
-                    "label": "Top"
+                    "label": "Part superior"
                   },
                   {
-                    "label": "Left"
+                    "label": "Esquerra"
                   }
                 ]
               },
               {
-                "label": "Scale"
+                "label": "Escala"
               }
             ]
           }

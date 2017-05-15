@@ -12,7 +12,7 @@
       ]
     },
     {
-      "label": "Dades dels elements",
+      "label": "Dades del diagrama",
       "entity": "option",
       "field": {
         "label": "Dades de l'element",

@@ -2,7 +2,7 @@
   "semantics": [
     {
       "label": "Text",
-      "description": "Says hello to someone"
+      "description": "Missatge de benvinguda"
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "semantics": [
     {
-      "label": "Label",
-      "description": "Label/heading for answer when user exports all answers"
+      "label": "Etiqueta",
+      "description": "Etiqueta/capçalera per la resposta quan l'usuari exporta totes les respostes"
     },
     {},
     {
-      "label": "Export not supported label"
+      "label": "Etiqueta d'exportació no suportada"
     },
     {
-      "label": "Include comments in the exported document"
+      "label": "Afegiu comentaris en l'exportació del document"
     }
   ]
 }

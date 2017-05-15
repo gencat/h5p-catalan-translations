@@ -1,24 +1,24 @@
 {
   "semantics": [
     {
-      "label": "List of Column Content",
+      "label": "Llista del Contingut de la Columna",
       "entity": "content",
       "field": {
         "fields": [
           {
-            "label": "Content"
+            "label": "Contingut"
           },
           {
-            "label": "Separate content with a horizontal ruler",
+            "label": "Separar el contingut amb una línia horizontal",
             "options": [
               {
-                "label": "Automatic (default)"
+                "label": "Automàtic (per defecte)"
               },
               {
-                "label": "Never use ruler above"
+                "label": "Mai"
               },
               {
-                "label": "Always use ruler above"
+                "label": "Sempre"
               }
             ]
           }

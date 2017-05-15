@@ -1,36 +1,36 @@
 {
   "semantics": [
     {
-      "label": "Title",
-      "description": "Title for the export page."
+      "label": "Títol",
+      "description": "Títol del document d'exportació."
     },
     {
-      "label": "Description",
-      "description": "Description of the export page."
+      "label": "Descripció",
+      "description": "Descripció del document d'exportació."
     },
     {
-      "label": "Create document button label",
-      "description": "Text that will be displayed on the \"Create document\"-button."
+      "label": "Etiqueta del botó Crear document",
+      "description": "Text que es visualitza en el botó \"Crear document\"."
     },
     {
-      "label": "Select all exportable text button label",
-      "description": "Text that will be displayed on the \"Select all text\"-button."
+      "label": "Etiqueta del botó Seleccionar tot el text",
+      "description": "Text que es visualitza en el botó \"Seleccionar tot el text\"."
     },
     {
-      "label": "Export text button label",
-      "description": "Text that will be displayed on the \"Export text\"-button."
+      "label": "Etiqueta del botó Exportar",
+      "description": "Text que es visualitza en el botó \"Exportar text\"."
     },
     {
-      "label": "Label for help text",
-      "description": "Label for showing additional helpful information to the user."
+      "label": "Etiqueta del text d'ajuda",
+      "description": "Etiqueta per mostrar informació d'ajuda complementària per a l'usuari."
     },
     {
-      "label": "Fill in additional help information",
-      "description": "Here you can fill in additional helpful information for the user."
+      "label": "Afegiu la informació d'ajuda complementària",
+      "description": "Aquí podeu afegir la informació d'ajuda complementària per a l'usuari."
     },
     {
-      "label": "Required input missing text",
-      "description": "An error message which will be displayed if one or more required input fields have not been filled."
+      "label": "Contingut obligatori",
+      "description": "Es mostra un missastge d'error si no s'han completat els camps de contingut obligatori."
     }
   ]
 }

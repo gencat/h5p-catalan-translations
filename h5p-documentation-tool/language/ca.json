@@ -1,20 +1,20 @@
 {
   "semantics": [
     {
-      "label": "Title",
-      "description": "Title for the documentation tool."
+      "label": "Títol",
+      "description": "Títol de l'eina de documentació."
     },
     {
-      "label": "Elements",
+      "label": "Apartats",
       "widgets": [
         {
-          "label": "Default"
+          "label": "DefaultPer defecte"
         }
       ],
       "entity": "page",
       "field": {
-        "label": "Page type",
-        "description": "Library for this slide."
+        "label": "Tipus de pàgina",
+        "description": "Plantilla per a aquesta diapositiva."
       }
     }
   ]

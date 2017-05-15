@@ -1,150 +1,150 @@
 {
   "semantics": [
     {
-      "label": "Counter title",
-      "description": "Make a title for the timer."
+      "label": "Títol del Comptador",
+      "description": "Escriviu un títol per al comptador."
     },
     {
-      "label": "Textfield",
-      "description": "Text to go with the counter, @counter specifies the time variable. Other variables: @chosenDate, @months, @weeks, @days, @hours, @minutes, @seconds."
+      "label": "Nom del camp",
+      "description": "Nom associat al comptador, @counter és la variable de tipus data. Altres variables: @chosenDate, @months, @weeks, @days, @hours, @minutes, @seconds."
     },
     {
-      "label": "Select type of counter",
-      "description": "Select the type of counter to make.",
+      "label": "Selecció del tipus de comptador",
+      "description": "Seleccioneu el tipus de comptador.",
       "options": [
         {
-          "label": "Countdown timer"
+          "label": "Cronòmetre de compte enrera"
         },
         {
-          "label": "Count up, counter"
+          "label": "Cronòmetre de temps"
         },
         {
-          "label": "Stop clock"
+          "label": "Cronòmetre amb aturada"
         }
       ]
     },
     {
-      "label": "Date to count down to, or up from.",
+      "label": "Temps d'inici cap endavant, o enrera.",
       "fields": [
         {
-          "label": "Hour",
-          "description": "Select the hour of the date, 24hour format."
+          "label": "Hora",
+          "description": "Seleccioneu l'hora, en format 24 hores."
         },
         {
-          "label": "Minute",
-          "description": "Select the minute of the date."
+          "label": "Minut",
+          "description": "Seleccioneu els minuts."
         },
         {
-          "label": "Day of month",
-          "description": "Select the day of the month."
+          "label": "Dia del mes",
+          "description": "Seleccioneu el dia del mes."
         },
         {
-          "label": "Select month",
-          "description": "Select the month to count up from or down to.",
+          "label": "Mes",
+          "description": "Seleccioneu el mes.",
           "options": [
             {
-              "label": "January"
+              "label": "Gener"
             },
             {
-              "label": "February"
+              "label": "Febrer"
             },
             {
-              "label": "Mars"
+              "label": "Març"
             },
             {
-              "label": "April"
+              "label": "Abril"
             },
             {
-              "label": "May"
+              "label": "Maig"
             },
             {
-              "label": "June"
+              "label": "Juny"
             },
             {
-              "label": "July"
+              "label": "Juliol"
             },
             {
-              "label": "August"
+              "label": "Agost"
             },
             {
-              "label": "September"
+              "label": "Setembre"
             },
             {
-              "label": "October"
+              "label": "Octubre"
             },
             {
-              "label": "November"
+              "label": "Novembre"
             },
             {
-              "label": "December"
+              "label": "Decembre"
             }
           ]
         },
         {
-          "label": "Year",
-          "description": "Select the year to count up from or down to."
+          "label": "Any",
+          "description": "Seleccioneu l'any."
         }
       ]
     },
     {
-      "label": "Background image options.",
+      "label": "Imatge de fons.",
       "fields": [
         {
-          "label": "Background image",
-          "description": "An optional background image for the Counter."
+          "label": "Imatge",
+          "description": "Imatge opcional per al fons del comptador."
         },
         {
-          "label": "Show text on top of picture"
+          "label": "Mostrar text en la part superior de la imatge"
         },
         {
-          "label": "X position of text.",
-          "description": "The X-position of the counter text relative to the picture, in percentages. F.ex: 50% to center the text."
+          "label": "Valor de la X del text",
+          "description": "X de la posició relativa del text en la imatge, en percentatge. Per ex: 50% al centre."
         },
         {
-          "label": "Y position of text.",
-          "description": "The Y-position of the counter text relative to the picture, in percentages. F.ex: 50% to center the text."
+          "label": "Valor de la Y del text",
+          "description": "Y de la posició relativa del text en la imatge, en percentatge. Per ex: 50% al center."
         }
       ]
     },
     {
-      "label": "Stop clock options.",
+      "label": "Opcions per aturar el rellotge.",
       "fields": [
         {
-          "label": "Text for \"Start\" timer button"
+          "label": "Text per \"Iniciar\" en el botó del cronòmetre"
         },
         {
-          "label": "Text for \"Pause\" timer button"
+          "label": "Text per \"Pausa\" en el botó del cronòmetre"
         },
         {
-          "label": "Text for \"Restart\" timer button"
+          "label": "Text per \"Reiniciar\" en el botó del cronòmetre"
         }
       ]
     },
     {
-      "label": "Show months"
+      "label": "Mostrar mesos"
     },
     {
-      "label": "Show weeks"
+      "label": "Mostrar setmanes"
     },
     {
-      "label": "Show days"
+      "label": "Mostrar dies"
     },
     {
-      "label": "Show hours"
+      "label": "Mostar hores"
     },
     {
-      "label": "Show minutes"
+      "label": "Mostrar minuts"
     },
     {
-      "label": "Show seconds"
+      "label": "Mostrar segons"
     },
     {
-      "label": "Short format",
-      "description": "Displays the short format for the date. For example: 2d, 3h and 4m left."
+      "label": "Mostrar format",
+      "description": "Visualitzar el format curt de data. Per ex: 2d, 3h, i 4m esquerra."
     },
     {
-      "label": "Countdown finished text",
-      "description": "This text is displayed when a countdown has finished."
+      "label": "Text de finalització del compte enrera",
+      "description": "Aquest text es visualitza quan el compte enrera ha finalitzat."
     }
   ]
 }

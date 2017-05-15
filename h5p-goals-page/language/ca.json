@@ -1,20 +1,20 @@
 {
   "semantics": [
     {
-      "label": "Title",
-      "description": "Title for the goals page."
+      "label": "Títol",
+      "description": "Títol de la pàgina d'objectius."
     },
     {
-      "label": "Description",
-      "description": "Description of the goals page."
+      "label": "Descripció",
+      "description": "Descripció de la pàgina d'objectius."
     },
     {
-      "label": "Define goal link text",
-      "description": "Text that will be displayed on the button for creating a new goal."
+      "label": "Definició del text de l'enllaç a l'objectiu",
+      "description": "Text que es visualitzarà en el botó per crear un nou objectiu."
     },
     {
-      "label": "Label for a user defined goal",
-      "description": "Text that will be displayed as label on a user created goal."
+      "label": "Etiqueta Label for a user defined goal",
+      "description": "Text Text that will be displayed as label on a user created goal."
     },
     {
       "label": "Define goal placeholder",
