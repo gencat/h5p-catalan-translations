@@ -1,39 +1,39 @@
 {
   "semantics": [
     {
-      "label": "Title",
-      "description": "Title for the goals assessment page."
+      "label": "Títol",
+      "description": "Títol per a la pàgina d'avaluació d'objectius."
     },
     {
-      "label": "Description",
-      "description": "Description of the goals assessment page."
+      "label": "Descripció",
+      "description": "Descripció de la pàgina d'avaluació d'objectius."
     },
     {
-      "label": "Low rating text",
-      "description": "Text for worst rating."
+      "label": "Text per a una qualificació baixa",
+      "description": "Text que es mostra si la qualificació és baixa."
     },
     {
-      "label": "Medium rating text",
-      "description": "Text for middle rating."
+      "label": "Text per a una qualfiicació mitja",
+      "description": "Text que es mostra si la qualificació és mitja."
     },
     {
-      "label": "High rating text",
-      "description": "Text for great rating."
+      "label": "Text per a una qualificació alta",
+      "description": "Text que es mostra si la qualfiicació és alta."
     },
     {
-      "label": "No goals text",
-      "description": "Feedback text when no goals have been created."
+      "label": "Text No objectius",
+      "description": "Text que es mostra quan no s'han creat objectius."
     },
     {
-      "label": "Goal specification label"
+      "label": "Etiqueta d'especificació d'objectiu"
     },
     {
-      "label": "Label for help text",
-      "description": "Label for showing additional helpful information to the user."
+      "label": "Etiqueta per al text d'ajuda",
+      "description": "Etiqueta per mostrar informació d'ajuda per a l'usuari."
     },
     {
-      "label": "Fill in additional help information",
-      "description": "Here you can fill in additional helpful information for the user."
+      "label": "Camp amb informació d'ajuda adicional",
+      "description": "Aquí podeu afegir informació d'ajuda adicional per a l'usuari."
     }
   ]
 }

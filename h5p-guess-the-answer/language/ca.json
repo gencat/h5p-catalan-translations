@@ -1,20 +1,20 @@
 {
   "semantics": [
     {
-      "label": "Task description",
-      "description": "Describe how the user should solve the task."
+      "label": "Descripció de l'activitat",
+      "description": "Descriu com l'usuari pot resoldre l'activitat."
     },
     {
-      "label": "Solution image",
-      "description": "Users will guess the solution from this picture."
+      "label": "Imatge per a la solució",
+      "description": "Els usuaris han d'endevinar la solució per a aquesta imatge."
     },
     {
-      "label": "Descriptive solution label",
-      "description": "Clickable text area where the solution will be displayed."
+      "label": "Etiqueta descriptiva de la solució",
+      "description": "Text que en fer clic mostra la solució."
     },
     {
-      "label": "Solution text",
-      "description": "The solution for the picture."
+      "label": "Text solució",
+      "description": "Solució per a la imatge."
     }
   ]
 }

@@ -1,47 +1,47 @@
 {
   "semantics": [
     {
-      "label": "Title"
+      "label": "Títol"
     },
     {
-      "label": "Task description"
+      "label": "Descripció de l'activitat"
     },
     {
       "widgets": [
         {
-          "label": "Default"
+          "label": "Per defecte"
         }
       ],
-      "label": "Dialogs",
+      "label": "Targeta",
       "entity": "dialog",
       "field": {
-        "label": "Question",
+        "label": "Pregunta",
         "fields": [
           {
             "label": "Text",
-            "description": "Hint for the first part of the dialogue"
+            "description": "Pista per a la primera part de la targeta"
           },
           {
-            "label": "Answer",
-            "description": "Hint for the second part of the dialogue"
+            "label": "Pregunta",
+            "description": "Pista per a la segona part de la targeta"
           },
           {
-            "label": "Image",
-            "description": "Optional image for the card. (The card may use just an image, just a text or both)"
+            "label": "Imatge",
+            "description": "Imatge opcional de la targeta. En la targeta podeu afegir una imatge, un text o els dos elements."
           },
           {
-            "label": "Audio files"
+            "label": "Fitxer d'audio"
           },
           {
-            "label": "Tips",
+            "label": "Suggeriment",
             "fields": [
               {
-                "label": "Tip for text",
-                "description": "Tip for the first part of the dialogue"
+                "label": "Text",
+                "description": "Suggeriment per a la primera part de la targeta"
               },
               {
-                "label": "Tip for answer",
-                "description": "Tip for the second part of the dialogue"
+                "label": "Suggeriment per la Pregunta",
+                "description": "Suggeriment per a la segona part de la targeta"
               }
             ]
           }
@@ -49,41 +49,41 @@
       }
     },
     {
-      "label": "Behavioural settings.",
-      "description": "These options will let you control how the task behaves.",
+      "label": "Comportament.",
+      "description": "Aquestes opcions permeten controlar el comportament de l'activat.",
       "fields": [
         {
-          "label": "Enable \"Retry\" button"
+          "label": "botó Habilitar \"Reintentar\""
         },
         {
-          "label": "Disable backwards navigation",
-          "description": "This option will only allow you to move forward with Dialog Cards"
+          "label": "Inhabilitar la navegació enrera",
+          "description": "Aquesta opció permet, exclusivament, la navegació cap endavant"
         },
         {
-          "label": "Scale the text to fit inside the card",
-          "description": "Unchecking this option will make the card adapt its size to the size of the text"
+          "label": "Ajustar el text a la mida de la tarjeta",
+          "description": "Desmarcant aquesta opció la mida de la targeta s'adapta a la mida del text."
         },
         {
-          "label": "Randomize cards",
-          "description": "Enable to randomize the order of cards on display."
+          "label": "Ordre aleatori",
+          "description": "Habilitar l'ordre aleatori de les targetes."
         }
       ]
     },
     {
-      "label": "Text for the turn button"
+      "label": "Text per al botó de girar la targeta"
     },
     {
-      "label": "Text for the next button"
+      "label": "Text per al botó següent"
     },
     {
-      "label": "Text for the previous button"
+      "label": "Text per al botó anterior"
     },
     {
-      "label": "Text for the retry button"
+      "label": "Text per al botó reintentar"
     },
     {
-      "label": "Progress text",
-      "description": "Available variables are @card and @total."
+      "label": "Text de progrés",
+      "description": "Les variables disponibles són @card i @total."
     }
   ]
 }

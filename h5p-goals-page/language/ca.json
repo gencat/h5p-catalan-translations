@@ -13,36 +13,36 @@
       "description": "Text que es visualitzarà en el botó per crear un nou objectiu."
     },
     {
-      "label": "Etiqueta Label for a user defined goal",
-      "description": "Text Text that will be displayed as label on a user created goal."
+      "label": "Etiqueta per definir un objectiu",
+      "description": "Text que es visualitza com a etiqueta per crear un objectiu."
     },
     {
-      "label": "Define goal placeholder",
-      "description": "Text that will be displayed as a placeholder when creating a new goal."
+      "label": "Definiu el text de la variable",
+      "description": "Text de variable que es mostra quan es crea un nou objectiu."
     },
     {
-      "label": "Text indicating how many goals has been added",
-      "description": "This text will follow after the amount of goals that is currently created, example: 'Goals added: 5' where 'Goals added:' is this text."
+      "label": "Text a continuació del nombre d'objectius que s'han afegit.",
+      "description": "Aquest text es mostra a continuació del nombre d'objectius, per exemple: 'Objectius afegits: 5' on 'Objectius afegits:' és aquest text."
     },
     {
-      "label": "Text for \"Finish goal\"-button"
+      "label": "Text del botó \"Objectiu finalitzat\""
     },
     {
-      "label": "Text for \"Edit goal\"-button"
+      "label": "Text del botó \"Editar objectiu\""
     },
     {
-      "label": "Text for \"Specify goal\"-button"
+      "label": "Text del botó \"Introduir objectiu\""
     },
     {
-      "label": "Text for \"Remove goal\"-button"
+      "label": "Text del botó \"Suprimir objectiu\""
     },
     {
-      "label": "Label for help text",
-      "description": "Label for showing additional helpful information to the user."
+      "label": "Text d'ajuda",
+      "description": "Etiqueta per completar informació d'ajuda a l'usuari."
     },
     {
-      "label": "Fill in additional help information",
-      "description": "Here you can fill in additional helpful information for the user."
+      "label": "Completar la informació d'ajuda",
+      "description": "Aquí podeu afegir informació complementària d'ajuda a l'usuari."
     }
   ]
 }

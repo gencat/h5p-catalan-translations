@@ -1,44 +1,44 @@
 {
   "semantics": [
     {
-      "label": "Image Hotspot Question Editor",
+      "label": "Imatge de l'editor de la pregunta Image correcta",
       "fields": [
         {
-          "label": "Background image",
+          "label": "Imatge de fons",
           "fields": [
             {
-              "label": "The title of this question",
-              "description": "Used in summaries, statistics etc."
+              "label": "Títol de la pregunta",
+              "description": "S'utilitza en resums, estadístiques etc."
             },
             {
-              "label": "Background image",
-              "description": "Select an image to use as background the image hotspot question."
+              "label": "Imatge de fons",
+              "description": "Seleccioneu una imatge per al fons de la pregunta."
             }
           ]
         },
         {
-          "label": "Hotspots",
-          "description": "Drag and drop the desired figure from the toolbar to create a new hotspot. Double-click to edit an existing hotspot. Drag the hotspot to move it. Pull the resize handler in the lower right corner to resize.",
+          "label": "Zona sensible",
+          "description": "Moveu la figura seleccionada des de la barra d'eines per crear una nova zona sensible. Feu doble clic per editar una zona sensible existent. Arrossegueu la zona per moure-la. Estireu el controlador de mida de la cantonada per redimensionar la zona.",
           "fields": [
             {
-              "label": "Task description",
-              "description": "Instructions to the user."
+              "label": "Descripció de l'activitat",
+              "description": "Instruccions per a l'usuari."
             },
             {
-              "label": "Hotspot",
+              "label": "Zona",
               "entity": "Hotspot",
               "field": {
-                "label": "Hotspot",
+                "label": "Zona",
                 "fields": [
                   {
-                    "label": "userSettings",
+                    "label": "ControlsUsuari",
                     "fields": [
                       {
-                        "label": "Correct",
-                        "description": "There can be multiple correct hotspots. However, the user gets correct/incorrect feedback immediately after first click."
+                        "label": "Correcte",
+                        "description": "Poden haver múltiples zones correctes. Tot i així, l'usuari pot rebre retroacció immediatament després de fer clic."
                       },
                       {
-                        "label": "Feedback"
+                        "label": "Retroacció"
                       }
                     ]
                   },

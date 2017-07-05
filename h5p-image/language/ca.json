@@ -1,64 +1,64 @@
 {
   "semantics": [
     {
-      "label": "Image"
+      "label": "Imatge"
     },
     {
-      "label": "Alternative text",
-      "description": "Required. If the browser can't load the image this text will be displayed instead. Also used by readspeakers."
+      "label": "Text alternatiu",
+      "description": "Aquest text es mostra quan el navegador no carrega la imatge."
     },
     {
-      "label": "Hover text",
-      "description": "Optional. This text is displayed when the user hovers his pointing device over the image."
+      "label": "Text hover",
+      "description": "Opcional. Aquest text es mostra quan l'usuari passa el cursor per sobre."
     },
     {
-      "label": "Copyright information",
+      "label": "Avís legal",
       "fields": [
         {
-          "label": "Title"
+          "label": "Títol"
         },
         {
-          "label": "Author"
+          "label": "Autor"
         },
         {
-          "label": "Source",
+          "label": "Font",
           "regexp": {}
         },
         {
-          "label": "License",
+          "label": "Llicència",
           "options": [
             {
               "label": "Undisclosed"
             },
             {
-              "label": "Attribution"
+              "label": "Reconeixement"
             },
             {
-              "label": "Attribution-ShareAlike"
+              "label": "Reconeixement-CompartirIgual"
             },
             {
-              "label": "Attribution-NoDerivs"
+              "label": "Reconeixement-SenseObresDerivades"
             },
             {
-              "label": "Attribution-NonCommercial"
+              "label": "Reconeixement-NoComercial"
             },
             {
-              "label": "Attribution-NonCommercial-ShareAlike"
+              "label": "Reconeixement-NoComercial-CompartirIgual"
             },
             {
-              "label": "Attribution-NonCommercial-NoDerivs"
+              "label": "Reconeixement-NoComercial-SenseObresDerivades"
             },
             {
               "label": "General Public License"
             },
             {
-              "label": "Public Domain"
+              "label": "Domini Públic"
             },
             {
-              "label": "Public Domain Dedication and Licence"
+              "label": "Domini Públic Dedication and Licence"
             },
             {
-              "label": "Public Domain Mark"
+              "label": "Marca de Domini Públic"
             },
             {
               "label": "Copyright"
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "label": "Image content name"
+      "label": "Nom del contingut de la Imatge"
     }
   ]
 }

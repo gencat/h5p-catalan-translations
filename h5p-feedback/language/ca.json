@@ -2,7 +2,7 @@
   "semantics": [
     {
       "label": "Text",
-      "description": "Statement that you want the user to rate"
+      "description": "Text que ha de valorar l'usuari"
     }
   ]
 }

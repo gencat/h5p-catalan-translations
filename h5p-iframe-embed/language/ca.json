@@ -1,24 +1,24 @@
 {
   "semantics": [
     {
-      "label": "Width",
-      "description": "Width of iFrame in CSS compliant format. Default: \"500px\""
+      "label": "Amplada",
+      "description": "Amplada de l'ifrmae en format compatible amb CSS. Valor per defecte: \"500px\""
     },
     {
-      "label": "Minimum width",
-      "description": "Minimum width of iFrame in CSS compliant format. Default: \"300px\""
+      "label": "amplada mínima",
+      "description": "Amplada mínima de l'iframe en format compatible amb CSS. Valor per defecte: \"300px\""
     },
     {
-      "label": "Height",
-      "description": "Height of iFrame in CSS compliant format. Default: \"500px\""
+      "label": "Altura",
+      "description": "Altura de l'iframe en format compatible amb CSS. Valor per defecte: \"500px\""
     },
     {
-      "label": "Source",
-      "description": "URI to external document, or path to document found inside H5P (under /content)"
+      "label": "Origen",
+      "description": "URI al document extern, o adreça al document dintre de H5P (sota/contingut)"
     },
     {
-      "label": "Resize supported",
-      "description": "If enabled, fullscreen button will be displayed, and H5P will be resized to fit it's surroundings"
+      "label": "Redimensionament suportat",
+      "description": "Si està desactivat, es mostra un botó de pantalla completa, i H5P es pot redimensionar."
     }
   ]
 }

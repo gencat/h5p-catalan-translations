@@ -1,32 +1,32 @@
 {
   "semantics": [
     {
-      "label": "Interactive Video Editor",
+      "label": "Editor de Vídeo Interactiu",
       "fields": [
         {
-          "label": "Upload/embed video",
+          "label": "Càrregar/Incrustar vídeo",
           "fields": [
             {
-              "label": "Video files",
-              "description": "Select the video files you wish to use in your interactive video. To ensure maximum support in browsers at least add a version of the video in webm and mp4 formats."
+              "label": "Fitxers",
+              "description": "Seleccioneu els fitxers de video que voleu afegir al vídeo interactiu. Per garantir el suport dels navegadors afegiu el vídeo eb format web i mp4."
             },
             {
-              "label": "Start screen options",
+              "label": "Opcions de la pantalla d'inici",
               "fields": [
                 {
-                  "label": "The title of this interactive video",
-                  "description": "Used in summaries, statistics etc."
+                  "label": "Títol del vídeo interactiu",
+                  "description": "S'utilitza en resums, estadístiques etc."
                 },
                 {
-                  "label": "Hide title on video start screen"
+                  "label": "Ocultar el títol del vídeo en la pantalla d'inici"
                 },
                 {
-                  "label": "Short description (Optional)",
-                  "description": "Optional. Display a short description text on the video start screen. Does not work for YouTube videos."
+                  "label": "Descripció breu (Opcional)",
+                  "description": "Opcional. Mostrar la descripció breu en la pantalla d'inici del vídeo. No funciona amb vídeos de YouTube."
                 },
                 {
-                  "label": "Poster image",
-                  "description": "Image displayed before the user launches the video. Does not work for YouTube Videos."
+                  "label": "Imatge del Poster",
+                  "description": "Mostrar la imatge abans de que l'usuari llançi el vídeo. No funciona amb vídeos de YouTube."
                 },
                 {
                   "label": "Video copyright information",
