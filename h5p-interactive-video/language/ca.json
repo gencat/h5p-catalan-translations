@@ -8,7 +8,7 @@
           "fields": [
             {
               "label": "Fitxers",
-              "description": "Seleccioneu els fitxers de video que voleu afegir al vídeo interactiu. Per garantir el suport dels navegadors afegiu el vídeo eb format web i mp4."
+              "description": "Seleccioneu els fitxers de video que voleu afegir al vídeo interactiu. Per garantir el suport dels navegadors afegiu el vídeo amb format web i mp4."
             },
             {
               "label": "Opcions de la pantalla d'inici",
@@ -25,47 +25,47 @@
                   "description": "Opcional. Mostrar la descripció breu en la pantalla d'inici del vídeo. No funciona amb vídeos de YouTube."
                 },
                 {
-                  "label": "Imatge del Poster",
+                  "label": "Imatge del Pòster",
                   "description": "Mostrar la imatge abans de que l'usuari llançi el vídeo. No funciona amb vídeos de YouTube."
                 },
                 {
-                  "label": "Video copyright information",
-                  "description": "Information regarding copyright of the video and elements used in the video."
+                  "label": "Drets d'autor del Video",
+                  "description": "Informació relacionada amb els drets d'autor del vídeo i el seu contingut."
                 }
               ]
             },
             {
-              "label": "Text tracks (subtitles, captions and descriptions)",
+              "label": "Text de les pistes (subtítols, llegendes i descripcions)",
               "fields": [
                 {
-                  "label": "Available text tracks",
+                  "label": "Text de les Pistes disponibles",
                   "entity": "Track",
                   "field": {
-                    "label": "Track",
+                    "label": "Pista",
                     "fields": [
                       {
-                        "label": "Track label"
+                        "label": "Etiqueta de la pista"
                       },
                       {
                         "label": "Type kind, refer to <a target='_blank' href=https://html.spec.whatwg.org/multipage/embedded-content.html#the-track-element>HTML living standard</a>",
                         "options": [
                           {
-                            "label": "Subtitles"
+                            "label": "Subtítols"
                           },
                           {
-                            "label": "Captions"
+                            "label": "Títol de la pista"
                           },
                           {
-                            "label": "Descriptions"
+                            "label": "Descripcions"
                           }
                         ]
                       },
                       {
-                        "label": "Source language, must be defined for subtitles",
-                        "description": "Must be a valid BCP 47 language tag. If the kind attribute is set to subtitles, then srclang must be defined."
+                        "label": "Etiqueta de la llengua original, es defineix per als subtítols",
+                        "description": "Ha de ser una etiqueta vàlida, de l'estàndard BCP 47.  Si l'etiqueta es fa servir per als subtítols, s'ha de definir ek srckabg."
                       },
                       {
-                        "label": "Track source (WebVTT file)"
+                        "label": "Origen de la pista (WebVTT file)"
                       }
                     ]
                   }
@@ -75,36 +75,36 @@
           ]
         },
         {
-          "label": "Add interactions",
+          "label": "Afegir interaccions",
           "fields": [
             {
               "field": {
                 "fields": [
                   {
-                    "label": "Display time",
+                    "label": "Mostrar el temps",
                     "fields": [
                       {},
                       {}
                     ]
                   },
                   {
-                    "label": "Pause video"
+                    "label": "Pausa video"
                   },
                   {
-                    "label": "Display as",
-                    "description": "<b>Button</b> is a collapsed interaction the user must press to open. <b>Poster</b> is an expanded interaction displayed directly on top of the video",
+                    "label": "Mostrar Display as",
+                    "description": "<b>Botó</b> l'usuari fa clic per obrir. <b>Pòster</b> es mostra directamentn sobre el vídeo",
                     "options": [
                       {
-                        "label": "Button"
+                        "label": "Botón"
                       },
                       {
-                        "label": "Poster"
+                        "label": "Pòster"
                       }
                     ]
                   },
                   {
-                    "label": "Label",
-                    "description": "Label displayed next to interaction icon."
+                    "label": "Etiqueta",
+                    "description": "Etiqueta que es mostra després de fer clic en l'icona."
                   },
                   {},
                   {},
@@ -112,47 +112,47 @@
                   {},
                   {},
                   {
-                    "label": "Adaptivity",
+                    "label": "Adaptació",
                     "fields": [
                       {
-                        "label": "Action on all correct",
+                        "label": "Acció si tot és correcte",
                         "fields": [
                           {
-                            "label": "Seek to",
-                            "description": "Enter timecode in the format M:SS"
+                            "label": "Buscar",
+                            "description": "Introduir el temps en format M:SS"
                           },
                           {
-                            "label": "Allow the user to opt out and continue"
+                            "label": "Permet continuar a l'usuari"
                           },
                           {
-                            "label": "Message"
+                            "label": "Missatge"
                           },
                           {
-                            "label": "Label for seek button"
+                            "label": "Etiqueta del botó de cerca"
                           }
                         ]
                       },
                       {
-                        "label": "Action on wrong",
+                        "label": "Acció si és incorrecte",
                         "fields": [
                           {
-                            "label": "Seek to",
-                            "description": "Enter timecode in the format M:SS"
+                            "label": "Buscar",
+                            "description": "Introduir el temps en format M:SS"
                           },
                           {
-                            "label": "Allow the user to opt out and continue"
+                            "label": "Permet continuar a l'usuari"
                           },
                           {
-                            "label": "Message"
+                            "label": "Missatge"
                           },
                           {
-                            "label": "Label for seek button"
+                            "label": "Etiqueta del botó de cerca"
                           }
                         ]
                       },
                       {
-                        "label": "Require full score for task before proceeding",
-                        "description": "For best functionality this option should be used in conjunction with the \"Prevent skipping forward in a video\" option of Interactive Video."
+                        "label": "Requereix una puntuació per l'activitat per poder continuar",
+                        "description": "Aquesta opció s'ha de fer servir conjuntament amb l'opció del vídeo interactiu \"Avançar en un vídeo\"."
                       }
                     ]
                   },
@@ -160,12 +160,12 @@
                     "label": "Visuals",
                     "fields": [
                       {
-                        "label": "Background color",
+                        "label": "Color de fosn",
                         "spectrum": {}
                       },
                       {
-                        "label": "Box shadow",
-                        "description": "Adds a subtle shadow around the interaction. You might want to disable this for completely transparent interactions"
+                        "label": "Ombra",
+                        "description": "Afegeix una ombra subtil al voltant de la interacció. Podeu desactivar aquesta opció per a interaccions transparents."
                       }
                     ]
                   },
@@ -173,19 +173,19 @@
                     "label": "Go to on click",
                     "fields": [
                       {
-                        "label": "Type",
+                        "label": "Tipus",
                         "options": [
                           {
-                            "label": "Timecode"
+                            "label": "Format de temps"
                           },
                           {
-                            "label": "Another page (URL)"
+                            "label": "URL"
                           }
                         ]
                       },
                       {
-                        "label": "Go To",
-                        "description": "The target time the user will be taken to upon pressing the hotspot. Enter timecode in the format M:SS."
+                        "label": "Anar a",
+                        "description": "Temps perquè l'usuari col·loqui l'element arrossegant la zona. Introduir el temps en format M:SS."
                       },
                       {
                         "label": "URL",
@@ -203,7 +203,7 @@
                                 "label": "(root relative)"
                               },
                               {
-                                "label": "other"
+                                "label": "altres"
                               }
                             ]
                           },
@@ -213,8 +213,8 @@
                         ]
                       },
                       {
-                        "label": "Visualize",
-                        "description": "Show that interaction can be clicked by adding a border and an icon"
+                        "label": "Visualització",
+                        "description": "Mostrar on s'ha de clicar afegit una vora o una icona. "
                       }
                     ]
                   }
@@ -232,7 +232,7 @@
           ]
         },
         {
-          "label": "Summary task",
+          "label": "Resum d'activitats",
           "fields": [
             {
               "default": {
@@ -240,51 +240,51 @@
               }
             },
             {
-              "label": "Display at",
-              "description": "Number of seconds before the video ends."
+              "label": "Mostrar a",
+              "description": "Nombre de segons abans de que finalitzi el vídeo."
             }
           ]
         }
       ]
     },
     {
-      "label": "Behavioural settings",
+      "label": "Configuració de l'entorn",
       "fields": [
         {
-          "label": "Start video at",
-          "description": "Enter timecode in the format M:SS"
+          "label": "Inici del vídeo",
+          "description": "Introduir el temps en format M:SS"
         },
         {
-          "label": "Loop the video",
-          "description": "Check if video should run in a loop"
+          "label": "Reproducció en bucle",
+          "description": "Marcar si voleu la reproducció en bucle del vídeo"
         },
         {
-          "label": "Override \"Show Solution\" button",
-          "description": "This option determines if the \"Show Solution\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "label": "Cancelar \"Mostrar la solució\" botó",
+          "description": "Aquesta opció fa que es mostri el botó \"Mostrar solució\" per a totes les preguntes, desactiveu-lo per a totes o configureu-lo per a cada una de les preguntes individualment.",
           "options": [
             {
-              "label": "Enabled"
+              "label": "Activat"
             },
             {
-              "label": "Disabled"
+              "label": "Desactivat"
             }
           ]
         },
         {
-          "label": "Override \"Retry\" button",
-          "description": "This option determines if the \"Retry\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "label": "Cancelar \"Tornar a provar\" botó",
+          "description": "Aquesta opció fa que es mostri el botó \"Torna a provar\" per a totes les preguntes, desactiveu-lo per a totes o configureu-lo per a cada una de les preguntes individualment.",
           "options": [
             {
-              "label": "Enabled"
+              "label": "Activat"
             },
             {
-              "label": "Disabled"
+              "label": "Desactivat"
             }
           ]
         },
         {
-          "label": "Start with bookmarks menu open",
-          "description": "This function is not available on iPad when using YouTube as video source."
+          "label": "Inici amb el menú de marcadors oberts.",
+          "description": "Aquesta funcionalitat no està disponible per a iPad amb vídeos de YouTube."
         },
         {
           "label": "Show button for rewinding 10 seconds"
