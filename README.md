@@ -53,7 +53,7 @@ Please double check for valid JSON syntax in your edits! Always use text editors
 | X   | h5p-image
 | X   | h5p-image-hotspot-question
 | X   | h5p-image-hotspots
-| _   | h5p-impressive-presentation
+| X   | h5p-impressive-presentation
 | X   | h5p-interactive-video
 | _   | h5p-iv-hotspot
 | X   | h5p-link

@@ -3,75 +3,75 @@
     {
       "fields": [
         {
-          "label": "Create views",
-          "description": "Here you can create views with different transitions and text.",
+          "label": "Crear vistes",
+          "description": "Aquí podeu crear vistes amb diferents transicions i text.",
           "entity": "option",
           "field": {
-            "label": "View instance",
+            "label": "Vista",
             "fields": [
               {},
               {
                 "fields": [
                   {
-                    "label": "center text"
+                    "label": "centrar el text"
                   },
                   {
-                    "label": "X position"
+                    "label": "posició de la X"
                   },
                   {
-                    "label": "Y position"
+                    "label": "posició de la Y"
                   },
                   {
-                    "label": "Z position",
-                    "description": "Negative values are further away from the camera and positive values are closer."
+                    "label": "posició de la Z",
+                    "description": "Els valors negatius estan més a lluny de la càmera i els positius més a propo de la càmera."
                   },
                   {
-                    "label": "X rotation",
-                    "description": "Default rotation is 0."
+                    "label": "Rotació en l'eix de les X",
+                    "description": "Per defecte la rotació és 0"
                   },
                   {
-                    "label": "Y rotation",
-                    "description": "Default rotation is 0."
+                    "label": "Rotació en l'eix de les Y",
+                    "description": "Per defecte la rotació és 0"
                   },
                   {
-                    "label": "Z rotation",
-                    "description": "Default rotation is 0."
+                    "label": "Rotació en l'eix de les Z",
+                    "description": "Per defecte la rotació és 0"
                   }
                 ]
               },
               {
                 "fields": [
                   {
-                    "label": "Transparent Background",
-                    "description": "Uncheck to choose background color or image"
+                    "label": "Fons transparent",
+                    "description": "Desmarcar per canviar entre color de fons i imatge"
                   },
                   {
                     "spectrum": {},
-                    "label": "Background color",
-                    "description": "Optional, can be set to have a background color for this step"
+                    "label": "Color de fons",
+                    "description": "Opcional, podeu configurar el color de fons per a aquest pas"
                   },
                   {
-                    "label": "Background image"
+                    "label": "Imatge de fons"
                   },
                   {
-                    "label": "Background width"
+                    "label": "Amplada del fons"
                   },
                   {
-                    "label": "Background height"
+                    "label": "Altura del fons"
                   }
                 ]
               },
               {
-                "label": "Ordering",
+                "label": "Ordre",
                 "fields": [
                   {
-                    "label": "Include step in path"
+                    "label": "Afegir un pas en la presentació"
                   },
                   {
-                    "label": "Index in path"
+                    "label": "Índex enla presentació"
                   },
                   {
-                    "label": "User defined name"
+                    "label": "Nom d'usuari definit"
                   }
                 ]
               }
