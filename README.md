@@ -47,7 +47,7 @@ Please double check for valid JSON syntax in your edits! Always use text editors
 | X   | h5p-goals-assessment-page
 | X   | h5p-goals-page
 | X   | h5p-go-to-question
-| _   | h5p-greeting-card
+| X   | h5p-greeting-card
 | X   | h5p-guess-the-answer
 | X   | h5p-iframe-embed
 | X   | h5p-image

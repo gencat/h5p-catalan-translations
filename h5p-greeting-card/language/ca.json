@@ -1,12 +1,12 @@
 {
   "semantics": [
     {
-      "label": "Greeting text",
-      "description": "The greeting text displayed to the end user."
+      "label": "Text de benvinguda",
+      "description": "Text de benvinguda que es mostra a l'usuari."
     },
     {
-      "label": "Card image",
-      "description": "Image shown on card, optional. Without this the card will show just the text."
+      "label": "Imatge de la targeta",
+      "description": "Opcional. Imatge que es mostra en la targeta. Sense aquesta imatge només es mostrarà el text."
     }
   ]
 }
