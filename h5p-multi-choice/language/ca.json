@@ -1,43 +1,43 @@
 {
   "semantics": [
     {
-      "label": "Media",
+      "label": "Multimedia",
       "fields": [
         {
-          "label": "Type",
-          "description": "Optional media to display above the question."
+          "label": "Tipus",
+          "description": "Opcional. Element multimedia que es mostra amb la pregunta."
         }
       ]
     },
     {
-      "label": "Question"
+      "label": "Pregunta"
     },
     {
-      "label": "Available options",
+      "label": "Opcions disponibles",
       "entity": "option",
       "field": {
-        "label": "Option",
+        "label": "Opció",
         "fields": [
           {
             "label": "Text"
           },
           {
-            "label": "Correct"
+            "label": "Correcte"
           },
           {
-            "label": "Tips and feedback",
+            "label": "Pistes i retroacció",
             "fields": [
               {
-                "label": "Tip text",
-                "description": "Hint for the user. This will appear before user checks his answer/answers."
+                "label": "Text de la pista",
+                "description": "Pista per l'usuari. Es mostra després de que l'usuari comprovi la rsposta/es."
               },
               {
-                "label": "Message displayed if answer is selected",
-                "description": "Message will appear below the answer on \"check\" if this answer is selected."
+                "label": "Missatge que es mostra quan es selecciona la resposta",
+                "description": "Missatge que l'usuari veu sota de la resposta quan fa \"clic\" si la resposta s'ha seleccionat."
               },
               {
-                "label": "Message displayed if answer is not selected",
-                "description": "Message will appear below the answer on \"check\" if this answer is not selected."
+                "label": "Missatge que es mostra si la resposta no s'ha seleccionat",
+                "description": "Missatge que l'usuari veu sota de la resposta quan fa \"clic\" si la resposta no s'ha seleccionat."
               }
             ]
           }
@@ -45,153 +45,153 @@
       }
     },
     {
-      "label": "User interface translations for multichoice",
+      "label": "Utilitzar la intefície de traducció per a multiopcions",
       "fields": [
         {
-          "label": "Check answer button label"
+          "label": "Etiqueta del botó Comprovar resposta"
         },
         {
-          "label": "Show solution button label"
+          "label": "Etiqueta del botó Mostar solució"
         },
         {
-          "label": "Retry button label"
+          "label": "Etiqueta del botó Tornar a provar"
         },
         {
-          "label": "Tip label"
+          "label": "Etiqueta de pista"
         },
         {
-          "label": "Correct answer feedback"
+          "label": "Retroacció de les respostes correctes"
         },
         {
-          "label": "Almost correct answer feedback"
+          "label": "Retroacció estàndard de les respostes correctes"
         },
         {
-          "label": "Not correct answer feedback"
+          "label": "Retroacció estàndard de les respostes incorrectes"
         },
         {
-          "label": "Score Bar Label"
+          "label": "Etiqueta del marcador"
         },
         {
-          "label": "Tip Available (not displayed)",
-          "description": "Accessibility text used for readspeakers"
+          "label": "Ajudes disponibles (no es mostren)",
+          "description": "Text d'accessibilitat per a lectors"
         },
         {
-          "label": "Feedback Available (not displayed)",
-          "description": "Accessibility text used for readspeakers"
+          "label": "Retroacció disponible (no es mostren)",
+          "description": "Text d'accessibilitat per a lectors"
         },
         {
-          "label": "Read Feedback (not displayed)",
-          "description": "Accessibility text used for readspeakers"
+          "label": "Lectura de la retroacció (no es mostren)",
+          "description": "Text d'accessibilitat per a lectors"
         },
         {
-          "label": "Wrong Answer (not displayed)",
-          "description": "Accessibility text used for readspeakers"
+          "label": "Resposta incorrecta (no es mostren)",
+          "description": "Text d'accessibilitat per a lectors"
         },
         {
-          "label": "Correct Answer (not displayed)",
-          "description": "Accessibility text used for readspeakers"
+          "label": "Resposta correcta (no es mostren)",
+          "description": "Text d'accessibilitat per a lectors"
         },
         {
-          "label": "Feedback text",
-          "description": "Feedback text, variables available: @score and @total. Example: 'You got @score of @total points.'"
+          "label": "Text de retroacció",
+          "description": "Text de retroacció, variables disponibles: @score i @total. Exemple: 'La teva puntuació és @score de @total punts.'"
         },
         {
-          "label": "Option should have been checked"
+          "label": "Hauríeu d'haver seleccionat l'opció"
         },
         {
-          "label": "Option should not have been checked"
+          "label": "No hauríeu d'haver seleccionat l'opció"
         },
         {
-          "label": "Text for \"Requires answer\" message"
+          "label": "Text per al missatge \"Resposta obligatoria\""
         }
       ]
     },
     {
-      "label": "Behavioural settings",
-      "description": "These options will let you control how the task behaves.",
+      "label": "Configuració",
+      "description": "Aquestes opcions permeten configurar la resposta del sistema.",
       "fields": [
         {
-          "label": "Enable \"Retry\" button"
+          "label": "Activar el botó \"Tornar a provar\""
         },
         {
-          "label": "Enable \"Show Solution\" button"
+          "label": "Activar el botó \"Mostrar solució\" "
         },
         {
-          "label": "Question Type",
-          "description": "Select the look and behaviour of the question.",
+          "label": "Tipus de pregunta",
+          "description": "Seleccionar el tipus de pregunta i el seu comportament.",
           "options": [
             {
               "label": "Automatic"
             },
             {
-              "label": "Multiple Choice (Checkboxes)"
+              "label": "Opció múltiple (Caixes de selecció)"
             },
             {
-              "label": "Single Choice (Radio Buttons)"
+              "label": "Opció única (Botó de selecció)"
             }
           ]
         },
         {
-          "label": "Give one point for the whole task",
-          "description": "Enable to give a total of one point for multiple correct answers. This will not be an option in \"Single answer\" mode."
+          "label": "Doneu un punt per a tota la tasca",
+          "description": "Activar donar un punt per a tota la tasca per a totes les respostes correctes. Aquesta o és una opció vàlida per a preguntes d'\"Opciò única\""
         },
         {
-          "label": "Randomize answers",
-          "description": "Enable to randomize the order of questions on display."
+          "label": "Respostes aleatòries",
+          "description": "Activar l'ordre aleatori de les respostes."
         },
         {
-          "label": "Require answer before the solution can be viewed"
+          "label": "Requerir resposta abans de veure la solució"
         },
         {
-          "label": "Disable image zooming for question image"
+          "label": "Mostrar el zoom de la imatge de la pregunta"
         },
         {
-          "label": "Show confirmation dialog on \"Check\""
+          "label": "Mostrar text de comprovació per \"Comprovar\""
         },
         {
-          "label": "Show confirmation dialog on \"Retry\""
+          "label": "Mostrar text de comprovació per \"Tornar a provar\""
         },
         {
-          "label": "Automatically check answers",
-          "description": "Enabling this option will make accessibility suffer, make sure you know what you're doing."
+          "label": "Comprovació automàtica de les respostes",
+          "description": "Si aquesta opció està habilitada, l'accessibilitat es veurà afectada, assegureu-vos de les implicacions que té."
         },
         {
-          "label": "Pass percentage",
-          "description": "This setting often won't have any effect. It is the percentage of the total score required for getting 1 point when one point for the entire task is enabled, and for getting result.success in xAPI statements."
+          "label": "Percentatge mínim",
+          "description": "Aquesta configuració normalment no té cap efecte. És el percentatge de la puntuació total necessària per obtenir 1 punt quan s'ha habilitat un punt per a tota l'activitat "
         }
       ]
     },
     {
-      "label": "Check confirmation dialog",
+      "label": "Text de confirmació de Comprovar",
       "fields": [
         {
-          "label": "Header text"
+          "label": "Text de la capçalera"
         },
         {
-          "label": "Body text"
+          "label": "Text del contingut"
         },
         {
-          "label": "Cancel button label"
+          "label": "Etiqueta del butó Cancelar"
         },
         {
-          "label": "Confirm button label"
+          "label": "Etiqueta del botó Confirmar"
         }
       ]
     },
     {
-      "label": "Retry confirmation dialog",
+      "label": "Text de confirmació de Tornar a provar",
       "fields": [
         {
-          "label": "Header text"
+          "label": "Text de la capçalera"
         },
         {
-          "label": "Body text"
+          "label": "Text del contingut"
         },
         {
-          "label": "Cancel button label"
+          "label": "Etiqueta del butó Cancelar"
         },
         {
-          "label": "Confirm button label"
+          "label": "Etiqueta del botó Confirmar"
         }
       ]
     }

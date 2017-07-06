@@ -60,7 +60,7 @@ Please double check for valid JSON syntax in your edits! Always use text editors
 | X   | h5p-mark-the-words
 | X   | h5p-memory-game
 | X   | h5p-mini-course
-| _   | h5p-multi-choice
+| X   | h5p-multi-choice
 | _   | h5p-nil
 | _   | h5p-open-ended-question
 | _   | h5p-pages
