@@ -1,22 +1,22 @@
 {
   "semantics": [
     {
-      "label": "From Language"
+      "label": "De quin idioma"
     },
     {
-      "label": "To Language"
+      "label": "A quin idioma"
     },
     {
-      "label": "Words",
+      "label": "Paraules",
       "entity": "word",
       "field": {
-        "label": "Word",
+        "label": "Paraula",
         "fields": [
           {
             "label": "Original"
           },
           {
-            "label": "Translation"
+            "label": "Traducció"
           }
         ]
       }
@@ -25,28 +25,28 @@
       "label": "Localization",
       "fields": [
         {
-          "label": "Translate From Label"
+          "label": "Etiqueta per a l'idioma origen"
         },
         {
-          "label": "Translate To Label"
+          "label": "Etiqueta per a l'idioma a traduir"
         },
         {
-          "label": "Start Button Label"
+          "label": "Etiqueta per al botó Inici"
         },
         {
-          "label": "Finish Button Label"
+          "label": "Etiqueta per al botó Fi"
         },
         {
-          "label": "Continue Button Label"
+          "label": "Etiqueta per al botó Continuar"
         },
         {
-          "label": "Check Answers Button Label"
+          "label": "Etiqueta per al botó Comprovar"
         },
         {
-          "label": "Summary Text"
+          "label": "Text per al resum"
         },
         {
-          "label": "Start Over Button Label"
+          "label": "Etiqueta Tornar a començar"
         }
       ]
     }

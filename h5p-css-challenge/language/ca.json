@@ -1,28 +1,28 @@
 {
   "semantics": [
     {
-      "label": "Challenge description"
+      "label": "Descripció del repte"
     },
     {
-      "label": "Existing rules",
+      "label": "Regles",
       "entity": "Rule",
       "field": {
-        "label": "Type in existing rule"
+        "label": "Tipus de regla"
       }
     },
     {
-      "label": "Answer css rule(s)",
+      "label": "css de la resposta(es) ",
       "entity": "Rule",
       "field": {
-        "label": "Type in answer rule",
+        "label": "Tipus de resposta",
         "fields": [
           {
-            "label": "Main rule"
+            "label": "Regla principal"
           },
           {
-            "label": "Alternatives to main rule",
+            "label": "Alternativa a la regla principal",
             "field": {
-              "label": "Alternative css rule"
+              "label": "css alternatiu"
             }
           }
         ]
@@ -32,10 +32,10 @@
       "label": "Localization",
       "fields": [
         {
-          "label": "Input description"
+          "label": "Descripció"
         },
         {
-          "label": "Target element class"
+          "label": "Classe de l'element"
         }
       ]
     }

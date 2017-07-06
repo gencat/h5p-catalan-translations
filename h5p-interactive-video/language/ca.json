@@ -287,15 +287,15 @@
           "description": "Aquesta funcionalitat no està disponible per a iPad amb vídeos de YouTube."
         },
         {
-          "label": "Show button for rewinding 10 seconds"
+          "label": "Mostrar el botó durant 10 segons"
         },
         {
-          "label": "Prevent skipping forward in a video",
-          "description": "Enabling this options will disable user video navigation through default controls."
+          "label": "Evitar anar cap endavant en un vídeo",
+          "description": "Habilitant aquesta opció es desactiva la navegació en el vídeo amb els controls predeterminats."
         },
         {
-          "label": "Deactivate sound",
-          "description": "Enabling this option will deactivate the video's sound and prevent it from being switched on."
+          "label": "Desactivar el so",
+          "description": "Habilitant aquesta opoció es desactiva el so del video."
         }
       ]
     },
@@ -306,61 +306,61 @@
           "label": "Interaction title"
         },
         {
-          "label": "Play title"
+          "label": "Títol de la reproducció"
         },
         {
-          "label": "Pause title"
+          "label": "Títol de la pausa"
         },
         {
-          "label": "Mute title"
+          "label": "Títol de mut"
         },
         {
-          "label": "Unmute title"
+          "label": "Títol silenciar"
         },
         {
-          "label": "Video quality title"
+          "label": "Títol qualitat del vídeo"
         },
         {
-          "label": "Video captions title"
+          "label": "Títol títol del vídeo"
         },
         {
-          "label": "Close button text"
+          "label": "Text del botó tancar"
         },
         {
-          "label": "Fullscreen title"
+          "label": "Títol Pantalla completa"
         },
         {
-          "label": "Exit fullscreen title"
+          "label": "Títol sortir de la pantalla completa"
         },
         {
-          "label": "Summary title"
+          "label": "Títol del resum"
         },
         {
-          "label": "Bookmarks title"
+          "label": "Títol del Bookmarks"
         },
         {
-          "label": "Default label for adaptivity seek button"
+          "label": "Etiqueta per defecte per adaptar el botó de cerca"
         },
         {
-          "label": "Default label for continue video button"
+          "label": "Etiqueta per defecte del botó per continuar el vídeo"
         },
         {
-          "label": "Set playback rate"
+          "label": "Definir la velocitat de reproducció"
         },
         {
-          "label": "Rewind 10 Seconds"
+          "label": "Esperar 10 segons"
         },
         {
-          "label": "Navigation is disabled text"
+          "label": "Text de desabilitar la navegació"
         },
         {
-          "label": "Sound is disabled text"
+          "label": "Text de desabilitar el so"
         },
         {
-          "label": "Warning that the user must answer the question correctly before continuing"
+          "label": "Avís a l'usuari de resposta correcta abans de continuar."
         },
         {
-          "label": "Back button"
+          "label": "Butó de retrocés"
         }
       ]
     }

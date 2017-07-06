@@ -1,13 +1,13 @@
 {
   "semantics": [
     {
-      "label": "Cards",
+      "label": "Targeta",
       "entity": "card",
       "field": {
-        "label": "Card",
+        "label": "Targeta",
         "fields": [
           {
-            "label": "Image"
+            "label": "Imatge"
           },
           {
             "label": "Matching Image",
@@ -33,7 +33,7 @@
           "description": "Setting this to a number greater than 2 will make the game pick random cards from the list of cards."
         },
         {
-          "label": "Add button for retrying when the game is over"
+          "label": "Afegir un botó per tornar a començar quen el joc ha acabat"
         }
       ]
     },
@@ -41,16 +41,16 @@
       "label": "Localization",
       "fields": [
         {
-          "label": "Card turns text"
+          "label": "Text per girar la targeta"
         },
         {
-          "label": "Time spent text"
+          "label": "Text del temps de joc"
         },
         {
-          "label": "Feedback text"
+          "label": "Text de retroacció"
         },
         {
-          "label": "Try again button text"
+          "label": "Text del botó tornar a provar"
         }
       ]
     }

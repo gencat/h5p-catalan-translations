@@ -1,40 +1,40 @@
 {
   "semantics": [
     {
-      "label": "Title"
+      "label": "Títol"
     },
     {
-      "label": "Pages",
+      "label": "Pàgines",
       "entity": "page",
       "widgets": [
         {
-          "label": "Default"
+          "label": "Per defecte"
         }
       ],
       "field": {
-        "label": "Page",
+        "label": "Pàgina",
         "entity": "page element",
         "field": {
           "label": "Element",
           "fields": [
             {
-              "label": "Image"
+              "label": "Imatge"
             },
             {
-              "label": "Image height in percent",
-              "description": "The height using <a target=\"blank\" href=\"https://www.w3.org/TR/css3-values/#viewport-relative-lengths\">vmin unit</a>."
+              "label": "Altura de la imatge en percentatge",
+              "description": "L'altura expressada com a percentatge del costat més petit de la finestra del navegador (vmin)."
             },
             {
-              "label": "Title"
+              "label": "Títol"
             },
             {
-              "label": "Description"
+              "label": "Descripció"
             },
             {
-              "label": "Link",
+              "label": "Enllaç",
               "fields": [
                 {
-                  "label": "Title"
+                  "label": "Títol"
                 },
                 {
                   "label": "URL",
@@ -52,7 +52,7 @@
                           "label": "(root relative)"
                         },
                         {
-                          "label": "other"
+                          "label": "altres"
                         }
                       ]
                     },
@@ -67,11 +67,11 @@
               "label": "Visuals",
               "fields": [
                 {
-                  "label": "Background color",
+                  "label": "Color de fons",
                   "spectrum": {}
                 },
                 {
-                  "label": "Foreground color",
+                  "label": "Color de primer pla",
                   "spectrum": {}
                 }
               ]
@@ -81,14 +81,14 @@
       }
     },
     {
-      "label": "Settings",
+      "label": "Configuració",
       "fields": [
         {
-          "label": "Start in fullscreen mode"
+          "label": "Iniciar mode de pantalla completa"
         },
         {
-          "label": "Use browser's fullscreen mode",
-          "description": "Only applicable if <b>start in fullscreen mode</b> is disabled",
+          "label": "Mode pantalla completa del navegador",
+          "description": "Només es pot aplicar si el mode pantalla completa està desactivat",
           "showWhen": {
             "rules": [
               {}
@@ -96,16 +96,16 @@
           }
         },
         {
-          "label": "Show navigation dots"
+          "label": "Mostrar punts de navegació"
         },
         {
           "label": "zIndex",
-          "description": "If there are elements on your page being shown on top of this presentation, try increasing this number"
+          "description": "Si hi ha elements a la pàgina que es mostren per sobre de la presentació, proveu d'augmentar aquest número."
         }
       ]
     },
     {
-      "label": "Open content button label"
+      "label": "Etiqueta del botó obrir contingut"
     }
   ]
 }

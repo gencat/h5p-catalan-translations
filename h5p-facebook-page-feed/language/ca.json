@@ -1,48 +1,48 @@
 {
   "semantics": [
     {
-      "label": "URL to the Facebook Page",
-      "description": "URL for the Facebook Page"
+      "label": "URL al Facebook",
+      "description": "URL a la pàgina de Facebook"
     },
     {
-      "label": "Color Scheme on the Box",
+      "label": "Paleta de color de la caixa",
       "options": [
         {
-          "label": "Light"
+          "label": "Lluminositat"
         },
         {
-          "label": "Dark"
+          "label": "Contrast"
         }
       ],
-      "description": "Determine which color scheme to use"
+      "description": "Determineu la paleta de colors"
     },
     {
-      "label": "Only Check-ins",
+      "label": "Només comprovacions",
       "description": "Specifies whether the stream contains posts by the Page or just Check-ins from friends"
     },
     {
-      "label": "Show Header",
-      "description": "Specifies whether the header should be visible or not"
+      "label": "Mostrar la capçalera",
+      "description": "Especificar si la capçalera ha d'estar visible o no"
     },
     {
-      "label": "Show Border",
-      "description": "Specifies whether or not Borders should be visible"
+      "label": "Mostrar vora",
+      "description": "Especificar si les vores han d'estar visibles"
     },
     {
-      "label": "Show Faces",
-      "description": "Specifies whether to display profile photos of people who like the page."
+      "label": "Mostrar Cares",
+      "description": "Especificar si es mostra la foto del perfíl que surten en la pàgina."
     },
     {
-      "label": "Show Stream",
-      "description": "specifies whether or not the Stream from the Page is visible"
+      "label": "Mostrar Show Stream",
+      "description": "Especificar si l'activitat de la pàgina està visible"
     },
     {
-      "label": "Height",
-      "description": "Set Height of the Faceook Page Feed"
+      "label": "Altura",
+      "description": "Determinar l'altrua del canal de la pàgina del Facebook"
     },
     {
-      "label": "Width",
-      "description": "Set Width of the Facebook Page Feed"
+      "label": "Amplada",
+      "description": "Determinar l'amplada del canal de la pàgina del Facebook"
     }
   ]
 }

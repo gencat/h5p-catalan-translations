@@ -1,36 +1,36 @@
 {
   "semantics": [
     {
-      "label": "Task description"
+      "label": "Descripció de l'activitat"
     },
     {
       "widgets": [
         {
-          "label": "Default"
+          "label": "Per defecte"
         }
       ],
-      "label": "Cards",
+      "label": "Targetes",
       "entity": "card",
       "field": {
-        "label": "Card",
+        "label": "Targeta",
         "fields": [
           {
-            "label": "Question",
-            "description": "Optional textual question for the card. (The card may use just an image, just a text or both)"
+            "label": "Pregunta",
+            "description": "Opcional. Text de la pregunta de la targeta. (La targeta pot tenir imatge, text o tots dos)."
           },
           {
-            "label": "Answer",
-            "description": "Optional answer(solution) for the card."
+            "label": "Resposta",
+            "description": "Opcional. Resposta (solució) de la targeta."
           },
           {
-            "label": "Image",
-            "description": "Optional image for the card. (The card may use just an image, just a text or both)"
+            "label": "Imatge",
+            "description": "Imatge opcional de la targeta (La targeta pot tenir imatge, text o tots dos)"
           },
           {
-            "label": "Tip",
+            "label": "Pista",
             "fields": [
               {
-                "label": "Tip text"
+                "label": "Text de la pista"
               }
             ]
           }
@@ -38,36 +38,36 @@
       }
     },
     {
-      "label": "Progress text",
-      "description": "Progress text, variables available: @card and @total. Example: 'Card @card of @total'"
+      "label": "Text de progress",
+      "description": "Text de progres, variables disponibles: @card i @total. Exemple: 'Targeta @card de @total'"
     },
     {
-      "label": "Text for the next button"
+      "label": "Text del botó següent"
     },
     {
-      "label": "Text for the previous button"
+      "label": "Text del botó anterior"
     },
     {
-      "label": "Text for the check answers button"
+      "label": "Text del botó comprovar"
     },
     {
-      "label": "Require user input before the solution can be viewed"
+      "label": "Es requereix la resposta de l'usuari per poder veure la solució"
     },
     {
-      "label": "Text for the answer input field"
+      "label": "Text per al camp de resposta"
     },
     {
-      "label": "Text for correct answer"
+      "label": "Text per a quan la resposta és correcta"
     },
     {
-      "label": "Text for incorrect answer"
+      "label": "Text per a quan la resposta és incorrecta"
     },
     {
-      "label": "Show solution text"
+      "label": "Mostrar el text de la solució"
     },
     {
-      "label": "Case sensitive",
-      "description": "Makes sure the user input has to be exactly the same as the answer."
+      "label": "Distingeix entre majúscules i minúscules",
+      "description": "Fer que la resposta de l'usuari coincideixi exactament amb la solució."
     }
   ]
 }

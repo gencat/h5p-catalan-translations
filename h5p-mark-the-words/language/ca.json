@@ -1,56 +1,56 @@
 {
   "semantics": [
     {
-      "label": "Task description",
-      "description": "Describe how the user should solve the task."
+      "label": "Descripció de la tasca",
+      "description": "Descriu com l'usuari pot resoldre l'activitat."
     },
     {
-      "label": "Textfield",
+      "label": "Camp de text",
       "description": "",
       "important": {
-        "description": "<ul><li>Marked words are added with an asterix (*).</li><li>An asterix may be escaped with another asterix, resulting in ** = *.</li></ul>"
+        "description": "<ul><li>Identifica les paraules afegides amb un asterisc (*).</li><li>Un asterisc es pot escapar amb un altre asterisc, ** = *.</li></ul>"
       }
     },
     {
-      "label": "Text for \"Check\" button"
+      "label": "Text per al botó \"Revisar\""
     },
     {
-      "label": "Text for \"Retry\" button"
+      "label": "Text per al botó \"Tornar a provar\""
     },
     {
-      "label": "Text for \"Show solution\" button"
+      "label": "Text per al botó \"Mostrar solució\""
     },
     {
-      "label": "Feedback text",
-      "description": "Feedback text, variables available: @score @total @correct @wrong @missed. Example: 'Score : @score of @total, correct: @correct, wrong: @wrong, missed: @missed.'"
+      "label": "Text per a la retroacció",
+      "description": "Text de retroacció, variables disponibles: @score @total @correct @wrong @missed. Example: 'Puntuació : @score de @total, correctes: @correct, incorrectes: @wrong, buides: @missed.'"
     },
     {
-      "label": "Behavioural settings.",
-      "description": "These options will let you control how the task behaves.",
+      "label": "Configuració.",
+      "description": "Aquestes opcions permeten controlar el comportament de les preguntes.",
       "fields": [
         {
-          "label": "Enable \"Retry\""
+          "label": "Activar \"Tornar a provar\""
         },
         {
-          "label": "Enable \"Show solution\" button"
+          "label": "Botó activar \"Mostrar la solució\" "
         }
       ]
     },
     {
-      "label": "Correct answer text",
-      "description": "Text used to indicate that an answer is correct"
+      "label": "Text per a les respostes correctes",
+      "description": "Text que es mostra per indicar que la resposta és correcta"
     },
     {
-      "label": "Incorrect answer text",
-      "description": "Text used to indicate that an answer is incorrect"
+      "label": "Text per a les respostes incorrectes",
+      "description": "Text que es mostra per indicar que la rsposta és incorrecta"
     },
     {
-      "label": "Missed answer text",
-      "description": "Text used to indicate that an answer is missing"
+      "label": "Text quan no hi ha resposta",
+      "description": "Text que es mostra quan no s'ha introduit una resposta"
     },
     {
-      "label": "Description for Display Solution",
-      "description": "This text tells the user that the tasks has been updated with the solution."
+      "label": "Descripció per mostrar la solució",
+      "description": "Aquest text indica a l'usuari que les preguntes s'han actualitzat."
     }
   ]
 }
