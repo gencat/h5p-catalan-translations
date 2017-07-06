@@ -1,22 +1,22 @@
 {
   "semantics": [
     {
-      "label": "Destination",
+      "label": "Destí",
       "fields": [
         {
-          "label": "Type",
+          "label": "Tipus",
           "options": [
             {
-              "label": "Timecode"
+              "label": "Temps"
             },
             {
-              "label": "Another page (URL)"
+              "label": "Un altra pàgina (URL)"
             }
           ]
         },
         {
-          "label": "Go To",
-          "description": "The target time the user will be taken to upon pressing the hotspot. Enter timecode in the format M:SS."
+          "label": "Començar",
+          "description": "El temps de resposta comença en fer clic en la zona sensible. Introduir el temps en format M:SS."
         },
         {
           "label": "URL",
@@ -34,7 +34,7 @@
                   "label": "(root relative)"
                 },
                 {
-                  "label": "other"
+                  "label": "altres"
                 }
               ]
             },
@@ -49,7 +49,7 @@
       "label": "Visuals",
       "fields": [
         {
-          "label": "Shape",
+          "label": "Forma",
           "options": [
             {
               "label": "Rectangular"
@@ -58,20 +58,20 @@
               "label": "Circular"
             },
             {
-              "label": "Rounded Rectangle"
+              "label": "Rectangle arrodonit"
             }
           ]
         },
         {
-          "label": "Background color for hotspot",
+          "label": "Color de fons de la zona",
           "spectrum": {}
         },
         {
-          "label": "Use pointer cursor"
+          "label": "Activar el cursor del punter"
         },
         {
-          "label": "Add blinking effect",
-          "description": "Note: Blinking effect is always enabled in the editor so you are able to find transparent hotspots"
+          "label": "Afegir efectes Add blinking effect",
+          "description": "Nota: Els efectes de parpelleig sempre estan habilitats en l'editor per poder trobar les zones transparents."
         }
       ]
     },
@@ -79,13 +79,13 @@
       "label": "Texts",
       "fields": [
         {
-          "label": "Title"
+          "label": "Títol"
         },
         {
-          "label": "Show title"
+          "label": "Mostrar títol"
         },
         {
-          "label": "Title color",
+          "label": "Color del títol",
           "showWhen": {
             "rules": [
               {}

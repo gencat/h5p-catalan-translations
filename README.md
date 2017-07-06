@@ -55,7 +55,7 @@ Please double check for valid JSON syntax in your edits! Always use text editors
 | X   | h5p-image-hotspots
 | X   | h5p-impressive-presentation
 | X   | h5p-interactive-video
-| _   | h5p-iv-hotspot
+| X   | h5p-iv-hotspot
 | X   | h5p-link
 | _   | h5p-mark-the-words
 | X   | h5p-memory-game
