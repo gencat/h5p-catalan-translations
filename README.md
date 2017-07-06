@@ -57,9 +57,9 @@ Please double check for valid JSON syntax in your edits! Always use text editors
 | X   | h5p-interactive-video
 | X   | h5p-iv-hotspot
 | X   | h5p-link
-| _   | h5p-mark-the-words
+| X   | h5p-mark-the-words
 | X   | h5p-memory-game
-| _   | h5p-mini-course
+| X   | h5p-mini-course
 | _   | h5p-multi-choice
 | _   | h5p-nil
 | _   | h5p-open-ended-question

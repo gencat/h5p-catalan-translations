@@ -2,27 +2,27 @@
   "semantics": [
     {
       "entity": "course unit",
-      "label": "Course units",
+      "label": "Unitats del curs",
       "widgets": [
         {
-          "label": "Default"
+          "label": "Per defecte"
         }
       ],
       "field": {
-        "label": "Unit",
+        "label": "Unitat",
         "fields": [
           {
-            "label": "Header"
+            "label": "Capçalera"
           },
           {
-            "label": "Introduction"
+            "label": "Introducció"
           },
           {
-            "label": "Content"
+            "label": "Contingut"
           },
           {
-            "label": "Max score",
-            "description": "Only relevant for content that reports scoring",
+            "label": "Puntuació màxima",
+            "description": "En els informes de puntuació",
             "showWhen": {
               "rules": [
                 {}
@@ -33,30 +33,30 @@
       }
     },
     {
-      "label": "Layout",
+      "label": "Disseny",
       "fields": [
         {
-          "label": "Minimum width in pixels"
+          "label": "Amplada mínima en pixels"
         },
         {
-          "label": "Fullscreen settings",
+          "label": "Configuració de pantalla completa",
           "fields": [
             {
-              "label": "Fullscreen mode",
+              "label": "Mode Pantalla completa",
               "options": [
                 {
-                  "label": "Always"
+                  "label": "Sempre"
                 },
                 {
-                  "label": "Never"
+                  "label": "Mai"
                 },
                 {
-                  "label": "Dynamically"
+                  "label": "Dinàmicament"
                 }
               ]
             },
             {
-              "label": "Force fullscreen mode when narrower than (in pixels)",
+              "label": "Forçar pantalla completa per a mides petites de pantalla (en pixels)",
               "showWhen": {
                 "rules": [
                   {}
@@ -66,40 +66,40 @@
           ]
         },
         {
-          "label": "Placement of results widget",
+          "label": "Amplada de la zona de resultats",
           "fields": [
             {
-              "label": "Default placement",
+              "label": "Ubicació per defecte",
               "options": [
                 {
-                  "label": "Right"
+                  "label": "Dreta"
                 },
                 {
-                  "label": "Top"
+                  "label": "Part superior"
                 },
                 {
-                  "label": "Left"
+                  "label": "Esquerra"
                 }
               ]
             },
             {
-              "label": "Exceptions",
+              "label": "Excepcions",
               "entity": "exception",
               "field": {
                 "fields": [
                   {
-                    "label": "Columns"
+                    "label": "Columnes"
                   },
                   {
                     "options": [
                       {
-                        "label": "Right"
+                        "label": "Dreta"
                       },
                       {
-                        "label": "Top"
+                        "label": "Part superior"
                       },
                       {
-                        "label": "Left"
+                        "label": "Esquerra"
                       }
                     ]
                   }
@@ -114,10 +114,10 @@
       "label": "Look & feel",
       "fields": [
         {
-          "label": "Background color for course units panel"
+          "label": "Color de fons dels taulers de les unitats del curs"
         },
         {
-          "label": "Background color for results panel"
+          "label": "Color de fons del tauler de resultats"
         }
       ]
     }
