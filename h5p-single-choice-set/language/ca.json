@@ -1,81 +1,81 @@
 {
   "semantics": [
     {
-      "label": "List of questions",
+      "label": "Llista de preguntes",
       "entity": "question",
       "field": {
-        "label": "Question & alternatives",
+        "label": "Pregunta i alternatives",
         "fields": [
           {
-            "label": "Question"
+            "label": "Pregunta"
           },
           {
-            "label": "Alternatives - first alternative is the correct one.",
+            "label": "Alternatives - primer la resposta correcta.",
             "entity": "answer",
             "field": {
-              "label": "Alternative"
+              "label": "Alternativa"
             }
           }
         ]
       }
     },
     {
-      "label": "Behavioural settings",
+      "label": "Comportament",
       "fields": [
         {
-          "label": "Timeout on correct answers",
-          "description": "Value in milliseconds"
+          "label": "Temps límit per a la resposta correcta",
+          "description": "Valor en milisegons"
         },
         {
-          "label": "Timeout on wrong answers",
-          "description": "Value in milliseconds"
+          "label": "Temps límit per a la resposta incorrecta",
+          "description": "Valro en milisegons"
         },
         {
-          "label": "Enable sound effects"
+          "label": "Habilitar efectes de so"
         },
         {
-          "label": "Enable retry button"
+          "label": "Habilitar el botó tornar a provar"
         },
         {
-          "label": "Enable show solution button"
+          "label": "Habilitar el botó mostar solució"
         },
         {
-          "label": "Pass percentage",
-          "description": "Percentage of Total score required for passing the quiz."
+          "label": "Percentatge de superació",
+          "description": "Percentatge requerit per superar el qüestionari."
         }
       ]
     },
     {
-      "label": "Localize single choice set",
+      "label": "Localització d'opcions úniques",
       "fields": [
         {
-          "label": "Title for result slide",
-          "description": ":numcorrect is replaced by the number of correct answers and :maxscore is replaced by number of questions"
+          "label": "Títol de la diapositiva dels resultats",
+          "description": ":numcorrect s'actualitza amb el nombre de respostes correctes i :maxscore s'actualitza amb el nombre de preguntes"
         },
         {
-          "label": "Label for the \"Show solution\" button"
+          "label": "Etiqueta del botó per \"Mostrar solució\""
         },
         {
-          "label": "Label for the \"Retry\" button"
+          "label": "Etiqueta del botó per \"Tornar a provar\""
         },
         {
-          "label": "Title for the show solution view"
+          "label": "Títol per mostrar la solució"
         },
         {
-          "label": "Readspeaker text for correct answer"
+          "label": "Text per a la resposta correcta"
         },
         {
-          "label": "Readspeaker text for incorrect answer"
+          "label": "Text per a la resposta incorrecta"
         },
         {
-          "label": "Label for the \"mute\" button, to disable feedback sound"
+          "label": "Etiqueta del botó \"silenci\", per desactivar el so de retroacció"
         },
         {
-          "label": "Label for the \"Close\" button"
+          "label": "Etiqueta del botó \"Tancar\""
         },
         {
-          "label": "Slide number text",
-          "description": "Announces current slide and total number of slides, variables are :num and :total"
+          "label": "Text del número de la diapositiva",
+          "description": "Mostra el número de la diapositiva actual i el nombre total de diapositives, les variables són: num i :total"
         }
       ]
     }

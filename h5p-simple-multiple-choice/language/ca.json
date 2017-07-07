@@ -1,24 +1,24 @@
 {
   "semantics": [
     {
-      "label": "Question"
+      "label": "Pregunta"
     },
     {
-      "label": "Multiple choice type",
+      "label": "Tipus de resposta múltiple",
       "options": [
         {
-          "label": "Multiple answers"
+          "label": "Múltiples respostes"
         },
         {
-          "label": "Single answer"
+          "label": "Resposta simple"
         }
       ]
     },
     {
-      "label": "Answer alternatives",
+      "label": "Respostes alternatives",
       "entity": "Alternative",
       "field": {
-        "label": "Alternative"
+        "label": "Alternativa"
       }
     }
   ]

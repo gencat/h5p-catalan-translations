@@ -1,16 +1,16 @@
 {
   "semantics": [
     {
-      "label": "Describe task"
+      "label": "Descripció de l'activitat"
     },
     {
-      "label": "Accepted answers",
+      "label": "Resposta acceptada",
       "field": {
-        "label": "Accepted answer"
+        "label": "Resposta acceptada"
       }
     },
     {
-      "label": "Language of speech input",
+      "label": "Llenguatge d'entrada de veu",
       "options": [
         {
           "label": "Afrikaans"
@@ -249,40 +249,40 @@
       ]
     },
     {
-      "label": "Labels and texts",
+      "label": "Etiquetes i textos",
       "fields": [
         {
-          "label": "\"Retry\"-button label"
+          "label": "Etiqueta del botó \"Tornar a provar\""
         },
         {
-          "label": "\"Show solution\"-button label"
+          "label": "Etiqueta del botó \"Mostrar solució\""
         },
         {
-          "label": "\"Speak\"-button label"
+          "label": "Etiqueta del botó \"Parlar\""
         },
         {
-          "label": "\"Speak\"-button label when listening"
+          "label": "Etiqueta del botó \"Parlar\" en l'escolta"
         },
         {
-          "label": "Text preceding the correct answers in solution mode"
+          "label": "Text que precedeix la resposta correcta en el mode solució"
         },
         {
-          "label": "Text telling the user what his answer was interpreted as"
+          "label": "Text que explica a l'usuari la interpretació de la resposta"
         },
         {
-          "label": "Text to display when no sound was registered from user"
+          "label": "Text per mostrar a l'usuari quan no se sent un enregistrament."
         },
         {
-          "label": "Header text to display if browser does not support speech recognition"
+          "label": "Text de capçalera per mostrar si el navegador no suporta el reconeixement de veu."
         },
         {
-          "label": "Body text to display if browser does not support speech recognition"
+          "label": "Text del contingut que es mostra si el navegador no suporta el reconeixement de veu."
         },
         {
-          "label": "Incorrect answer text"
+          "label": "Text de resposta incorecta"
         },
         {
-          "label": "Correct answer text"
+          "label": "Text de resposta correcta"
         }
       ]
     }

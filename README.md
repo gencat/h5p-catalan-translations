@@ -64,11 +64,11 @@ Please double check for valid JSON syntax in your edits! Always use text editors
 | X   | h5p-nil
 | X   | h5p-open-ended-question
 | X   | h5p-pages
-| _   | h5p-questionnaire
+| X   | h5p-questionnaire
 | X   | h5p-question-set
-| _   | h5p-simple-multiple-choice
-| _   | h5p-single-choice-set
-| _   | h5p-speak-the-words
+| X   | h5p-simple-multiple-choice
+| X   | h5p-single-choice-set
+| X   | h5p-speak-the-words
 | _   | h5p-standard-page
 | _   | h5p-summary
 | _   | h5p-table
