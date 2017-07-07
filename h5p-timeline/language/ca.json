@@ -1,94 +1,94 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Línia del temps",
       "fields": [
         {
-          "label": "Headline",
-          "description": "Main timeline heading goes here (first page)"
+          "label": "Capçalera",
+          "description": "Capálera de la línea del temps principal (primera pàgina)"
         },
         {
-          "label": "Body Text",
-          "description": "The main timeline body goes here (first page)."
+          "label": "Text del contingut",
+          "description": "Contingut de la línia del temps principal (primera pàgina)."
         },
         {
-          "label": "Default zoom level",
-          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "label": "Nivell de zoom predefinit",
+          "description": "Ajusta el nivell de zoom predefinit. El valor per defecte és zero."
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Imatge de fons",
+          "description": "Imatge que es mostra com la fons."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Altura",
+          "description": "Altura en pixels"
         },
         {
-          "label": "Asset",
-          "description": "Here you can add an asset to your timeline \"front page\"",
+          "label": "Element",
+          "description": "Aquí podeu afegir un element a la línia del temps \"primera pàgina\"",
           "fields": [
             {
               "label": "Media",
-              "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "description": "Enllaç al media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps i SoundCloud estan suportats)"
             },
             {
-              "label": "Credits",
-              "description": "Credits to the media"
+              "label": "Crèdits",
+              "description": "Crèdits to the media"
             },
             {
-              "label": "Caption",
-              "description": "Caption description goes here"
+              "label": "Llegenda",
+              "description": "Descripció de la llegenda"
             }
           ]
         },
         {
           "label": "Dates",
-          "description": "Add some dates to your timeline!",
+          "description": "Afegir dates a la línia del temps",
           "field": {
-            "label": "Date",
-            "description": "Date",
+            "label": "Data",
+            "description": "Data",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)",
+                "label": "Data d'inici",
+                "description": "AAAA,MM,DD (Minim AAAA requit)",
                 "regexp": {}
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)",
+                "label": "Data fi",
+                "description": "AAAA,MM,DD (Minim AAAA requit)",
                 "regexp": {}
               },
               {
-                "label": "Headline",
-                "description": "Headline for the date entry"
+                "label": "Capçalera",
+                "description": "Capçalera per la data introduida"
               },
               {
-                "label": "Body text",
-                "description": "Body for the date entry"
+                "label": "Contingut",
+                "description": "Contingut per a la data introduida"
               },
               {
-                "label": "Tags",
-                "description": "Enter Tags (categories)"
+                "label": "Etiquetes",
+                "description": "Introduir les Etiquetes(categories)"
               },
               {
-                "label": "Asset",
+                "label": "Element",
                 "description": "",
                 "fields": [
                   {
                     "label": "Media",
-                    "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "description": "Enllaç al media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps i SoundCloud estan suportats)"
                   },
                   {
-                    "label": "Thumbnail",
-                    "description": "Add a thumbnail if needed, 32x32"
+                    "label": "Contenidor",
+                    "description": "Afegir un contenidor si el necessiteu, 32x32"
                   },
                   {
-                    "label": "Credit",
-                    "description": "Credits to the media"
+                    "label": "Crèdits",
+                    "description": "Crèdits del mèdia"
                   },
                   {
-                    "label": "Caption",
-                    "description": "Caption text"
+                    "label": "Llegenda",
+                    "description": "Text de la llegenda"
                   }
                 ]
               }
@@ -96,40 +96,40 @@
           }
         },
         {
-          "label": "Eras",
-          "description": "Add an era to your timeline",
+          "label": "Període",
+          "description": "Afegir un període al timeline",
           "field": {
-            "label": "Era",
+            "label": "Període",
             "description": "",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)",
+                "label": "Data d'inici",
+                "description": "AAAA,MM,DD (Minim AAAA requerit)",
                 "regexp": {}
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)",
+                "label": "Data fi",
+                "description": "AAAA,MM,DD (Minim AAAA requirit)",
                 "regexp": {}
               },
               {
-                "label": "Headline",
-                "description": "Era headline"
+                "label": "Capçalera",
+                "description": "Línia del temps del període"
               },
               {
-                "label": "Text",
-                "description": "Era body"
+                "label": "Contingut",
+                "description": "Contingut del període"
               },
               {
-                "label": "Tag",
-                "description": "Era tags (categories)"
+                "label": "Etiqueta",
+                "description": "Etiquetes del període (categories)"
               }
             ]
           }
         },
         {
-          "label": "Language",
-          "description": "The language of the user interface",
+          "label": "Idioma",
+          "description": "Idioma de la interfície d'usuari",
           "options": [
             {
               "label": "Afrikaans"

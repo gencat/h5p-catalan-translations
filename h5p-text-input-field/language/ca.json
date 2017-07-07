@@ -1,31 +1,31 @@
 {
   "semantics": [
     {
-      "label": "Description of inputfield",
-      "description": "Description of what the user should input."
+      "label": "Descripció del camp d'entrada",
+      "description": "Descripció d'allò que ha d'introduir l'usuari."
     },
     {
-      "label": "Placeholder text",
-      "description": "A placeholder text for the user."
+      "label": "Text variable",
+      "description": "Text variable per a l'usuari."
     },
     {
-      "label": "Input field size",
-      "description": "The size of the input field in amount of lines it will cover.",
+      "label": "Mida del camp d'entrada",
+      "description": "Nombre de línies del camp d'entrada.",
       "options": [
         {
-          "label": "1 line"
+          "label": "1 línia"
         },
         {
-          "label": "3 lines"
+          "label": "3 línies"
         },
         {
-          "label": "10 lines"
+          "label": "10 línies"
         }
       ]
     },
     {
-      "label": "Required field",
-      "description": "Check to make this field required, the user must answer all required fields to be able to export a document."
+      "label": "Camp requerit",
+      "description": "Comprovar que s'ha introduit aquest cap requerit, l'usuari pot respondre tots els camps i exportar-los a un document."
     }
   ]
 }

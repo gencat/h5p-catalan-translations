@@ -1,14 +1,14 @@
 {
   "semantics": [
     {
-      "label": "Username on Twitter",
-      "description": "The username we'll be fetching tweets from"
+      "label": "Nom d'usuri del Twitter",
+      "description": "Nom d'usuari associat als tweets"
     },
     {
-      "label": "Show replies"
+      "label": "Mostrar respostes"
     },
     {
-      "label": "Number of tweets"
+      "label": "Nombre de tweets"
     }
   ]
 }
