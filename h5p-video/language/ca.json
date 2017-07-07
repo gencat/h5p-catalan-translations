@@ -1,35 +1,35 @@
 {
   "semantics": [
     {
-      "label": "Video sources",
-      "description": "To ensure that the video works in all browsers you should add both WebM and MP4 formatted sources."
+      "label": "Origen del Vídeo",
+      "description": "Per assegurar-vos que el vídeo funcioni en tots els navegadors, heu d'afegir fonts amb format WebM i MP4."
     },
     {
       "label": "Visuals",
       "fields": [
         {
-          "label": "Poster image"
+          "label": "Imatge del Pòster"
         },
         {
-          "label": "Fit video player to use all available space",
-          "description": "If not set the video player will have the same aspect ratio as the video."
+          "label": "Ajusteu el reproductor de vídeo per utilitzar tot l'espai disponible",
+          "description": "Si no s'estableix, el reproductor de vídeo tindrà la mateixa relació d'aspecte que el vídeo."
         },
         {
-          "label": "Show video player controls",
-          "description": "Add controls to the video player. This allows users to play, pause, etc."
+          "label": "Mostra els controls del reproductor de vídeo",
+          "description": "Afegiu controls al reproductor de vídeo. Això permet als usuaris jugar, pausar, etc."
         }
       ]
     },
     {
-      "label": "Playback",
+      "label": "Reproducció",
       "fields": [
         {
-          "label": "Auto-play video",
-          "description": "Start playing the video automatically. May not work on mobile devices."
+          "label": "Reprodueix automàticament el vídeo",
+          "description": "Comenceu a reproduir el vídeo automàticament. Pot no funcionar en dispositius mòbils."
         },
         {
-          "label": "Loop video",
-          "description": "Automatically start the video over again when it ends."
+          "label": "Vídeo en bucle",
+          "description": "Inicieu el vídeo automàticament quan finalitzi."
         }
       ]
     },
@@ -37,79 +37,79 @@
       "label": "Video localization",
       "fields": [
         {
-          "label": "Name",
-          "description": "Helps identify content of this type."
+          "label": "Nom",
+          "description": "Identifica el contingut."
         },
         {
-          "label": "Loading"
+          "label": "Carregant"
         },
         {
-          "label": "No players found"
+          "label": "No s'han trobat jugadors"
         },
         {
-          "label": "No sources"
+          "label": "No trobat"
         },
         {
-          "label": "Aborted"
+          "label": "Abortat"
         },
         {
-          "label": "Network failure"
+          "label": "Error de xarxa"
         },
         {
-          "label": "Cannot decode video source"
+          "label": "No es pot descodificar la font de vídeo"
         },
         {
-          "label": "Format not supported"
+          "label": "Format no suportat"
         },
         {
-          "label": "Media encrypted"
+          "label": "Media encriptat"
         },
         {
-          "label": "Unknown error"
+          "label": "Error desconegut"
         },
         {
-          "label": "Invalid YouTube ID"
+          "label": "ID YouTube invalid"
         },
         {
-          "label": "Unkown YouTube ID"
+          "label": "ID YouTube desconegut"
         },
         {
-          "label": "Restricted YouTube video"
+          "label": "Vídeo de YouTube privat"
         }
       ]
     },
     {
-      "label": "Accessibility",
+      "label": "Accessibilitat",
       "fields": [
         {
-          "label": "Add video track",
+          "label": "Afegir pista de vídeo",
           "entity": "Track",
           "field": {
-            "label": "Track",
+            "label": "Pista",
             "fields": [
               {
-                "label": "Track label"
+                "label": "Etiqueta de la pista"
               },
               {
                 "label": "Type kind, refer to <a target='_blank' href=https://html.spec.whatwg.org/multipage/embedded-content.html#the-track-element>HTML living standard</a>",
                 "options": [
                   {
-                    "label": "Subtitles"
+                    "label": "Subtítols"
                   },
                   {
-                    "label": "Captions"
+                    "label": "Llegenda"
                   },
                   {
-                    "label": "Descriptions"
+                    "label": "Descripcions"
                   },
                   {
-                    "label": "Chapters"
+                    "label": "Capítols"
                   }
                 ]
               },
               {
-                "label": "Source language, must be defined for subtitles",
-                "description": "Must be a valid BCP 47 language tag. If the kind attribute is set to subtitles, then srclang must be defined."
+                "label": "Idioma original, s'ha de definir per als subtítols",
+                "description": "Ha de ser una etiqueta d'idioma BCP 47 vàlid. Si hi ha subtítols, srclang s'ha de definir."
               },
               {
                 "label": "Track file (WebVTT)"

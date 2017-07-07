@@ -4,119 +4,119 @@
       "label": "Media",
       "fields": [
         {
-          "label": "Type",
-          "description": "Optional media to display above the question."
+          "label": "Tipus",
+          "description": "Opcional. Media que es mostra amb la pregunta."
         }
       ]
     },
     {
-      "label": "Question"
+      "label": "Pregunta"
     },
     {
-      "label": "Correct answer",
+      "label": "Resposta correcta",
       "options": [
         {
-          "label": "True"
+          "label": "Cert"
         },
         {
-          "label": "False"
+          "label": "Fals"
         }
       ]
     },
     {
-      "label": "User interface translations for True/False Questions",
+      "label": "Traducció de la interfície d'usuari per a la pregunta Cert/Fals",
       "fields": [
         {
-          "label": "Label for true button"
+          "label": "Etiqueta del botó cert"
         },
         {
-          "label": "Label for false button"
+          "label": "Etiqueta del botó fals"
         },
         {
-          "label": "Feedback text",
-          "description": "Feedback text, variables available: @score and @total. Example: 'You got @score of @total possible points'"
+          "label": "Text de retroacció",
+          "description": "Text de retroacció, variables disponibles: @score i @total. Exemple: 'Tens @score de @total punt possibles'"
         },
         {
-          "label": "Text for \"Check\" button"
+          "label": "Text del botó \"Comprovar\""
         },
         {
-          "label": "Text for \"Show solution\" button"
+          "label": "Text del botó \"Mostrar solució\""
         },
         {
-          "label": "Text for \"Retry\" button"
+          "label": "Text del botó \"Tornar a provar\""
         },
         {
-          "label": "Wrong Answer"
+          "label": "Resposta incorrecta"
         },
         {
-          "label": "Correct Answer"
+          "label": "Resposta correcta"
         }
       ]
     },
     {
-      "label": "Behavioural settings",
-      "description": "These options will let you control how the task behaves.",
+      "label": "Configuració del comportament de la pregunta",
+      "description": "Aquestes opcions permeten controlar el comportament de l'activitat.",
       "fields": [
         {
-          "label": "Enable \"Retry\" button"
+          "label": "Habilitar el botó \"Tornar a provar\""
         },
         {
-          "label": "Enable \"Show Solution\" button"
+          "label": "Habilitar el botó \"Mostrar solució\""
         },
         {
-          "label": "Disable image zooming for question image"
+          "label": "Desactivar el zoom de la imatge per a la pregunta imatge"
         },
         {
-          "label": "Show confirmation dialog on \"Check\""
+          "label": "Mostrar confirmar el text en fer \"Comprovar\""
         },
         {
-          "label": "Show confirmation dialog on \"Retry\""
+          "label": "Mostrar confirmar el text en fer \"Tornar a provar\""
         },
         {
-          "label": "Automatically check answer",
-          "description": "Note that accessibility will suffer if enabling this option"
+          "label": "Comprovar les respostes automàticament",
+          "description": "Tingueu en compte que l'accessibilitat es veurà afectada si permet aquesta opció"
         },
         {
-          "label": "Feedback on correct answer",
-          "description": "This will override the default feedback text. Variables available: @score and @total"
+          "label": "Retroacció de la resposta correcta",
+          "description": "Si l'activeu s'anul·la la resposta predefinida. Variables disponibles: @score i @total"
         },
         {
-          "label": "Feedback on wrong answer",
-          "description": "This will override the default feedback text. Variables available: @score and @total"
+          "label": "Retroacció de la resposta incorrecta",
+          "description": "Si l'activeu s'anul·la la resposta predefinida. Variables disponibles: @score i @total"
         }
       ]
     },
     {
-      "label": "Check confirmation dialog",
+      "label": "Validar el text de confirmació",
       "fields": [
         {
-          "label": "Header text"
+          "label": "Capçalera"
         },
         {
-          "label": "Body text"
+          "label": "Contigut"
         },
         {
-          "label": "Cancel button label"
+          "label": "Etiqueta del botó Cancelar"
         },
         {
-          "label": "Confirm button label"
+          "label": "Etiqueta del botó Confirmar"
         }
       ]
     },
     {
-      "label": "Retry confirmation dialog",
+      "label": "Validar el text de Tornar a provar",
       "fields": [
         {
-          "label": "Header text"
+          "label": "Capçalera"
         },
         {
-          "label": "Body text"
+          "label": "Contingut"
         },
         {
-          "label": "Cancel button label"
+          "label": "Etiqueta del botó Cancelar"
         },
         {
-          "label": "Confirm button label"
+          "label": "Etiqueta del botó Confirmar"
         }
       ]
     }
