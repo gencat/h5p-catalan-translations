@@ -1,50 +1,50 @@
 {
   "semantics": [
     {
-      "label": "Pages",
+      "label": "Pàgines",
       "widgets": [
         {
-          "label": "Default"
+          "label": "Per defecte"
         }
       ],
       "entity": "page",
       "field": {
-        "label": "page",
+        "label": "pàgina",
         "fields": [
           {
-            "label": "Title",
-            "description": "Used as a heading for the page and also in the navigation menu"
+            "label": "Títol",
+            "description": "És la capçalera de la pàgina i el títol en el menú de navegació"
           },
           {
-            "label": "Page content"
+            "label": "Contingut de la pàgina"
           }
         ]
       }
     },
     {
-      "label": "Settings",
+      "label": "Configuració",
       "fields": [
         {
-          "label": "Navigation menu enabled",
-          "description": "Whether the navigation menu should be enabled for the end user"
+          "label": "Activació del menú de navegació",
+          "description": "L'usuari pot habilitar el menú de navegació"
         }
       ]
     },
     {
-      "label": "Interface texts in smart book",
+      "label": "Interfície per a tauletes",
       "fields": [
         {
-          "label": "Back button"
+          "label": "Botó enrera"
         },
         {
-          "label": "Next button"
+          "label": "Botó endavant"
         },
         {
-          "label": "Finish button"
+          "label": "Botó fi"
         },
         {
-          "label": "Progress text",
-          "description": "Text used if textual progress is selected."
+          "label": "Text de progrés",
+          "description": "Terxt que es mostra si s'ha seleccionat el progrés de l'activitat."
         }
       ]
     }
