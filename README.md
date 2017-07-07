@@ -69,8 +69,8 @@ Please double check for valid JSON syntax in your edits! Always use text editors
 | X   | h5p-simple-multiple-choice
 | X   | h5p-single-choice-set
 | X   | h5p-speak-the-words
-| _   | h5p-standard-page
-| _   | h5p-summary
+| X   | h5p-standard-page
+| X   | h5p-summary
 | _   | h5p-table
 | _   | h5p-text
 | _   | h5p-text-input-field

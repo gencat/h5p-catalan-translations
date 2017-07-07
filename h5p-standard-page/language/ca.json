@@ -1,24 +1,24 @@
 {
   "semantics": [
     {
-      "label": "Title",
-      "description": "Title for the page."
+      "label": "Títol",
+      "description": "Títol de la pàgina."
     },
     {
       "label": "Elements",
       "entity": "element",
       "field": {
-        "label": "Element type",
-        "description": "Library for this page."
+        "label": "Tipus d'element",
+        "description": "Seleccionar el tipus de pàgina."
       }
     },
     {
-      "label": "Label for help text",
-      "description": "Label for showing additional helpful information to the user."
+      "label": "Text de l'etiqueta d'ajuda",
+      "description": "Etiqueta per mostra ajuda adicional a l'usuari."
     },
     {
-      "label": "Fill in additional help information",
-      "description": "Here you can fill in additional information for the user, which will be available when clicked."
+      "label": "Ompliu ajuda adicional",
+      "description": "Aquí podeu afegir ajuda adicional per l'usuari, que estarà disponible quan faci clic."
     }
   ]
 }
