@@ -61,9 +61,9 @@ Please double check for valid JSON syntax in your edits! Always use text editors
 | X   | h5p-memory-game
 | X   | h5p-mini-course
 | X   | h5p-multi-choice
-| _   | h5p-nil
-| _   | h5p-open-ended-question
-| _   | h5p-pages
+| X   | h5p-nil
+| X   | h5p-open-ended-question
+| X   | h5p-pages
 | _   | h5p-questionnaire
 | _   | h5p-question-set
 | _   | h5p-simple-multiple-choice
