@@ -65,7 +65,7 @@ Please double check for valid JSON syntax in your edits! Always use text editors
 | X   | h5p-open-ended-question
 | X   | h5p-pages
 | _   | h5p-questionnaire
-| _   | h5p-question-set
+| X   | h5p-question-set
 | _   | h5p-simple-multiple-choice
 | _   | h5p-single-choice-set
 | _   | h5p-speak-the-words

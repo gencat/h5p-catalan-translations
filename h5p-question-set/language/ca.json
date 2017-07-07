@@ -1,53 +1,53 @@
 {
   "semantics": [
     {
-      "label": "Quiz introduction",
+      "label": "Introducció del qüestionari",
       "fields": [
         {
-          "label": "Display introduction"
+          "label": "Mostrar la introducció"
         },
         {
-          "label": "Title",
-          "description": "This title will be displayed above the introduction text."
+          "label": "Títol",
+          "description": "Aquest títol es mostrarà a sobre del text d'introducció."
         },
         {
-          "label": "Introduction text",
-          "description": "This text will be displayed before the quiz starts."
+          "label": "Introducció",
+          "description": "Aquest text es mostra abans de començar el qüestionari."
         },
         {
-          "label": "Start button text"
+          "label": "Text del botó Inici"
         },
         {
-          "label": "Background image",
-          "description": "An optional background image for the introduction."
+          "label": "Imatge de fons",
+          "description": "Opcional. Imatge de fons per a la introducció."
         }
       ]
     },
     {
-      "label": "Background image",
-      "description": "An optional background image for the Question set."
+      "label": "Imatge de fons",
+      "description": "Opcional. Imatge de fons per al qüestionari."
     },
     {
-      "label": "Progress indicator",
-      "description": "Question set progress indicator style.",
+      "label": "Indicador del progrés",
+      "description": "Estil de l'indicador de progrés del qüestionari.",
       "options": [
         {
           "label": "Textual"
         },
         {
-          "label": "Dots"
+          "label": "Punts"
         }
       ]
     },
     {
-      "label": "Pass percentage",
-      "description": "Percentage of Total score required for passing the quiz."
+      "label": "Percentatge mínim",
+      "description": "Percentatge de punts necessris per superar el qüestionari."
     },
     {
-      "label": "Questions",
+      "label": "Preguntes",
       "widgets": [
         {
-          "label": "Default"
+          "label": "Predeterminat"
         },
         {
           "label": "Textual"
@@ -55,148 +55,148 @@
       ],
       "entity": "question",
       "field": {
-        "label": "Question type",
-        "description": "Library for this question."
+        "label": "Tipus de pregunta",
+        "description": "model de pregunta seleccionat."
       }
     },
     {
-      "label": "Interface texts in quiz",
+      "label": "Interfíci del qüestionari",
       "fields": [
         {
-          "label": "Back button"
+          "label": "Botó retrocedir"
         },
         {
-          "label": "Next button"
+          "label": "Botó avançar"
         },
         {
-          "label": "Finish button"
+          "label": "Botó fi"
         },
         {
-          "label": "Progress text",
-          "description": "Text used if textual progress is selected."
+          "label": "Text de progrés",
+          "description": "Text que es mostra si s'ha seleccionat el prográs de l'activitat."
         },
         {
-          "label": "Label for jumping to a certain question",
-          "description": "You must use the placeholder '%d' instead of the question number, and %total instead of total amount of questions."
+          "label": "Etiqueta per anar a una pregunta concreta",
+          "description": "Podeu utilitzar la variable '%d' per al número de la pregunta, i '%total' per al total de preguntes."
         },
         {
-          "label": "Copyright dialog question label"
+          "label": "Etiqueta dels drets d'autor"
         },
         {
-          "label": "Readspeaker progress",
-          "description": "May use @current and @total question variables"
+          "label": "Progrés del qüestionari",
+          "description": "Podeu utilitzar les variables @current i @total"
         },
         {
-          "label": "Unanswered question text"
+          "label": "Text per a les preguntes sense resposta"
         },
         {
-          "label": "Answered question text"
+          "label": "Text per a les preguntes amb resposta"
         },
         {
-          "label": "Current question text"
+          "label": "Text per a la pregunta actual"
         }
       ]
     },
     {
-      "label": "Disable backwards navigation",
-      "description": "This option will only allow you to move forward in Question Set"
+      "label": "Desactivar la navegació enrera",
+      "description": "Aquesta opció permet avanár per les preguntes del qüestionari"
     },
     {
-      "label": "Randomize questions",
-      "description": "Enable to randomize the order of questions on display."
+      "label": "Preguntes aleatories",
+      "description": "Activa l'ordre aleatori amb el que es mostren les preguntes del qüestionari."
     },
     {
-      "label": "Number of questions to be shown:",
-      "description": "Create a randomized batch of questions from the total."
+      "label": "Nombre de preguntes que es mostraran:",
+      "description": "Crea un nombre aleatori de preguntes."
     },
     {
-      "label": "Quiz finished",
+      "label": "Qüestionari finalitzat",
       "fields": [
         {
-          "label": "Display results"
+          "label": "Mostrar resultats"
         },
         {
-          "label": "No results message",
-          "description": "Text displayed on end page when \"Display results\" is disabled"
+          "label": "Missatge de no resultats",
+          "description": "Text que es mostra en la pàgina final quan \"Mostrar resultats\" està desactivat"
         },
         {
-          "label": "Feedback heading",
-          "description": "This heading will be displayed at the end of the quiz when the user has answered all questions."
+          "label": "Capçalera de la retroacció",
+          "description": "Aquesta capçalera es mostra al final del qüestionari quan l'usuari ha respost totes les preguntes."
         },
         {
-          "label": "Score display text",
-          "description": "Text used to display Total user score. \"@score\" will be replaced by calculated score, \"@total\" will be replaced by maximum possible score. "
+          "label": "Text que mostra la puntuació",
+          "description": "Text que mostra la puntuació a l'usuari \"@score\" que s'actualitzarà amb la puntuació calculada, \"@total\" . "
         },
         {
-          "label": "Quiz passed greeting",
-          "description": "This text will be displayed above the score if the user has successfully passed the quiz."
+          "label": "Missatge de benvinguda de la pregunta",
+          "description": "Es mostra el text de bnvinguda sota de la puntuació si l'usuari supera el qüestionari."
         },
         {
-          "label": "Passed comment",
-          "description": "This comment will be displayed after the score if the user has successfully passed the quiz."
+          "label": "Comentari de superació",
+          "description": "Aquest comentari es mostra al costat dels resultats si l'usuari ha superat el qüestionari."
         },
         {
-          "label": "Quiz failed title",
-          "description": "This text will be displayed above the score if the user has failed the quiz."
+          "label": "Títol de no superació",
+          "description": "Aquest comentari es mostra al costat dels resultats si l'usuari no ha superat el qüestionari."
         },
         {
-          "label": "Failed comment",
-          "description": "This comment will be displayed after the score if the user has failed the quiz."
+          "label": "Comentari de no superació",
+          "description": "Aquest comentari es mostra després del resulat si l'usuari no supera el qüestionari."
         },
         {
-          "label": "Solution button label",
-          "description": "Text for the solution button."
+          "label": "Etiqueta del botó solució",
+          "description": "Text del botó de la solució."
         },
         {
-          "label": "Retry button label",
-          "description": "Text for the retry button."
+          "label": "Etiqueta del botó Tornar a provar",
+          "description": "Text per al botó Tornar a provar."
         },
         {
-          "label": "Finish button text"
+          "label": "Text del botó Fi"
         },
         {
-          "label": "Display video before quiz results"
+          "label": "Mostrar vídeo abans dels resultats del qüestionari"
         },
         {
-          "label": "Enable skip video button"
+          "label": "Activar le botó saltar la reproducció."
         },
         {
-          "label": "Skip video button label"
+          "label": "Etiqueta del botó Saltar reproducció"
         },
         {
-          "label": "Passed video",
-          "description": "This video will be played if the user successfully passed the quiz."
+          "label": "Video de superació",
+          "description": "Aquest vídeo es mostra si l'usuari supera el qüestionari."
         },
         {
-          "label": "Fail video",
-          "description": "This video will be played if the user failes the quiz."
+          "label": "Vídeo de no superació",
+          "description": "Aquest vídeo es mostra si l'usuari no supera el qüestionari."
         }
       ]
     },
     {
-      "label": "Settings for \"Show solution\" and \"Retry\" buttons",
+      "label": "Configuració dels botons \"Mostrar solució\" i \"Tornar a provar\"",
       "fields": [
         {
-          "label": "Override \"Show Solution\" button",
-          "description": "This option determines if the \"Show Solution\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "label": "Cancelar el botó \"Mostrar solució\"",
+          "description": "Aquesta opció permet fer visible el botó \"Mostrar sollució\" per a totes les preguntes, deshabilitar-lo o configurar cada pregunta individualment.",
           "options": [
             {
-              "label": "Enabled"
+              "label": "Habilitat"
             },
             {
-              "label": "Disabled"
+              "label": "Deshabilitat"
             }
           ]
         },
         {
-          "label": "Override \"Retry\" button",
-          "description": "This option determines if the \"Retry\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "label": "Cancelar el botó \"Tornar a provar\"",
+          "description": "Aquesta opció fa que el botó \"Tornar a provar\" es mostri per a totes les preguntes, deshabilitar-lo per a totes o configurar cada pregunta individulament.",
           "options": [
             {
-              "label": "Enabled"
+              "label": "Habilitat"
             },
             {
-              "label": "Disabled"
+              "label": "Deshabilitat"
             }
           ]
         }
