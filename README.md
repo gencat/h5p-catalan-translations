@@ -78,6 +78,7 @@ Please double check for valid JSON syntax in your edits! Always use text editors
 | X   | h5p-true-false
 | X   | h5p-twitter-user-feed
 | X   | h5p-video 
+| X   | [H5P WordPress Plugin](https://wordpress.org/plugins/h5p/): Language file ([gettext](https://www.gnu.org/software/gettext/)) located in `wp-plugin`. Check also [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/h5p/dev/ca/default)
+|     | [H5P Moodle Plugin](https://moodle.org/plugins/mod_hvp): Language file located in `moodle-plugin`. Work in progress.
 
-Also, the language file for [H5P WordPress Plugin](https://wordpress.org/plugins/h5p/) is included in `wp-plugin`. This component uses [gettext](https://www.gnu.org/software/gettext/) "po" format and can be edited with [PoEdit](https://poedit.net/) or similar tools. Updates must be sent to [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/h5p/dev/ca/default)
 
