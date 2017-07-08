@@ -27,10 +27,10 @@
           },
           {
             "label": "Imatge",
-            "description": "Imatge opcional de la targeta. En la targeta podeu afegir una imatge, un text o els dos elements."
+            "description": "Imatge opcional de la targeta. Podeu afegir-hi una imatge, un text o els dos elements."
           },
           {
-            "label": "Fitxer d'audio"
+            "label": "Fitxer d'àudio"
           },
           {
             "label": "Suggeriment",
@@ -40,7 +40,7 @@
                 "description": "Suggeriment per a la primera part de la targeta"
               },
               {
-                "label": "Suggeriment per la Pregunta",
+                "label": "Suggeriment per a la Pregunta",
                 "description": "Suggeriment per a la segona part de la targeta"
               }
             ]
@@ -53,37 +53,37 @@
       "description": "Aquestes opcions permeten controlar el comportament de l'activat.",
       "fields": [
         {
-          "label": "botó Habilitar \"Reintentar\""
+          "label": "Habilita el botó \"Reintenta\""
         },
         {
-          "label": "Inhabilitar la navegació enrera",
+          "label": "Inhabilita la navegació enrera",
           "description": "Aquesta opció permet, exclusivament, la navegació cap endavant"
         },
         {
-          "label": "Ajustar el text a la mida de la tarjeta",
+          "label": "Ajusta el text a la mida de la tarjeta",
           "description": "Desmarcant aquesta opció la mida de la targeta s'adapta a la mida del text."
         },
         {
           "label": "Ordre aleatori",
-          "description": "Habilitar l'ordre aleatori de les targetes."
+          "description": "Habilita l'ordre aleatori de les targetes."
         }
       ]
     },
     {
-      "label": "Text per al botó de girar la targeta"
+      "label": "Text per al botó \"gira la targeta\""
     },
     {
-      "label": "Text per al botó següent"
+      "label": "Text per al botó \"següent\""
     },
     {
-      "label": "Text per al botó anterior"
+      "label": "Text per al botó \"anterior\""
     },
     {
-      "label": "Text per al botó reintentar"
+      "label": "Text per al botó \"reintenta\""
     },
     {
-      "label": "Text de progrés",
-      "description": "Les variables disponibles són @card i @total."
+      "label": "Indicació de progrés",
+      "description": "Les variables disponibles són @card (número de la targeta actual) i @total."
     }
   ]
 }

@@ -17,8 +17,8 @@
       ]
     },
     {
-      "label": "Habilita l'ombra",
-      "description": "Habilita una ombra al voltant del tauler. Si activeu aquesta opció, el tauler ocuparà una mica més d'espai que l'indicat a l'apartat de dimensions."
+      "label": "Ombra",
+      "description": "Dibuixa una ombra al voltant del tauler. Si activeu aquesta opció el tauler ocuparà una mica més d'espai que l'indicat a l'apartat de dimensions."
     },
     {
       "label": "Introducció al joc",
@@ -57,7 +57,7 @@
             "description": "Imatge que representarà la zona sensible quan l'usuari hagi fet el minijoc amb errors."
           },
           {
-            "label": "Posiciód e la zona sensible",
+            "label": "Posició de la zona sensible",
             "description": "Posició de la cantonada superior esquerra de la zona sensible dins del tauler de joc, amb coordenades mesurades en píxels.",
             "default": {},
             "fields": [
@@ -116,14 +116,14 @@
       "fields": [
         {
           "label": "Resultat",
-          "description": "Indiqueu un text explicant la puntuació obtinguda en el joc. Podeu utilitzar les variables: @score (puntuació), @total, @percentage."
+          "description": "Expliqueu la puntuació obtinguda en el joc. Podeu utilitzar les variables: @score (puntuació), @total i @percentage."
         },
         {
-          "label": "Botó 'Reintenta'",
+          "label": "Botó \"Reintenta\"",
           "description": "Text que es mostrarà al botó que permet tornar a començar de nou."
         },
         {
-          "label": "Botó 'Mostra la solució'",
+          "label": "Botó \"Mostra la solució\"",
           "description": "Text que es mostrarà als botons que l'usuari ha de prémer per veure les solucions."
         }
       ]
@@ -134,15 +134,15 @@
       "fields": [
         {
           "label": "Força la visualització dels botons \"Mostra la solució\" i \"Reintenta\".",
-          "description": "Quan aquesta opció està activada, les opcions que es mostren a sota prevalen per sobre del que indiqui la plataforma."
+          "description": "Quan aquesta opció estigui activada les opcions que es mostren a sota prevaldran sobre les fixades per a la plataforma."
         },
         {
           "label": "Habilita els botons \"Mostra la solució\".",
-          "description": "Si habiliteu aquesta opció fareu que el botó \"Mostra la solució\" es mostri sempre."
+          "description": "Si activeu aquesta opció fareu que el botó \"Mostra la solució\" es mostri sempre."
         },
         {
           "label": "Habilita \"Reintenta\".",
-          "description": "Si habiliteu aquesta opció fareu que el botó \"Reintenta\" es mostri sempre."
+          "description": "Si activeu aquesta opció fareu que el botó \"Reintenta\" es mostri sempre."
         }
       ]
     }

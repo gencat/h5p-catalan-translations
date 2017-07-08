@@ -2,7 +2,7 @@
   "semantics": [
     {
       "label": "Text del botó",
-      "description": "Text que es mostra en fer clic en el botó"
+      "description": "Text que es mostra en fer clic al botó"
     },
     {
       "label": "Accions",
@@ -17,7 +17,7 @@
           },
           {
             "label": "Url",
-            "description": "Url destí"
+            "description": "Url de destí"
           }
         ]
       }

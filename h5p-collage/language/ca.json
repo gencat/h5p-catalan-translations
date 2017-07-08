@@ -2,7 +2,7 @@
   "semantics": [
     {
       "label": "Previsualització",
-      "description": "Podeu moure les imatges arrossegant-les dintre del seu espai. També podeu seleccionar una imatge i amb les tecles + i - modificar el zoom. Presionant la tecla Z a la vegada que moveu la rodeta del ratolí canvieu la mida de les imatges.",
+      "description": "Podeu moure les imatges arrossegant-les dins del seu espai. També podeu seleccionar una imatge i modificar-ne el zoom amb les tecles + i -. Per canviar la mida de les imatges premeu la tecla Z mentre moveu la rodeta del ratolí.",
       "fields": [
         {
           "label": "Format",

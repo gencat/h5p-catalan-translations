@@ -1,7 +1,7 @@
 {
   "semantics": [
     {
-      "label": "Llista del Contingut de la Columna",
+      "label": "Llista de continguts de la columna",
       "entity": "content",
       "field": {
         "fields": [
@@ -9,7 +9,7 @@
             "label": "Contingut"
           },
           {
-            "label": "Separar el contingut amb una línia horizontal",
+            "label": "Separar els continguts amb una línia horizontal",
             "options": [
               {
                 "label": "Automàtic (per defecte)"

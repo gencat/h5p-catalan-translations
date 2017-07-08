@@ -11,7 +11,7 @@
       }
     },
     {
-      "label": "css de la resposta(es) ",
+      "label": "css de les respostes",
       "entity": "Rule",
       "field": {
         "label": "Tipus de resposta",
@@ -29,13 +29,13 @@
       }
     },
     {
-      "label": "Localization",
+      "label": "Localització",
       "fields": [
         {
           "label": "Descripció"
         },
         {
-          "label": "Classe de l'element"
+          "label": "Classe CSS de l'element"
         }
       ]
     }

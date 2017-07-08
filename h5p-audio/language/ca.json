@@ -23,11 +23,11 @@
     },
     {
       "label": "Habilita els controls",
-      "description": "Els controls permeten a l'usuari fer coses com ara posar l'àudio en pausa"
+      "description": "Els controls permeten a l'usuari dur a terme accions com ara posar l'àudio en pausa"
     },
     {
       "label": "Habilita la reproducció automàtica",
-      "description": "Si ho habiliteu, l'àudio començarà a sonar immediatament. En cas contrari, caldrà que l'usuari faci clic al botó del reproductor per iniciar-lo."
+      "description": "Si ho habiliteu l'àudio començarà a sonar immediatament. En cas contrari caldrà que l'usuari faci clic al botó del reproductor per iniciar-lo."
     },
     {
       "label": "Informació de Copyright",

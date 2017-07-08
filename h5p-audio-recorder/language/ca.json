@@ -8,32 +8,32 @@
       "label": "Localització",
       "fields": [
         {
-          "label": "Text de botó d'enregistrar"
+          "label": "Text del \"enregistra\""
         },
         {
-          "label": "Text del botó de pausa"
+          "label": "Text del botó \"posa en pausa\""
         },
         {
-          "label": "Text del botó de continuar"
+          "label": "Text del botó \"continua\""
         },
         {
-          "label": "Test del botó de descarregar"
+          "label": "Test del botó \"descarrega\""
         },
         {
-          "label": "Text del botó d'acabar"
+          "label": "Text del botó \"acaba\""
         },
         {
-          "label": "Text del botó de reintentar"
+          "label": "Text del botó \"reintenta\""
         },
         {
           "label": "Missatge d'error a mostrar quan el micròfon no estigui suportat"
         },
         {
-          "label": "Missatge d'error a mostrar quan el micròfon no estigui accessible"
+          "label": "Missatge d'error a mostrar quan el micròfon no sigui accessible"
         },
         {
-          "label": "Missatge d'error a mostrar quan no es permeti l'accés no segur",
-          "description": "Alguns navegadors web no permeten utilitzar el micròfon quan la pàgina prové d'una font HTTP no segura, i només accepten fer-ho quan la pàgina es serveix pel protocol HTTPS."
+          "label": "Missatge d'error a mostrar quan el navegador no espermeti l'accés no segur",
+          "description": "Alguns navegadors web no permeten utilitzar el micròfon quan la pàgina prové d'una font HTTP no segura; només accepten fer-ho quan la pàgina es serveix pel protocol HTTPS."
         },
         {
           "label": "Missatge per a l'estat \"Preparat per a enregistrar\""
@@ -48,19 +48,19 @@
           "label": "Missatge per a l'estat \"Enregistrament finalitzat\""
         },
         {
-          "label": "Missatge per a l'estat \"S'està descarregant l'enregistrament\""
+          "label": "Missatge per a l'estat \"S'està baixant l'enregistrament\""
         },
         {
-          "label": "Text de la capçalera del diàleg de reintentar"
+          "label": "Text de la capçalera del diàleg de reintent"
         },
         {
-          "label": "Text del cos del diàleg de reintentar"
+          "label": "Text del cos del diàleg de reintent"
         },
         {
-          "label": "Text de confirmació del diàleg de reintentar"
+          "label": "Text de confirmació del diàleg de reintent"
         },
         {
-          "label": "Text de cancel·lació del diàleg de reintentar"
+          "label": "Text de cancel·lació del diàleg de reintent"
         },
         {
           "label": "Text del missatge a mostrar quan no es pugui crear el fitxer d'àudio"

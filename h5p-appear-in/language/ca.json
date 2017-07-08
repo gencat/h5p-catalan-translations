@@ -6,7 +6,7 @@
     },
     {
       "label": "Omple el contenidor",
-      "description": "Fes que la sala de conversa ompli totalment el seu contenidor. Això sobreescriurà qualsevol amplada i alçada dfefinida amb el valor 100%."
+      "description": "Fes que la sala de conversa ompli totalment el seu contenidor. Això sobreescriurà qualsevol amplada i alçada definida amb el valor 100%."
     },
     {
       "label": "Alçada",

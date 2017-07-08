@@ -1,12 +1,12 @@
 {
   "semantics": [
     {
-      "label": "Títol del Comptador",
+      "label": "Títol del comptador",
       "description": "Escriviu un títol per al comptador."
     },
     {
       "label": "Nom del camp",
-      "description": "Nom associat al comptador, @counter és la variable de tipus data. Altres variables: @chosenDate, @months, @weeks, @days, @hours, @minutes, @seconds."
+      "description": "Nom associat al comptador; @counter és la variable de tipus data. Altres variables: @chosenDate, @months, @weeks, @days, @hours, @minutes, @seconds."
     },
     {
       "label": "Selecció del tipus de comptador",
@@ -24,15 +24,15 @@
       ]
     },
     {
-      "label": "Temps d'inici cap endavant, o enrera.",
+      "label": "Temps d'inici cap endavant o enrera.",
       "fields": [
         {
           "label": "Hora",
-          "description": "Seleccioneu l'hora, en format 24 hores."
+          "description": "Seleccioneu l'hora, en format de 24 hores."
         },
         {
           "label": "Minut",
-          "description": "Seleccioneu els minuts."
+          "description": "Seleccioneu el minut."
         },
         {
           "label": "Dia del mes",
@@ -76,7 +76,7 @@
               "label": "Novembre"
             },
             {
-              "label": "Decembre"
+              "label": "Desembre"
             }
           ]
         },
@@ -94,15 +94,15 @@
           "description": "Imatge opcional per al fons del comptador."
         },
         {
-          "label": "Mostrar text en la part superior de la imatge"
+          "label": "Mostra el text a la part superior de la imatge"
         },
         {
-          "label": "Valor de la X del text",
-          "description": "X de la posició relativa del text en la imatge, en percentatge. Per ex: 50% al centre."
+          "label": "Valor de la coordenada X del text",
+          "description": "Posició horizontal relativa del text en la imatge, en percentatge. Per exemple: 50% seria el centre."
         },
         {
-          "label": "Valor de la Y del text",
-          "description": "Y de la posició relativa del text en la imatge, en percentatge. Per ex: 50% al center."
+          "label": "Valor de la coordenada Y del text",
+          "description": "Posició vertical relativa del text en la imatge, en percentatge. Per exemple: 50% seria el centre."
         }
       ]
     },
@@ -110,41 +110,41 @@
       "label": "Opcions per aturar el rellotge.",
       "fields": [
         {
-          "label": "Text per \"Iniciar\" en el botó del cronòmetre"
+          "label": "Text del botó \"Inicia el cronòmetre\""
         },
         {
-          "label": "Text per \"Pausa\" en el botó del cronòmetre"
+          "label": "Text del botó \"Posa en pausa el cronòmetre\""
         },
         {
-          "label": "Text per \"Reiniciar\" en el botó del cronòmetre"
+          "label": "Text del botó \"Reinicia el cronòmetre\""
         }
       ]
     },
     {
-      "label": "Mostrar mesos"
+      "label": "Mostra els mesos"
     },
     {
-      "label": "Mostrar setmanes"
+      "label": "Mostra les setmanes"
     },
     {
-      "label": "Mostrar dies"
+      "label": "Mostra els dies"
     },
     {
-      "label": "Mostar hores"
+      "label": "Mosta les hores"
     },
     {
-      "label": "Mostrar minuts"
+      "label": "Mostra els minuts"
     },
     {
-      "label": "Mostrar segons"
+      "label": "Mostra els segons"
     },
     {
-      "label": "Mostrar format",
-      "description": "Visualitzar el format curt de data. Per ex: 2d, 3h, i 4m esquerra."
+      "label": "Format de visualització",
+      "description": "Visualitza el temps en format curt. Per exemple: queden 2d, 3h i 4m."
     },
     {
-      "label": "Text de finalització del compte enrera",
-      "description": "Aquest text es visualitza quan el compte enrera ha finalitzat."
+      "label": "Text de finalització del compte enrere",
+      "description": "Aquest text es visualitzarà quan el compte enrere hagi finalitzat."
     }
   ]
 }

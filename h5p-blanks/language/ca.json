@@ -11,7 +11,7 @@
     },
     {
       "label": "Descripció de la tasca",
-      "description": "Una guia explicant a l'usuari com resoldre aquesta tasca."
+      "description": "Instruccions que expliquin a l'usuari com resoldre aquesta tasca."
     },
     {
       "label": "Blocs de text",
@@ -20,7 +20,7 @@
         "label": "Línia de text",
         "description": "",
         "important": {
-          "description": "<ul><li>Els espais an blanc es defineixen mitjançant un asterisc (*) davant i darrera de la paraula o frase correcta.</li><li>Les respostes possibles, si n'hi ha més d'una, s'hand de separar amb una barra inclinada endavant (/).</li><li>També podeu afegir una ajuda, marcant-la amb un símbol de dos punts (:) davant del text d'ajuda.</li></ul>"
+          "description": "<ul><li>Els espais an blanc es defineixen mitjançant un asterisc (*) davant i darrera de la paraula o frase correcta.</li><li>Les respostes possibles, si n'hi ha més d'una, s'han de separar amb una barra inclinada endavant (/).</li><li>També podeu afegir una ajuda, marcant-la amb un símbol de dos punts (:) davant del text d'ajuda.</li></ul>"
         }
       }
     },
@@ -38,7 +38,7 @@
       "label": "Text del botó \"Comprova\""
     },
     {
-      "label": "Text del missatge \"Not heu omplert tots els camps\""
+      "label": "Text del missatge \"No heu omplert tots els camps\""
     },
     {
       "label": "Text del missatge \"':resp' és correcte\""
@@ -50,7 +50,7 @@
       "label": "Text del missatge \"Respost correctament\""
     },
     {
-      "label": "Text del missatge \"respost amb errors\""
+      "label": "Text del missatge \"Respost amb errors\""
     },
     {
       "label": "Etiqueta de tecnologia assistiva per a la solució"
@@ -79,14 +79,14 @@
           "label": "Comprova automàticament les respostes un cop introduïdes"
         },
         {
-          "label": "Diferencia majúscules/minúscules",
-          "description": "Assegura que l'usuari escriu la resposta exacta."
+          "label": "Diferencia majúscules i minúscules",
+          "description": "Comprova que l'usuari escrigui la resposta de manera exacta."
         },
         {
           "label": "Fes que calgui omplir tots els camps abans de poder veure la solució"
         },
         {
-          "label": "Posa les entrades de text en línies separades"
+          "label": "Mostra les entrades de text en línies separades"
         },
         {
           "label": "Desactiva el zoom per a les preguntes basades en imatges"
@@ -113,7 +113,7 @@
           "label": "Text del botó 'Cancel·la'"
         },
         {
-          "label": "Text del notó de confirmació"
+          "label": "Text del botó de confirmació"
         }
       ]
     },

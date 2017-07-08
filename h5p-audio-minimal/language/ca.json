@@ -5,7 +5,7 @@
     },
     {
       "label": "Habilita la reproducció automàtica",
-      "description": "Si ho habiliteu, l'àudio començarà a sonar immediatament. En cas contrari, caldrà que l'usuari faci clic al botó del reproductor per iniciar-lo."
+      "description": "Si ho habiliteu l'àudio començarà a sonar immediatament. En cas contrari caldrà que l'usuari faci clic al botó del reproductor per iniciar-lo."
     }
   ]
 }

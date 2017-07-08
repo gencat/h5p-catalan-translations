@@ -12,7 +12,7 @@
           },
           {
             "label": "Amplada",
-            "description": "Amplada de la columna en percentatge"
+            "description": "Amplada de la columna, expressada en percentatge"
           },
           {
             "label": "Classe CSS",
@@ -26,16 +26,16 @@
     },
     {
       "label": "Tipus",
-      "description": "Tipus de contingut de la columna?",
+      "description": "Tipus de contingut de la columna",
       "options": [
         {
-          "label": "Misc (div tag will be used)"
+          "label": "Miscel·lània (s'utilitzarà una etiqueta HTML de tipus \"div\")"
         },
         {
-          "label": "Section of an article (section tag will be used)"
+          "label": "Secció d'un article (s'utilitzarà una etiqueta HTML de tipus \"section\")"
         },
         {
-          "label": "Self standing article (section tag will be used)"
+          "label": "Article autònom (s'utilitzarà una etiqueta HTML de tipus \"section\")"
         }
       ]
     }
