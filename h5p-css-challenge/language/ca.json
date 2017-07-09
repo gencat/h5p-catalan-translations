@@ -11,7 +11,7 @@
       }
     },
     {
-      "label": "css de les respostes",
+      "label": "Codi CSS de les respostes",
       "entity": "Rule",
       "field": {
         "label": "Tipus de resposta",
@@ -22,7 +22,7 @@
           {
             "label": "Alternativa a la regla principal",
             "field": {
-              "label": "css alternatiu"
+              "label": "CSS alternatiu"
             }
           }
         ]
